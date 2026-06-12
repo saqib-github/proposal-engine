@@ -1,0 +1,331 @@
+REQUEST FOR PROPOSALS
+
+Design, Development, Implementation and 3-Year Operation of the Provincial e-Services Citizen Portal
+
+Reference No: PITA/PROC/2026/RFP-014
+Issued by: Provincial Information Technology Authority (PITA)
+Date of Issue: Friday, 12 June 2026
+Procurement Method: Single Stage - Two Envelope Procedure (Open Competitive Bidding)
+Contact Email: procurement@pita.gov.pk
+
+1. INTRODUCTION AND BACKGROUND
+
+1.1 Purpose of This RFP
+
+The Provincial Information Technology Authority (hereinafter "PITA" or "the Authority") invites sealed proposals from eligible, experienced and financially sound information technology firms for the design, development, implementation and three (3) year operation and maintenance of the Provincial e-Services Citizen Portal (hereinafter "the Portal" or "the System"). This Request for Proposals ("RFP") sets out the background and objectives of the assignment, the scope of work, the mandatory eligibility criteria, the technical and functional requirements, the evaluation criteria and methodology, the submission instructions, and the principal commercial terms that will govern the resulting contract.
+
+1.2 About the Authority
+
+PITA is the statutory body responsible for the digital transformation of provincial government departments. The Authority operates the provincial government data centre, the government wide area network, and the official online service delivery channels of the Provincial Government. PITA reports to the Provincial Cabinet Committee on Digitisation and is mandated under the Digital Province Strategy 2025-2030 to consolidate citizen-facing services onto a single, secure, bilingual digital platform accessible from web and mobile channels.
+
+1.3 Project Rationale
+
+At present, citizens of the Province must visit multiple departmental offices in person to obtain certificates, licences, permits and registrations. Service delivery remains largely paper-based, turnaround times are long and unpredictable, and there is no unified mechanism for online payment of government fees or for tracking the status of an application. Departmental record rooms hold decades of paper files, and the few departmental web systems that do exist operate in isolation, with inconsistent user experiences and no single citizen identity. The Provincial Government has therefore approved the e-Services Citizen Portal Programme to deliver at least forty (40) high-volume public services through a single online platform within eighteen (18) months of contract award, followed by a three-year managed operation period.
+
+1.4 Funding
+
+The Programme is funded through the Provincial Annual Development Programme (ADP Scheme No. DP-2026-0417). Funds covering the full contract term, including the three-year operation and maintenance period, stand allocated and released in accordance with the approved PC-I. No part of this procurement is contingent on donor financing.
+
+2. DEFINITIONS AND ABBREVIATIONS
+
+For the purposes of this RFP, the following definitions shall apply:
+
+- "Authority" or "PITA" means the Provincial Information Technology Authority, the procuring agency for this assignment;
+- "Bidder" means an eligible firm or company that submits a Proposal in response to this RFP;
+- "Contract" means the formal agreement to be signed between the Authority and the successful Bidder, including all schedules and annexures;
+- "Go-Live" means the date on which the Portal, having passed user acceptance testing and security certification, is formally accepted by the Authority and opened to the public;
+- "O&M Period" means the thirty-six (36) month operation and maintenance period commencing on the date of Go-Live;
+- "PKT" means Pakistan Standard Time (UTC+5);
+- "Proposal" or "Bid" means the technical and financial submission made by a Bidder in response to this RFP;
+- "SLA" means the Service Level Agreement annexed to the Contract;
+- "System" or "Portal" means the Provincial e-Services Citizen Portal, including all software, mobile applications, integrations, infrastructure configurations and documentation delivered under the Contract;
+- "WCAG" means the Web Content Accessibility Guidelines published by the World Wide Web Consortium (W3C).
+
+3. SCOPE OF WORK
+
+3.1 Overview
+
+The successful Bidder shall design, build, test, deploy, operate and maintain the Provincial e-Services Citizen Portal as a turnkey solution. The scope of work comprises eight workstreams: (a) design and development of the citizen portal and administrative back office; (b) digitisation and workflow automation of at least forty (40) citizen e-services; (c) integration with payment gateways and core government systems; (d) native mobile applications for Android and iOS; (e) migration of data from legacy departmental systems; (f) deployment on in-country infrastructure; (g) establishment and operation of a citizen facilitation helpdesk; and (h) training, change management and knowledge transfer. The Bidder shall be responsible for end-to-end delivery, including project management, quality assurance, information security compliance and warranty support, for the duration of the Contract.
+
+3.2 Citizen Portal and User Experience
+
+The Portal shall provide a single point of access for citizens, businesses and government users. It shall offer account registration and login using CNIC-based identity verification, a personalised citizen dashboard, application submission with document upload, real-time application status tracking, electronic payment of fees and taxes, downloadable digitally signed certificates, and a grievance redressal module. The entire public-facing experience shall be fully bilingual in Urdu and English, including right-to-left rendering for Urdu content, and shall conform to WCAG 2.1 Level AA accessibility requirements. The Portal must be responsive across desktop, tablet and smartphone form factors and must function correctly on low-bandwidth connections of 256 kbps or better.
+
+3.3 e-Services Catalogue
+
+The Bidder shall digitise, configure and operate no fewer than forty (40) e-services in consultation with the participating departments. The indicative service catalogue includes, at a minimum:
+
+- Issuance and renewal of domicile certificates;
+- Birth, death, marriage and divorce registration and certificate issuance;
+- Issuance of character certificates and police verification requests;
+- Registration of sole proprietorships and partnership firms;
+- Trade and professional licence applications and renewals;
+- Vehicle route permits and fitness certificate bookings;
+- Land record fard issuance and mutation status tracking;
+- Payment of property tax, professional tax and motor vehicle tax;
+- Pension status enquiry and pensioner life certification;
+- Scholarship applications and verification of educational documents;
+- Appointment booking for provincial service centres;
+- Right-to-information requests and citizen feedback submissions.
+
+Each e-service shall be implemented with a configurable workflow engine supporting multi-step approvals, delegations, escalations, automatic SMS and email notifications at every state change, and service-level timers aligned with the Provincial Citizens Charter.
+
+3.4 Payment Gateway Integration
+
+The System shall integrate with at least two licensed payment aggregators operating in Pakistan and shall support payment through debit and credit cards, internet and mobile banking (including 1LINK and RAAST rails), over-the-counter bank challans with barcode, and mobile wallets. The System shall generate PSID-based challans reconcilable with the provincial treasury, shall perform automated daily reconciliation, and shall provide a refunds and chargeback handling workflow. All payment flows must be PCI DSS compliant to the extent applicable to the integration model adopted.
+
+3.5 Mobile Applications
+
+The Bidder shall deliver native or cross-platform mobile applications for Android (minimum Android 9) and iOS (minimum iOS 14), published under the Authority's developer accounts. The mobile applications shall provide functional parity with the Portal for at least the twenty (20) highest-volume services, shall support biometric login, push notifications, offline draft saving, and in-app payment, and shall be fully bilingual in Urdu and English.
+
+3.6 Data Migration from Legacy Systems
+
+The Bidder shall plan and execute the migration of records from the legacy departmental systems described in Annex D, which include: (a) the District Records Management System operating on Oracle 11g with approximately 9.2 million records; (b) the Licence Management System operating on SQL Server 2014 with approximately 1.4 million records; and (c) departmental Microsoft Access and Excel registers estimated at 600,000 rows. The Bidder shall be responsible for data profiling, cleansing rules, de-duplication, transformation, migration rehearsal runs, reconciliation reports with record-level audit trails, and sign-off of migration completeness with each data-owning department. Legacy systems shall remain operational in read-only mode until migration sign-off.
+
+3.7 Hosting and Infrastructure
+
+The System shall be deployed within the territory of Pakistan. The primary site shall be the PITA Government Data Centre, with a disaster recovery site at a geographically separate in-country facility providing a recovery point objective (RPO) of no more than 15 minutes and a recovery time objective (RTO) of no more than 4 hours. Citizen data shall not be stored, processed or replicated outside Pakistan under any circumstances. The Bidder shall size, install and configure the runtime environment using the Authority-provided virtualised infrastructure, and shall implement environment separation for development, testing, staging and production.
+
+3.8 Helpdesk and Service Operations
+
+The Bidder shall establish and operate a citizen facilitation helpdesk providing support in Urdu and English from 08:00 to 22:00 PKT, seven days a week, through telephone, email, web chat and an in-portal ticketing system. The Bidder shall also provide second-line and third-line technical support for the System on a 24x7 basis for Severity 1 incidents. The System shall achieve a monthly service availability of at least 99.9 percent, measured at the production application tier and excluding agreed maintenance windows, throughout the O&M Period.
+
+3.9 Training and Capacity Building
+
+The Bidder shall design and deliver a structured training programme covering: end-user training for at least 800 departmental officers across the Province; administrator and operations training for up to 40 PITA engineers; train-the-trainer sessions for 60 master trainers; and executive briefings for departmental leadership. Training shall be delivered in a blended mode with classroom sessions in the provincial capital and divisional headquarters, e-learning modules hosted on the Portal, bilingual user manuals, and quick reference guides. A comprehensive knowledge transfer and exit management plan shall be executed during the final six months of the O&M Period.
+
+3.10 Implementation Phases
+
+The assignment shall be delivered in the following phases:
+
+Phase | Key Deliverables | Completion (from Contract Signing)
+Phase 1 - Inception and Design | Inception report, detailed system requirements specification, solution architecture document, UX prototypes | Month 3
+Phase 2 - Core Platform Build | Portal core, workflow engine, citizen identity, payment integration, first 10 e-services in staging | Month 8
+Phase 3 - Pilot Go-Live | Pilot launch of 10 e-services in 3 districts, mobile applications beta, data migration wave 1 | Month 12
+Phase 4 - Full Rollout | All 40+ e-services live province-wide, data migration completed, full helpdesk operational | Month 18
+Phase 5 - Operation and Maintenance | 36-month O&M period, SLA reporting, continuous improvement, exit management | Month 18 to Month 54
+
+4. PROCUREMENT TIMELINE AND KEY DATES
+
+4.1 Timeline of the Procurement Process
+
+The Authority shall endeavour to adhere to the following schedule. Any change shall be communicated to all prospective Bidders through an addendum posted on the Authority's website and the PPRA portal.
+
+Event | Date | Time (PKT)
+Issuance of RFP | Friday, 12 June 2026 | -
+Pre-Bid Meeting | Tuesday, 30 June 2026 | 11:00
+Deadline for Submission of Clarification Questions | Friday, 10 July 2026 | 17:00
+Issuance of Responses to Clarifications | Thursday, 16 July 2026 | -
+Proposal Submission Deadline | Tuesday, 28 July 2026 | 15:00
+Public Opening of Technical Envelopes | Tuesday, 28 July 2026 | 15:30
+Expected Notification of Technical Qualification | Tuesday, 25 August 2026 | -
+Expected Award of Contract | Thursday, 24 September 2026 | -
+
+4.2 Pre-Bid Meeting
+
+A pre-bid meeting shall be held on Tuesday, 30 June 2026 at 11:00 PKT in the PITA Auditorium, 3rd Floor, PITA Headquarters, Sector G-5, Provincial Capital City, with simultaneous participation available via Microsoft Teams. Attendance is optional but strongly recommended. Minutes of the pre-bid meeting and the Authority's responses to questions raised shall be circulated to all firms that have obtained the RFP and shall form an integral part of this RFP.
+
+4.3 Clarification Questions
+
+Bidders may submit written questions seeking clarification of this RFP by email to procurement@pita.gov.pk no later than Friday, 10 July 2026 at 17:00 PKT, quoting reference PITA/PROC/2026/RFP-014 in the subject line. Questions received after this deadline shall not be entertained. The Authority shall issue consolidated responses to all clarification questions by Thursday, 16 July 2026 without identifying the source of any question.
+
+4.4 Proposal Submission Deadline
+
+The deadline for submission of proposals is Tuesday, 28 July 2026 at 15:00 hours Pakistan Standard Time (PKT). Proposals received after the submission deadline shall be declared late, shall be rejected unopened, and shall be returned to the Bidder. The Authority shall not be responsible for postal or courier delays under any circumstances. Technical envelopes shall be opened publicly on the same day at 15:30 PKT in the presence of Bidders' representatives who choose to attend.
+
+4.5 Bid Validity Period
+
+Proposals shall remain valid for one hundred and twenty (120) days from the proposal submission deadline, that is, up to and including Wednesday, 25 November 2026. The Authority may request Bidders to extend the period of validity in writing; a Bidder may refuse such a request without forfeiting its bid security.
+
+5. MANDATORY ELIGIBILITY CRITERIA
+
+5.1 General
+
+Each Bidder must satisfy all of the following mandatory eligibility criteria at the proposal submission deadline. Compliance shall be established through the documentary evidence indicated against each criterion and recorded in the Eligibility Compliance Sheet (Annex B). Failure to meet any mandatory criterion, or failure to furnish the required evidence, shall result in rejection of the Proposal without further technical evaluation. Joint ventures are not permitted for this assignment; each Bidder must qualify in its own right.
+
+5.2 Eligibility Criteria
+
+- ME-1: The Bidder must be a company incorporated in Pakistan and registered with the Securities and Exchange Commission of Pakistan (SECP). Evidence: certificate of incorporation and latest Form-A/Form-29.
+- ME-2: The Bidder must hold a valid registration with the Pakistan Software Export Board (PSEB) for the current financial year. Evidence: valid PSEB registration certificate.
+- ME-3: The Bidder must be registered with the Federal Board of Revenue for income tax and sales tax and must appear on the Active Taxpayers List. Evidence: NTN certificate, STRN certificate and ATL printout.
+- ME-4: The Bidder must hold a valid ISO/IEC 27001 certification for information security management, covering its software development and operations facilities. Evidence: valid certificate issued by an accredited certification body.
+- ME-5: The Bidder must hold a valid ISO 22301 Business Continuity Management certification (mandatory). Evidence: valid certificate issued by an accredited certification body.
+- ME-6: The Bidder must hold a current CMMI Level 5 appraisal (mandatory) under CMMI-DEV v2.0 or later, published on the CMMI Institute PARS directory. Evidence: appraisal disclosure statement and PARS listing.
+- ME-7: The Bidder must have been in continuous operation in the software development business for at least five (5) years as of the date of issue of this RFP. Evidence: certificate of incorporation and financial statements.
+- ME-8: The Bidder must have successfully completed at least three (3) projects of a similar nature (web-based application development and implementation for government or large enterprise clients), each with a contract value of not less than PKR 50 million, within the last five (5) years. Evidence: contract copies or work orders together with satisfactory completion certificates from the clients.
+- ME-9: The Bidder must have an average annual turnover of at least PKR 150 million over the last three (3) audited financial years. Evidence: audited financial statements for the three most recent financial years.
+- ME-10: The Bidder must submit an affidavit on stamp paper, duly notarised, declaring that the firm is not blacklisted, debarred or suspended by any federal, provincial or local government entity, autonomous body or public procurement regulatory authority in Pakistan. Evidence: original affidavit.
+- ME-11: The Bidder must furnish bid security equal to two percent (2%) of the total bid price in the form prescribed in Section 10. Evidence: original bank guarantee or pay order enclosed with the financial envelope.
+- ME-12: The Bidder shall provide a written commitment, signed by its chief executive, to establish and staff an operational regional office in the provincial capital within 30 days of contract award (commitment), and to maintain that office for the full duration of the Contract. Evidence: signed letter of commitment on company letterhead.
+
+5.3 Conflict of Interest
+
+A Bidder shall not be eligible if it was engaged by the Authority as a consultant for the preparation of the design, specifications or other documents forming part of this RFP, or if it is an affiliate of any such consultant.
+
+6. TECHNICAL AND FUNCTIONAL REQUIREMENTS
+
+6.1 Architecture and Technology
+
+- TR-01: The System shall be designed on a modular, service-oriented or microservices architecture with documented APIs for every service module.
+- TR-02: The System shall expose all integration interfaces as versioned RESTful APIs secured with OAuth 2.0, and shall publish an internal API catalogue with machine-readable specifications.
+- TR-03: The System shall be deployable on the Authority's virtualised on-premises infrastructure without dependence on any proprietary public cloud service.
+- TR-04: The System shall support horizontal scaling to no fewer than 2,000 concurrent authenticated user sessions and 25,000 daily applications at full rollout, with a page response time not exceeding 3 seconds at the 95th percentile under peak load.
+- TR-05: The System shall use open standards for all stored documents and shall digitally sign issued certificates using PKI certificates from a licensed certification authority in Pakistan.
+
+6.2 Portal Functionality
+
+- TR-06: The Portal shall provide bilingual content management in Urdu and English, with all citizen-facing screens, notifications, receipts and certificates rendered in the language selected by the user.
+- TR-07: The Portal shall conform to WCAG 2.1 Level AA, verified through an independent accessibility audit prior to Go-Live.
+- TR-08: The Portal shall provide a configurable forms engine permitting Authority administrators to create and modify service application forms, checklists and fee rules without vendor code changes.
+- TR-09: The Portal shall provide a citizen document wallet in which verified certificates and previously uploaded documents are reusable across services.
+- TR-10: The Portal shall provide dashboards and operational reports for each department, including service volumes, processing times, SLA breaches and revenue collected, with export to Excel and CSV.
+
+6.3 Identity, Payments and Integrations
+
+- TR-11: The System shall verify citizen identity against the national identity database through the Authority's existing verification gateway, and shall log every verification transaction.
+- TR-12: The System shall integrate with at least two licensed payment aggregators and shall support card, account-to-account, wallet and over-the-counter challan payments with automated end-of-day reconciliation.
+- TR-13: The System shall provide SMS and email notification services through the Authority's empanelled gateways, with delivery status tracking and configurable bilingual templates.
+- TR-14: The System shall integrate with the provincial land records, civil registration and treasury systems through the interface specifications provided in Annex E.
+
+6.4 Data Migration
+
+- TR-15: The Bidder shall submit a detailed data migration strategy, including profiling results, cleansing and transformation rules, rehearsal plans and rollback procedures, for approval prior to the first migration wave.
+- TR-16: Each migration wave shall conclude with a reconciliation report demonstrating 100 percent record accountability, with discrepancies itemised and dispositioned in consultation with the data-owning department.
+
+6.5 Security and Privacy
+
+- TR-17: The System shall implement role-based access control with segregation of duties, multi-factor authentication for all administrative accounts, and a tamper-evident audit trail of all create, update, delete and view operations on citizen records.
+- TR-18: The System shall encrypt all data in transit using TLS 1.2 or higher and all sensitive data at rest using AES-256 or an equivalent approved algorithm.
+- TR-19: The Bidder shall arrange an independent vulnerability assessment and penetration test by a firm approved by the Authority before Go-Live and annually thereafter, and shall remediate all critical and high findings before public launch.
+- TR-20: The System and all associated operational processes shall comply with the Authority's Information Security Policy and applicable data protection legislation of Pakistan; citizen data shall be hosted exclusively within Pakistan.
+- TR-21: The Bidder shall appoint a dedicated, certified information security officer for the duration of the Contract and shall report security incidents to the Authority within four (4) hours of detection.
+
+6.6 Service Management and Support
+
+- TR-22: The Bidder shall operate the helpdesk and technical support functions in accordance with ITIL-aligned incident, problem, change and release management processes, supported by a service management tool with ticket-level reporting.
+- TR-23: The System shall be monitored through an application performance monitoring toolset with automated alerting, and monthly SLA reports shall be submitted to the Authority within five (5) working days of month end.
+- TR-24: The Bidder shall maintain the System at vendor-supported versions of all third-party components throughout the O&M Period, applying security patches within the timelines defined in the SLA.
+
+6.7 Training and Documentation
+
+- TR-25: The Bidder shall deliver the training programme described in Section 3.9 and shall achieve a post-training assessment pass rate of at least 80 percent among trained officers.
+- TR-26: The Bidder shall deliver and maintain complete documentation, including system design, API specifications, operations runbooks, administrator manuals and bilingual end-user guides, updated with every major release.
+
+7. SERVICE LEVELS AND OPERATIONS
+
+7.1 Service Availability
+
+The System shall achieve a monthly availability of at least 99.9 percent during the O&M Period, measured at the production application tier, twenty-four hours a day, excluding scheduled maintenance windows agreed at least five (5) working days in advance and limited to a maximum of four (4) hours per calendar month between 00:00 and 06:00 PKT.
+
+7.2 Incident Response and Resolution
+
+Incidents shall be classified and serviced according to the following matrix:
+
+Severity | Definition | Response Time | Resolution Time
+Severity 1 | Portal or payment services unavailable to all users | 15 minutes | 4 hours
+Severity 2 | Major function degraded; no workaround available | 30 minutes | 8 hours
+Severity 3 | Minor function impaired; workaround available | 2 hours | 3 working days
+Severity 4 | Cosmetic issue or service request | 8 hours | 10 working days
+
+7.3 Service Credits
+
+Failure to meet the availability target or the resolution times in Section 7.2 shall trigger the service credits set out in the SLA, up to a maximum of ten percent (10%) of the quarterly operations fee for the affected quarter. Service credits are in addition to, and not in substitution of, the Authority's other contractual remedies.
+
+8. EVALUATION CRITERIA AND METHODOLOGY
+
+8.1 Two-Envelope Evaluation
+
+Proposals shall be evaluated under the Single Stage - Two Envelope procedure. Technical envelopes shall be opened first and evaluated against the criteria in Section 8.2. Financial envelopes of only those Bidders whose technical proposals achieve the minimum qualifying technical score shall be opened publicly at a date and time notified in advance; financial envelopes of technically non-responsive Bidders shall be returned unopened.
+
+8.2 Evaluation Criteria and Weights
+
+The total evaluation score is 100 points, distributed as follows:
+
+Evaluation Criterion | Weight (Points)
+Technical Approach and Solution Design | 25
+Relevant Experience and Past Performance | 20
+Key Personnel and Team Composition | 15
+Project Management and Delivery Plan | 10
+Information Security and Compliance | 10
+Financial Proposal | 20
+Total | 100
+
+8.3 Minimum Technical Qualifying Score
+
+The technical evaluation shall be scored out of the eighty (80) points allocated to the five technical criteria. A Bidder must score at least fifty-six (56) of the 80 technical points, that is seventy percent (70%), to be declared technically qualified. The responses to the Technical Questionnaire in Section 11 shall be scored within the Technical Approach and Solution Design criterion.
+
+8.4 Financial Scoring
+
+The lowest evaluated financial proposal among technically qualified Bidders shall receive the full 20 financial points. Each other financial proposal shall receive points calculated as: Financial Score = 20 multiplied by (Lowest Evaluated Price divided by Evaluated Price of the Proposal under consideration). The Contract shall be awarded to the Bidder achieving the highest combined technical and financial score.
+
+9. FINANCIAL PROPOSAL AND BUDGET CEILING
+
+9.1 Budget Ceiling
+
+The total budget ceiling for this assignment, covering design, development, implementation, licences, data migration, training and the full three-year operation and maintenance period, is PKR 220,000,000 (Pakistani Rupees two hundred and twenty million only), equivalent to approximately USD 790,000 at the prevailing interbank exchange rate. Financial proposals exceeding the budget ceiling shall be rejected. Prices shall be quoted in Pakistani Rupees, inclusive of all applicable taxes, duties and levies, and shall remain firm and fixed for the duration of the Contract.
+
+9.2 Price Breakdown
+
+The financial proposal shall be submitted on the priced schedule at Annex C, with separate line items for: implementation services; software licences and subscriptions (if any); data migration; training; first-year operations; second-year operations; and third-year operations. The evaluated price shall be the total of all line items.
+
+9.3 Payment Schedule
+
+Payments shall be linked to accepted deliverables as follows: 10 percent on approval of the inception report against an advance payment guarantee; 20 percent on acceptance of Phase 2; 20 percent on pilot Go-Live; 20 percent on full rollout acceptance; and the remaining 30 percent in equal quarterly instalments over the O&M Period against satisfactory SLA performance. No price escalation shall be admissible.
+
+10. BID SECURITY, PERFORMANCE GUARANTEE AND VALIDITY
+
+10.1 Bid Security
+
+Each Proposal must be accompanied by bid security equal to two percent (2%) of the total bid price, in the form of an irrevocable bank guarantee or pay order issued by a scheduled bank in Pakistan in favour of the Provincial Information Technology Authority. The bid security shall remain valid for twenty-eight (28) days beyond the bid validity period. Bid security shall be forfeited if a Bidder withdraws its Proposal during the validity period, or if the successful Bidder fails to sign the Contract or to furnish the performance guarantee within the prescribed time. Bid security of unsuccessful Bidders shall be returned within fourteen (14) days of contract award.
+
+10.2 Performance Guarantee
+
+The successful Bidder shall furnish, within fourteen (14) days of notification of award, a performance guarantee equal to ten percent (10%) of the contract price, valid for the full contract term plus ninety (90) days.
+
+11. TECHNICAL QUESTIONNAIRE
+
+Bidders shall answer each of the following questions in their technical proposal. Each answer shall be specific to this assignment, shall not exceed three (3) pages, and shall avoid generic marketing material. Responses shall be evaluated as part of the Technical Approach and Solution Design criterion.
+
+Q1. Solution Architecture: Describe the proposed end-to-end solution architecture, including the application architecture, technology stack, integration architecture, scalability approach and deployment topology across the primary and disaster recovery sites. Include an architecture diagram and justify each major technology choice against the requirements in Section 6.
+
+Q2. Delivery Methodology: Describe the software delivery methodology you will apply, including requirements elaboration with departments, sprint cadence and release planning, quality assurance and testing strategy (functional, performance, security and accessibility testing), defect management, and acceptance management against the phase plan in Section 3.10.
+
+Q3. Data Migration Approach: Describe your approach to migrating the legacy datasets described in Section 3.6, including profiling and cleansing methodology, handling of Urdu-language and transliterated records, de-duplication strategy, rehearsal and cut-over planning, reconciliation reporting and rollback arrangements.
+
+Q4. Security and Privacy: Describe the security architecture and controls you will implement, including identity and access management, encryption, audit logging, secure development lifecycle practices, vulnerability management, security monitoring during operations, and the manner in which compliance with ISO/IEC 27001 controls and in-country data residency will be demonstrated to the Authority.
+
+Q5. SLA and Support Model: Describe your proposed operations and support model, including helpdesk staffing and rosters, escalation tiers and on-call arrangements, monitoring toolsets, capacity and availability management, and the means by which the 99.9 percent availability commitment and the response and resolution times in Section 7.2 will be achieved and reported.
+
+Q6. Training and Knowledge Transfer: Describe your training plan and knowledge transfer approach, including curriculum design for the audiences identified in Section 3.9, bilingual training materials, trainer profiles, post-training assessment methodology, and the exit management plan that will enable the Authority to assume or re-procure operations at the end of the Contract.
+
+12. SUBMISSION INSTRUCTIONS
+
+12.1 Format and Marking
+
+Proposals shall be submitted in two separate sealed envelopes, clearly marked "TECHNICAL PROPOSAL - PITA/PROC/2026/RFP-014" and "FINANCIAL PROPOSAL - PITA/PROC/2026/RFP-014" respectively, both enclosed in a single outer sealed envelope bearing the Bidder's name, address and the RFP reference. The technical envelope shall contain one (1) signed original, two (2) hard copies and one (1) USB flash drive containing the technical proposal in searchable PDF format. The financial envelope shall contain one (1) signed original of the priced schedule and the bid security instrument. No financial information shall appear anywhere in the technical envelope; violation of this requirement shall result in rejection of the Proposal.
+
+12.2 Delivery Address
+
+Proposals shall be delivered by hand or by registered courier to: Director Procurement, Provincial Information Technology Authority, 3rd Floor, PITA Headquarters, Sector G-5, Provincial Capital City. Electronic or facsimile submissions shall not be accepted. Each page of the Proposal shall be initialled by the authorised signatory, and the Proposal shall be accompanied by a power of attorney or board resolution authorising the signatory.
+
+12.3 Late Bids and Modifications
+
+Any Proposal received by the Authority after Tuesday, 28 July 2026 at 15:00 PKT shall be rejected and returned unopened. A Bidder may modify or withdraw its Proposal by written notice received before the submission deadline; no Proposal may be modified after the deadline.
+
+13. CONTRACT CONDITIONS, PENALTIES AND LIQUIDATED DAMAGES
+
+13.1 Liquidated Damages for Delay
+
+If the Bidder fails to achieve any contractual milestone in Section 3.10 by the agreed date for reasons attributable to the Bidder, the Authority shall deduct liquidated damages at the rate of 0.5 percent (zero point five percent) of the total contract price per week of delay or part thereof, up to a maximum of ten percent (10%) of the total contract price. Once the maximum is reached, the Authority may terminate the Contract for default and encash the performance guarantee.
+
+13.2 SLA Penalties During Operations
+
+Sustained failure to meet the availability target in Section 7.1 for three (3) consecutive months, or accumulation of service credits at the maximum level for two (2) consecutive quarters, shall constitute a material breach entitling the Authority to terminate the Contract and claim damages in addition to accrued service credits.
+
+13.3 Other Conditions
+
+The Contract shall be governed by the laws of Pakistan. Disputes not resolved amicably within thirty (30) days shall be referred to arbitration under the Arbitration Act, 1940, with the seat of arbitration in the Provincial Capital City. The Bidder shall keep all citizen data confidential, shall assign to the Authority all intellectual property rights in bespoke software developed under the Contract, and shall grant the Authority a perpetual licence to all pre-existing components incorporated in the System. The Authority reserves the right to reject all proposals at any time prior to acceptance in accordance with the applicable procurement rules.
+
+14. CONTACT INFORMATION
+
+All correspondence concerning this RFP shall be addressed to: Director Procurement, Provincial Information Technology Authority (PITA), 3rd Floor, PITA Headquarters, Sector G-5, Provincial Capital City. Email: procurement@pita.gov.pk. Telephone: +92-51-9201400 (procurement cell, 09:00 to 17:00 PKT, Monday to Friday). Bidders shall quote reference PITA/PROC/2026/RFP-014 in all communications. Any attempt by a Bidder to influence the Authority in the examination or evaluation of proposals may result in rejection of its Proposal and blacklisting proceedings.

@@ -1,0 +1,142 @@
+REQUEST FOR QUOTATIONS
+
+Supply and Implementation of a Fleet Tracking and Logistics Management Platform (450 Vehicles)
+
+Reference No: KMDS/IT/2026/RFQ-031
+Issued by: Karachi Metropolitan Distribution Services (KMDS)
+Date of Issue: Friday, 12 June 2026
+Procurement Method: Single Stage - Two Envelope Procedure
+Contact Email: procurement@kmds.com.pk
+
+1. INTRODUCTION
+
+Karachi Metropolitan Distribution Services (hereinafter "KMDS" or "the Company") operates a distribution fleet of approximately 450 vehicles, comprising 280 delivery vans, 120 rigid trucks and 50 refrigerated units, serving retail and wholesale customers across Karachi and the wider region from three distribution centres. Fleet operations are currently managed through manual trip sheets, standalone fuel records and a basic vehicle log register, resulting in poor route discipline, unverified fuel consumption, late deliveries and limited visibility of vehicle utilisation. KMDS invites quotations from qualified information technology and telematics firms for the supply, implementation and support of an integrated Fleet Tracking and Logistics Management Platform (hereinafter "the Platform") covering GPS/IoT vehicle tracking, route planning and optimisation, driver behaviour scoring, fuel monitoring, warehouse dispatch integration, management dashboards and a two-year support and maintenance period. This Request for Quotations ("RFQ") describes the scope of supply and services, eligibility criteria, technical requirements, evaluation methodology and submission instructions.
+
+2. SCOPE OF SUPPLY AND SERVICES
+
+2.1 Summary of Scope
+
+The successful bidder (hereinafter "the Supplier") shall be responsible for:
+
+- Supply, installation and commissioning of GPS/IoT tracking devices in 450 fleet vehicles, plus five percent (5%) spare units held in stock for swap-out;
+- Supply and installation of fuel level sensors in the 170 trucks and refrigerated units, calibrated per vehicle tank profile;
+- Supply and installation of temperature sensors in the 50 refrigerated units with in-cab and platform alerts;
+- Implementation and configuration of the central fleet tracking and logistics management software, hosted in Pakistan;
+- Integration of the Platform with the existing KMDS warehouse management system for dispatch and proof-of-delivery data exchange;
+- A driver mobile application supporting job assignment, navigation, electronic proof of delivery and panic alerts;
+- Migration of vehicle master data, driver records and customer delivery locations from existing registers and spreadsheets;
+- Training of dispatchers, fleet supervisors, workshop staff and management users;
+- Two (2) years of comprehensive support, maintenance, device warranty and airtime/connectivity management from the date of operational acceptance.
+
+2.2 Implementation Timeline
+
+The Platform shall reach operational acceptance within twenty (20) weeks of purchase order, in accordance with the following indicative schedule:
+
+Milestone | Description | Timeline
+M1 | Project kick-off, survey of fleet and detailed implementation plan | Week 2
+M2 | Platform configured; pilot installation on 50 vehicles | Week 8
+M3 | Pilot acceptance; WMS dispatch integration tested end-to-end | Week 12
+M4 | Fleet-wide installation completed (450 vehicles) | Week 18
+M5 | Operational acceptance; support period commences | Week 20
+
+3. KEY DATES
+
+Event | Date | Time (PKT)
+Issuance of RFQ | Friday, 12 June 2026 | -
+Pre-Bid Meeting (online) | Thursday, 2 July 2026 | 11:30
+Deadline for Clarification Questions | Friday, 24 July 2026 | 17:00
+Quotation Submission Deadline | Tuesday, 11 August 2026 | 14:00
+Public Opening of Technical Envelopes | Tuesday, 11 August 2026 | 14:30
+
+A pre-bid meeting shall be held online via Microsoft Teams on Thursday, 2 July 2026 at 11:30 PKT; the joining link shall be shared with firms that register their interest by email. Clarification questions must be submitted by email to procurement@kmds.com.pk no later than Friday, 24 July 2026 at 17:00 PKT, quoting reference KMDS/IT/2026/RFQ-031; consolidated answers will be circulated to all registered firms. Quotations must be submitted no later than Tuesday, 11 August 2026 at 14:00 hours Pakistan Standard Time (PKT); quotations received after this deadline shall be rejected unopened. Technical envelopes shall be opened the same day at 14:30 PKT. Quotations shall remain valid for ninety (90) days from the submission deadline, that is, up to and including Monday, 9 November 2026.
+
+4. MANDATORY ELIGIBILITY CRITERIA
+
+Bidders must meet all of the following criteria; failure to meet any criterion or to provide the listed evidence shall render the quotation non-responsive:
+
+- EL-1: The bidder must be a company registered in Pakistan with the Securities and Exchange Commission of Pakistan (SECP) and must hold valid NTN and STRN registrations with active taxpayer status. Evidence: incorporation certificate, NTN/STRN, ATL printout.
+- EL-2: The bidder must have been in continuous operation in software development, telematics or systems integration for at least three (3) years as of the date of this RFQ. Evidence: incorporation certificate and client references.
+- EL-3: The bidder must hold a valid ISO 9001 quality management certification; ISO/IEC 27001 certification is additionally required because the Platform will process commercially sensitive delivery and customer location data. Both certifications are mandatory. Evidence: valid certificates from accredited bodies.
+- EL-4: The bidder must have successfully delivered at least two (2) vehicle tracking, telematics or logistics management projects in the last five (5) years, each covering at least 150 vehicles or with a contract value of at least PKR 25 million. Evidence: work orders and completion or satisfactory performance certificates.
+- EL-5: The bidder must have an average annual turnover of at least PKR 80 million over the last three (3) audited financial years. Evidence: audited financial statements.
+- EL-6: The bidder must maintain a support presence in Karachi, either an existing office or a written undertaking to designate Karachi-based support staff before operational acceptance, to meet the on-site response times in Section 6. Evidence: office address or signed undertaking.
+- EL-7: The bidder must submit an affidavit that it is not blacklisted by any federal, provincial or local government entity or public sector organisation in Pakistan. Evidence: notarised affidavit.
+- EL-8: The bidder must furnish bid security equal to two percent (2%) of the quoted price, in the form of a pay order or bank guarantee from a scheduled bank in favour of Karachi Metropolitan Distribution Services. Evidence: original instrument in the financial envelope.
+- EL-9: All proposed GPS tracking devices must be type-approved by the Pakistan Telecommunication Authority (PTA). Evidence: PTA type approval certificates for the offered device models.
+
+5. TECHNICAL REQUIREMENTS
+
+5.1 Tracking Devices and Sensors
+
+- FT-01: The Supplier shall provide GPS/IoT tracking devices supporting GPS and GLONASS positioning, 4G LTE connectivity with 2G fallback, an internal backup battery of at least 4 hours, ignition sensing, and a minimum ingress protection rating of IP65 for externally mounted components.
+- FT-02: Devices shall report position, speed, heading, ignition state and configured event data at intervals not exceeding 10 seconds while in motion and 5 minutes while stationary, with store-and-forward buffering of at least 5,000 records during connectivity loss.
+- FT-03: Fuel level sensors shall achieve an accuracy of plus or minus 3 percent after per-vehicle calibration, and the Platform shall detect and alert refuelling and fuel drain events with timestamp, location and estimated volume.
+- FT-04: Temperature sensors in refrigerated units shall report at intervals not exceeding 60 seconds, with configurable thresholds and breach alerts to dispatchers and in the driver application.
+- FT-05: The Supplier shall manage SIM provisioning and airtime for all devices for the full two-year support period, with monthly connectivity reporting.
+
+5.2 Platform Functionality
+
+- FT-06: The Platform shall provide live map tracking of all 450 vehicles with at most 15 seconds of latency, historical trip playback for a minimum of 12 months online, and geofencing with entry, exit and dwell-time alerts.
+- FT-07: The Platform shall provide route planning and optimisation that produces multi-stop delivery routes for at least 300 daily orders across the three distribution centres, accounting for vehicle capacity, delivery time windows and zone restrictions, and shall recalculate routes when orders change.
+- FT-08: The Platform shall compute a driver behaviour score per driver per period, based at a minimum on harsh braking, harsh acceleration, over-speeding against configurable road-class limits, sharp cornering, excessive idling and unauthorised stops, and shall produce ranked driver league reports.
+- FT-09: The Platform shall integrate with the KMDS warehouse management system through documented REST APIs to receive dispatch orders and return delivery status and electronic proof-of-delivery records, including recipient name, signature image, photo and geo-stamp.
+- FT-10: The Platform shall provide role-based dashboards for dispatchers, fleet supervisors and management, including fleet utilisation, on-time delivery percentage, kilometres run, fuel consumption versus benchmark, maintenance due lists and exception summaries, with scheduled email reports and export to Excel and CSV.
+- FT-11: The Platform shall maintain a vehicle maintenance module covering service schedules by kilometres and calendar, defect reporting from the driver application, and workshop job records.
+- FT-12: The driver mobile application shall operate on Android 10 or later, shall support Urdu and English interfaces, and shall function in offline mode with automatic synchronisation upon reconnection.
+- FT-13: The Platform shall be hosted in a data centre or cloud region located in Pakistan, shall enforce role-based access control with multi-factor authentication for administrative users, shall encrypt data in transit using TLS 1.2 or higher, and shall provide a complete audit trail of user actions.
+- FT-14: The Platform shall provide open, documented APIs sufficient for KMDS to extract its own data, and all tracking and operational data shall remain the property of KMDS and shall be handed over in a standard machine-readable format upon contract end.
+
+5.3 Data Migration and Training
+
+- FT-15: The Supplier shall migrate vehicle master data, driver records and approximately 6,500 customer delivery locations from existing spreadsheets and registers, with validation and sign-off by KMDS operations.
+- FT-16: The Supplier shall deliver role-based training for up to 12 dispatchers, 10 fleet supervisors, 8 workshop staff and 6 managers, together with bilingual quick reference guides and administrator documentation.
+
+6. SUPPORT, WARRANTY AND SERVICE LEVELS
+
+The Supplier shall provide comprehensive support and maintenance for twenty-four (24) months from operational acceptance, including all software updates, device warranty with advance replacement from the spares pool, sensor recalibration, airtime management and helpdesk support from 08:00 to 20:00 PKT, seven days a week. The Platform shall achieve a monthly availability of at least 99.5 percent, excluding scheduled maintenance notified at least three (3) working days in advance. Critical faults (Platform unavailable or live tracking down fleet-wide) shall be responded to within 30 minutes and resolved within 6 hours; faulty in-vehicle devices shall be replaced within 2 working days in Karachi. The Supplier shall provide a quarterly service review report covering availability, fault statistics, device health and connectivity performance. Persistent failure to meet the availability target for three (3) consecutive months shall entitle KMDS to terminate the contract and recover the unutilised portion of the support fees.
+
+7. EVALUATION CRITERIA
+
+Quotations shall be evaluated under a two-envelope quality and cost based method. Technical proposals shall be scored against the criteria below; financial envelopes of bidders scoring at least 60 of the 80 technical points shall be opened and scored. The contract shall be awarded to the bidder with the highest combined score:
+
+Evaluation Criterion | Weight (Points)
+Technical Solution and Platform Functionality | 30
+Relevant Experience and References | 20
+Implementation Plan and Team | 15
+Support Model and Local Presence | 15
+Financial Quotation | 20
+Total | 100
+
+The lowest evaluated financial quotation shall receive the full 20 financial points; other quotations shall be scored as 20 multiplied by the ratio of the lowest quoted price to the price under evaluation.
+
+8. BUDGET AND FINANCIAL QUOTATION
+
+The approved budget for this procurement, covering devices, sensors, installation, software licences or subscription for the full term, integration, data migration, training and the complete two-year support and connectivity period, is PKR 95,000,000 (Pakistani Rupees ninety-five million only), equivalent to approximately USD 340,000. Quotations exceeding the approved budget shall be rejected. Prices shall be quoted in Pakistani Rupees inclusive of all applicable taxes and duties, broken down into: hardware and installation; software licences or subscription; integration and data migration; training; and year-wise support and connectivity charges. Payment shall be made as follows: 20 percent on completion of milestone M2; 30 percent on completion of milestone M4; 20 percent on operational acceptance (M5); and the remaining 30 percent in four equal semi-annual instalments across the support period, subject to SLA compliance. No advance payment shall be made.
+
+9. TECHNICAL QUESTIONNAIRE
+
+Bidders shall answer the following questions in the technical envelope. Each answer shall not exceed two (2) pages and shall be specific to KMDS operations:
+
+Q1. Device Specification and Certification: Specify the make and model of the proposed tracking devices, fuel sensors and temperature sensors, their PTA type approval status, mounting and tamper protection approach, and your device failure rate experience from comparable deployments.
+
+Q2. Platform Architecture: Describe the Platform architecture, including the hosting arrangement in Pakistan, multi-tenancy model if any, data ingestion capacity, latency safeguards for live tracking of 450 vehicles, backup and disaster recovery arrangements, and the security controls applied at each layer.
+
+Q3. Route Optimisation Approach: Explain how your route optimisation engine builds and re-optimises multi-stop routes under vehicle capacity, time window and zone constraints, the typical computation time for a 300-order daily plan, and how dispatchers can manually adjust optimised routes.
+
+Q4. WMS Integration: Describe your proposed approach to integrating with the KMDS warehouse management system, including the API patterns, message formats, error handling and reconciliation arrangements, and a summary of two comparable integrations you have delivered.
+
+Q5. Driver Scoring Methodology: Describe the events, weightings and normalisation method used in your driver behaviour scoring, how scores remain fair across different routes and vehicle types, and how the scoring has measurably reduced incidents or fuel consumption in past deployments.
+
+Q6. Support and Spares Model: Describe your support organisation for this contract, including Karachi-based resources, escalation tiers, the spares pool and advance replacement process, sensor recalibration schedule, and the reporting you will provide against the service levels in Section 6.
+
+10. SUBMISSION INSTRUCTIONS
+
+Quotations shall be submitted in two separate sealed envelopes marked "TECHNICAL QUOTATION - KMDS/IT/2026/RFQ-031" and "FINANCIAL QUOTATION - KMDS/IT/2026/RFQ-031", enclosed in one outer sealed envelope, addressed to: Manager Procurement, Karachi Metropolitan Distribution Services, Distribution Centre 1, Plot 27, Sector 30, Korangi Industrial Area, Karachi. The technical envelope shall contain the eligibility evidence for criteria EL-1 to EL-9, the technical compliance statement against requirements FT-01 to FT-16, the questionnaire responses, the implementation plan and CVs of key staff, and one USB drive with the complete technical quotation in searchable PDF format. The financial envelope shall contain the priced quotation form and the bid security instrument. No financial figures shall appear in the technical envelope. Bidders may be invited to demonstrate their platform live during technical evaluation; failure to demonstrate quoted functionality may result in disqualification.
+
+11. PENALTIES AND LIQUIDATED DAMAGES
+
+If the Supplier fails to achieve operational acceptance (milestone M5) within twenty (20) weeks of purchase order for reasons attributable to the Supplier, KMDS shall deduct liquidated damages at the rate of 0.25 percent (zero point two five percent) of the total contract price per week of delay or part thereof, up to a maximum of eight percent (8%) of the total contract price, after which KMDS may cancel the purchase order, encash the bid security or performance security then held, and procure the platform from another supplier at the Supplier's risk and cost. During the support period, service credits of 2 percent of the quarterly support fee shall apply for each 0.1 percentage point shortfall below the 99.5 percent monthly availability target, capped at 20 percent of the quarterly support fee. The successful bidder shall furnish a performance security of five percent (5%) of the contract value within ten (10) days of the purchase order, valid for the full contract term plus sixty (60) days.
+
+12. CONTACT INFORMATION
+
+Manager Procurement, Karachi Metropolitan Distribution Services, Distribution Centre 1, Plot 27, Sector 30, Korangi Industrial Area, Karachi. Email: procurement@kmds.com.pk. Telephone: +92-21-35112940 (09:30 to 17:30 PKT, Monday to Saturday). All communications shall quote reference KMDS/IT/2026/RFQ-031. KMDS reserves the right to accept or reject any or all quotations prior to award without assigning any reason.
