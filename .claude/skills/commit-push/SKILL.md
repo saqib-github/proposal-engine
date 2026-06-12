@@ -11,7 +11,12 @@ This machine's global git config belongs to a DIFFERENT identity (`saqib-sortswi
 
 - **Identity**: repo-local `user.name` / `user.email` (set in `.git/config`) attribute commits to the saqib-github GitHub account. Global config must never be read from, written to, or relied on. Never run `git config --global` in this project.
 - **Auth**: a GitHub personal access token is embedded in the `origin` remote URL inside `.git/config`. Because credentials are in the URL, git skips all credential helpers (gh CLI, osxkeychain) — exactly what we want. `.git/config` is never pushed, so the token stays local.
-- **Consequence**: the token must NEVER appear in any tracked file (code, docs, this skill, commit messages, CI files). GitHub push protection would block the push and the token would have to be rotated.
+- **Token storage**: the token is saved next to this skill in `.claude/skills/commit-push/github-token.local` (gitignored). Read it from there whenever you need it:
+  ```bash
+  TOKEN=$(tr -d '[:space:]' < .claude/skills/commit-push/github-token.local)
+  ```
+  Never ask the user for the token while this file exists, and never read tokens from gh CLI or the keychain (those belong to the other account).
+- **Consequence**: the token must NEVER appear in any tracked file (code, docs, this SKILL.md, commit messages, CI files). This repo is PUBLIC — GitHub secret scanning auto-revokes any `ghp_` token it sees in pushed content, which would break this whole setup. The `.local` file is the only place it may be written, and it must stay gitignored.
 
 ## Workflow
 
@@ -25,8 +30,9 @@ This machine's global git config belongs to a DIFFERENT identity (`saqib-sortswi
 2. **Review what you're committing**:
    ```bash
    git status --short && git diff --stat
+   git check-ignore .claude/skills/commit-push/github-token.local  # must print the path
    ```
-   Confirm no `.env*`, tokens, API keys, or `data/uploads/` content is staged. If a secret-looking string appears in the diff, unstage it and fix before continuing.
+   Confirm no `.env*`, tokens, API keys, or `data/uploads/` content is staged, and that the token file is still ignored (if `check-ignore` prints nothing, STOP — fix `.gitignore` before any commit). If a secret-looking string appears in the diff, unstage it and fix before continuing.
 
 3. **Commit** with a clear conventional-style message (`feat:`, `fix:`, `docs:`, `chore:`):
    ```bash
@@ -43,13 +49,16 @@ This machine's global git config belongs to a DIFFERENT identity (`saqib-sortswi
 
 ## Recovery (fresh clone or missing auth)
 
-The token lives only in `.git/config`. If the remote URL has no token or identity is unset, ask the user for the token (never guess, never pull from gh CLI), then:
+If the remote URL has no token or identity is unset, re-wire from the saved token file — no need to involve the user:
 
 ```bash
+TOKEN=$(tr -d '[:space:]' < .claude/skills/commit-push/github-token.local)
 git config user.name "Saqib Javed"
 git config user.email "78408075+saqib-github@users.noreply.github.com"
-git remote set-url origin "https://saqib-github:<TOKEN>@github.com/saqib-github/proposal-engine.git"
+git remote set-url origin "https://saqib-github:${TOKEN}@github.com/saqib-github/proposal-engine.git"
 ```
+
+Only if `github-token.local` is also missing (e.g. fresh clone, since it is gitignored): ask the user for the token, write it back to that file, then run the commands above. Never guess and never pull credentials from gh CLI or the keychain.
 
 ## Hard rules
 

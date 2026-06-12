@@ -11,6 +11,8 @@ next-env.d.ts
 .env
 .env.*
 !.env.example
+.claude/skills/commit-push/github-token.local
+*.local
 
 # Runtime data (uploaded RFPs & generated workspaces)
 data/uploads/
