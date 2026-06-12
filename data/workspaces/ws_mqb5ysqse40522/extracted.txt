@@ -1,0 +1,241 @@
+NFLC/CW/2026/T-087 | National Food Logistics Company (Private) Limited   Page 1
+TENDER DOCUMENT
+Construction of Regional Warehouse and Cold
+Storage Facility (5,000 sqm) at the Southern
+Regional Logistics Park
+Reference No:   NFLC/CW/2026/T-087
+Issued by:   National Food Logistics Company (Private) Limited
+Date of Issue:   Friday, 12 June 2026
+Procurement Method:   Single Stage - One Envelope (National Competitive Bidding)
+Contact Email:   tenders@nflc.com.pk
+
+NFLC/CW/2026/T-087 | National Food Logistics Company (Private) Limited   Page 2
+1. INTRODUCTION
+National Food Logistics Company (Private) Limited (hereinafter "NFLC" or "the Employer") is a state-owned
+logistics enterprise responsible for the procurement, storage and distribution of strategic food commodities.
+NFLC invites sealed bids from eligible and pre-qualified construction firms for the construction of a Regional
+Warehouse and Cold Storage Facility with a covered area of approximately 5,000 square metres, together
+with associated external works, at the Southern Regional Logistics Park. The works comprise civil and
+structural construction, insulated cold storage chambers, HVAC and industrial refrigeration plant, electrical
+and mechanical services, fire detection and suppression, and site development. This tender document sets
+out the scope of works, eligibility requirements, key dates, bill of quantities structure, evaluation criteria and
+conditions of contract.
+2. SCOPE OF WORKS
+2.1 General Description
+The contractor shall execute and complete the following principal components, in accordance with the
+drawings, technical specifications and bill of quantities issued with this tender:
+•   Earthworks, excavation and site grading for an overall plot of 2.5 acres, including dewatering where
+required;
+•   Reinforced concrete foundations, columns and grade slabs designed for a uniform floor loading of 5
+tonnes per square metre in the dry warehouse zone;
+•   Pre-engineered steel building (PEB) superstructure of approximately 5,000 sqm covered area with a clear
+internal height of 10.5 metres at eaves;
+•   Construction of four (4) insulated cold storage chambers totalling 1,800 sqm with PUF insulated panels
+(150 mm walls and ceiling), operating at temperature ranges of +2 to +8 degrees Celsius (two chambers)
+and -18 to -25 degrees Celsius (two chambers);
+•   Supply, installation, testing and commissioning of the industrial refrigeration plant, including compressor
+racks, evaporators, condensers, refrigerant piping, insulated doors, air curtains and a plant monitoring
+system;
+•   HVAC works for the administration block, battery charging room and quality control laboratory;
+•   Electrical works including an 11 kV substation, 630 kVA transformer, LT panels, power and lighting
+distribution, earthing, lightning protection and a 500 kVA standby diesel generator;
+•   Fire detection and addressable alarm system, hydrant network, sprinkler protection in the dry warehouse,
+and clean-agent suppression in the server and control rooms;
+•   Loading docks (8 bays) with dock levellers, dock shelters and high-speed doors;
+•   Internal roads, paved marshalling yard for 25 trucks, boundary wall, guard rooms, weighbridge foundation
+(60-tonne), water supply, underground and overhead water tanks, and sewerage and storm water
+drainage;
+•   Administration block of 400 sqm covered area, including offices, records room, laboratory and staff
+facilities.
+2.2 Design Responsibility
+The works shall be executed on a construct-only basis against the Employer's issued-for-construction
+drawings, except for the refrigeration plant and the pre-engineered steel building, for which the contractor
+shall provide detailed shop drawings and design calculations, prepared and stamped by a professional
+engineer registered with the Pakistan Engineering Council (PEC), for the Employer's approval prior to
+fabrication.
+
+NFLC/CW/2026/T-087 | National Food Logistics Company (Private) Limited   Page 3
+2.3 Completion Period
+The entire works shall be completed and handed over, tested and commissioned, within fourteen (14) months
+from the date of the Engineer's notice to commence. A detailed construction programme in Primavera P6 or
+Microsoft Project format shall be submitted within fourteen (14) days of the notice to commence and shall be
+updated monthly.
+2.4 Materials and Workmanship
+All materials shall conform to the technical specifications and to the relevant Pakistan Standards or, where no
+Pakistan Standard exists, to the applicable British or ASTM standards named in the specifications. Structural
+concrete shall be batched at an approved plant with cube testing at a site laboratory; reinforcement steel shall
+be Grade 60 deformed bars from an approved mill with mill test certificates for every consignment. PUF
+insulated panels shall carry factory test certificates for density, thermal conductivity and fire classification. The
+contractor shall submit material approval requests, with samples where required, at least fourteen (14) days
+before intended use, and no material shall be incorporated in the works without the Engineer's written
+approval.
+3. MANDATORY ELIGIBILITY CRITERIA
+Bidders must satisfy all of the following mandatory requirements. Non-compliance with any requirement shall
+render the bid non-responsive:
+•   EC-1:   The bidder must hold a valid constructor licence issued by the Pakistan Engineering Council (PEC)
+in category C-2 or above, with the licence valid for the year 2026 and covering the relevant specialisation
+codes (CE-01 civil works and ME-05 HVACR). PEC licence category C-2 is mandatory; bids submitted by
+firms licensed below category C-2 shall be rejected.
+•   EC-2:   The bidder must be registered with the Securities and Exchange Commission of Pakistan or the
+Registrar of Firms, and with the Federal Board of Revenue (NTN and STRN), and must appear on the
+Active Taxpayers List.
+•   EC-3:   The bidder must have completed, within the last eight (8) years, at least two (2) industrial or
+warehouse construction projects each of contract value not less than PKR 250 million, of which at least
+one must have included cold storage or industrial refrigeration works. Completion certificates from the
+employers concerned must be enclosed.
+•   EC-4:   The bidder must have an average annual construction turnover of not less than PKR 400 million
+over the last three (3) audited financial years, supported by audited financial statements.
+•   EC-5:   The bidder must demonstrate access to liquid assets or unconditional credit lines of not less than
+PKR 80 million, supported by a bank certificate issued not earlier than thirty (30) days before the bid
+submission deadline.
+•   EC-6:   The bidder must submit an affidavit that it is not blacklisted or debarred by any federal, provincial or
+local government department, autonomous body or public sector organisation in Pakistan.
+•   EC-7:   The bidder must furnish bid security equal to three percent (3%) of the bid price in the form of a
+bank guarantee or pay order from a scheduled bank of Pakistan.
+•   EC-8:   The bidder shall deploy a full-time site agent who is a PEC-registered professional civil engineer
+with at least ten (10) years of post-registration experience in industrial building construction, supported by
+a PEC-registered mechanical engineer with at least seven (7) years of experience in refrigeration and
+HVAC installations. CVs, PEC registration numbers and undertakings of availability must be submitted
+with the bid.
+•   EC-9:   The bidder must have a documented health, safety and environment (HSE) management system;
+ISO 45001 certification or an equivalent third-party-audited HSE system is mandatory.
+4. KEY DATES
+
+NFLC/CW/2026/T-087 | National Food Logistics Company (Private) Limited   Page 4
+Event   Date   Time (PKT)
+Issuance of Tender Document   Friday, 12 June 2026   -
+Pre-Bid Site Visit and Meeting   Tuesday, 7 July 2026   10:30
+Deadline for Clarification Questions   Friday, 31 July 2026   16:00
+Bid Submission Deadline   Wednesday, 19 August 2026   11:00
+Public Opening of Bids   Wednesday, 19 August 2026   11:30
+A pre-bid site visit and meeting shall be held on Tuesday, 7 July 2026 at 10:30 PKT, assembling at the NFLC
+Regional Office, Southern Regional Logistics Park. Attendance at the site visit is strongly recommended;
+bidders shall be deemed to have inspected the site and satisfied themselves as to ground conditions, access
+and utilities. Clarification questions must be emailed to tenders@nflc.com.pk no later than Friday, 31 July
+2026 at 16:00 PKT. Sealed bids must be delivered to the Tender Box at NFLC Head Office no later than
+Wednesday, 19 August 2026 at 11:00 hours Pakistan Standard Time (PKT); bids received after this deadline
+shall be returned unopened. Bids shall be opened publicly the same day at 11:30 PKT in the presence of
+bidders' representatives who choose to attend. Bids shall remain valid for ninety (90) days from the bid
+submission deadline, that is, up to and including Tuesday, 17 November 2026.
+5. ESTIMATED COST AND BILL OF QUANTITIES
+5.1 Estimated Cost
+The Engineer's estimated cost of the works is PKR 480,000,000 (Pakistani Rupees four hundred and eighty
+million only), equivalent to approximately USD 1.72 million. The estimate is provided for information; bids
+shall be evaluated against the bill of quantities rates quoted by the bidder. Bids exceeding the estimated cost
+by more than ten percent (10%) may be rejected following a financial capacity review by the tender
+committee.
+5.2 Bill of Quantities Structure
+The bill of quantities comprises the following principal bill sections, and bidders shall quote unit rates against
+every item:
+Bill No.   Description   Indicative Share of Works
+Bill 1   General requirements, mobilisation and site facilities   5 percent
+Bill 2   Earthworks and civil/structural works   34 percent
+Bill 3   Pre-engineered steel building supply and erection   22 percent
+Bill 4   Cold storage chambers and refrigeration plant   21 percent
+Bill 5   Electrical works and standby generation   9 percent
+Bill 6   Fire protection, plumbing and external works   9 percent
+Rates shall be quoted in Pakistani Rupees inclusive of all taxes, duties and levies. The contract shall be
+admeasurement-based; quantities are provisional and payment shall be made against measured work at
+quoted unit rates. A price adjustment formula for steel, cement and fuel, as set out in the conditions of
+contract, shall apply after the sixth month.
+
+NFLC/CW/2026/T-087 | National Food Logistics Company (Private) Limited   Page 5
+6. HEALTH, SAFETY AND ENVIRONMENT REQUIREMENTS
+The contractor shall implement a site-specific HSE plan, which must be submitted within fourteen (14) days of
+the notice to commence and approved by the Engineer before mobilisation of major plant. The HSE plan shall
+address, at a minimum: scaffolding and work at height; lifting operations and crane management; confined
+space entry; ammonia handling and refrigerant safety during charging and commissioning; hot works and
+welding; electrical safety and lock-out tag-out; dust and noise control; waste management; and emergency
+response. The contractor shall deploy a full-time qualified HSE officer for the duration of the works, shall
+conduct daily toolbox talks, and shall report all incidents, including near misses, within twenty-four (24) hours.
+The Employer operates a zero-fatality policy; any fatal accident attributable to contractor negligence shall
+constitute grounds for termination. All workers shall be provided with personal protective equipment and shall
+be covered under workmen's compensation insurance. Monthly HSE statistics shall be appended to each
+interim payment certificate.
+7. EVALUATION CRITERIA
+Bids shall first be screened against the mandatory eligibility criteria in Section 3. Responsive bids shall then
+be scored against the following criteria; the contract shall be awarded to the highest-scoring responsive
+bidder:
+Evaluation Criterion   Weight (Points)
+Relevant Construction Experience and Completion Record   25
+Technical Staff, Plant and Equipment Capacity   15
+Construction Methodology and Programme   15
+Financial Soundness   10
+Bid Price   35
+Total   100
+A minimum score of forty (40) points out of the sixty-five (65) non-price points is required for the bid price to
+be evaluated. The lowest evaluated bid price shall receive the full 35 points; other bids shall receive points in
+inverse proportion to their evaluated price.
+8. TECHNICAL QUESTIONNAIRE
+Bidders shall provide written answers to the following questions as part of their technical submission. Each
+answer shall not exceed two (2) pages:
+Q1.   Construction Methodology: Describe your overall construction methodology and sequencing for
+completing the warehouse, cold storage chambers and external works within fourteen (14) months,
+including temporary works, concurrent work fronts and your approach to maintaining programme float.
+Q2.   Refrigeration Plant: Describe the proposed refrigeration system design, including refrigerant selection
+and   justification,   compressor   configuration   and   redundancy,   defrost   strategy,   insulation   system,
+temperature monitoring and alarm arrangements, and the testing and commissioning plan for achieving
+the specified chamber temperatures.
+Q3.   HSE Management: Describe how your HSE management system will be applied on this site, including
+the site HSE organisation, the specific controls you will apply for work at height, lifting operations and
+refrigerant handling, and your incident reporting and investigation procedure.
+Q4.   Quality Assurance and Materials Testing: Describe your quality management arrangements, including
+the site laboratory and testing regime for concrete and steel, factory inspection arrangements for the PEB
+and refrigeration equipment, inspection and test plans, and the handover documentation you will provide.
+
+NFLC/CW/2026/T-087 | National Food Logistics Company (Private) Limited   Page 6
+Q5.   Resources and Programme: Provide a summary of the key plant and equipment you will mobilise, the
+peak workforce by trade, your proposed site organisation chart with the site agent and engineers required
+under criterion EC-8, and a narrative explanation of the critical path of your programme.
+9. SUBMISSION INSTRUCTIONS
+9.1 Marking and Delivery
+Bids shall be submitted in a single sealed envelope marked "BID - NFLC/CW/2026/T-087 - REGIONAL
+WAREHOUSE AND COLD STORAGE FACILITY" bearing the bidder's name and address, and shall be
+deposited in the Tender Box at the Office of the General Manager (Procurement), National Food Logistics
+Company (Private) Limited, NFLC Head Office, 14-Industrial Avenue, Karachi. Bids submitted by email or
+facsimile shall not be accepted. Telephonic enquiries shall not be entertained; all queries shall be emailed to
+tenders@nflc.com.pk quoting reference NFLC/CW/2026/T-087.
+9.2 Checklist of Documents
+The bid must contain the following documents, in the order listed, with an index and page numbering:
+•   Completed and signed form of bid on the prescribed format;
+•   Priced bill of quantities with every page initialled by the authorised signatory;
+•   Bid security instrument equal to three percent (3%) of the bid price;
+•   Valid PEC constructor licence (category C-2 or above) for 2026;
+•   SECP or Registrar of Firms registration, NTN, STRN and ATL evidence;
+•   Completion certificates for the qualifying projects under criterion EC-3;
+•   Audited financial statements for the last three financial years and the bank credit line certificate;
+•   Affidavit of non-blacklisting on stamp paper, duly notarised;
+•   CVs, PEC registration numbers and availability undertakings of the site agent and engineers under
+criterion EC-8;
+•   ISO 45001 certificate or equivalent third-party-audited HSE system documentation;
+•   Technical questionnaire responses (Q1 to Q5);
+•   Power of attorney in favour of the signatory and the signed integrity pact.
+Bids not accompanied by the bid security or the valid PEC licence shall be rejected at opening without further
+evaluation.
+
+NFLC/CW/2026/T-087 | National Food Logistics Company (Private) Limited   Page 7
+10. CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES
+The contract shall be executed on the standard form of contract for admeasurement works adopted by the
+Employer, based on the PEC standard conditions. The successful bidder shall furnish a performance security
+equal to ten percent (10%) of the contract price within fourteen (14) days of the letter of acceptance, valid
+until the end of the defects liability period. A mobilisation advance of up to ten percent (10%) of the contract
+price may be granted against an unconditional bank guarantee, recoverable in equal deductions from interim
+payment certificates. If the contractor fails to complete the works within the completion period of fourteen (14)
+months, liquidated damages shall be levied at the rate of 0.1 percent (zero point one percent) of the contract
+price per day of delay, up to a maximum of ten percent (10%) of the contract price, after which the Employer
+may terminate the contract and complete the works at the contractor's risk and cost. The defects liability
+period shall be twelve (12) months from the certified date of completion, during which the contractor shall
+remedy all defects at its own expense. Retention money of five percent (5%) shall be deducted from each
+interim payment certificate, one half releasable on completion and the balance on expiry of the defects liability
+period. The contractor shall, before commencement, effect and maintain contractor's all risks insurance for
+the full contract value plus fifteen percent (15%), third-party liability insurance of not less than PKR 25 million
+per occurrence, and workmen's compensation insurance covering all site personnel, each with the Employer
+named as co-insured, and shall furnish copies of the policies and premium receipts to the Engineer. The
+contract shall be governed by the laws of Pakistan, and disputes shall first be referred to the Engineer for
+determination and thereafter, failing amicable settlement within twenty-eight (28) days, to arbitration in
+Karachi under the Arbitration Act, 1940.
+11. CONTACT INFORMATION
+General Manager (Procurement), National Food Logistics Company (Private) Limited, NFLC Head Office,
+14-Industrial Avenue, Karachi. Email: tenders@nflc.com.pk. Telephone: +92-21-34550217 (10:00 to 16:00
+PKT,   Monday   to   Friday).   All   communications   shall   quote   tender   reference   NFLC/CW/2026/T-087.
+Canvassing in any form shall result in disqualification.

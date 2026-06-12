@@ -1,0 +1,2467 @@
+{
+  "id": "ws_mqb5ysqse40522",
+  "name": "Construction of Regional Warehouse and Cold Storage Facility (5,000 sqm) at the Southern Regional Logistics Park",
+  "fileName": "rfp-warehouse-construction.pdf",
+  "createdAt": "2026-06-12T16:51:40.420Z",
+  "status": "ready",
+  "analysis": {
+    "title": "Construction of Regional Warehouse and Cold Storage Facility (5,000 sqm) at the Southern Regional Logistics Park",
+    "sector": "Construction",
+    "summary": "NFLC/CW/2026/T-087 | National Food Logistics Company (Private) Limited Page 1 TENDER DOCUMENT Construction of Regional Warehouse and Cold Storage Facility (5,000 sqm) at the Southern Regional Logistics Park Reference No: NFLC/CW/2026/T-087 Issued by: National Food Logistics Company (Private) Limited Date of Issue: Friday, 12 June 2026 Procurement Method: Single Stage - One Envelope (National Competitive Bidding) Cont",
+    "requirements": [
+      {
+        "id": "R-001",
+        "text": "The contractor shall execute and complete the following principal components, in accordance with the drawings, technical specifications and bill of quantities issued with this tender:",
+        "kind": "technical",
+        "category": "general",
+        "section": "2.1 General Description"
+      },
+      {
+        "id": "R-002",
+        "text": "The works shall be executed on a construct-only basis against the Employer's issued-for-construction drawings, except for the refrigeration plant and the pre-engineered steel building, for which the contractor shall provide detailed shop drawings and design calculations, prepared and stamped by a professional engineer registered with the Pakistan Engineering Council (PEC), for the Employer's approval prior to fabrication.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "2.2 Design Responsibility"
+      },
+      {
+        "id": "R-003",
+        "text": "The entire works shall be completed and handed over, tested and commissioned, within fourteen (14) months from the date of the Engineer's notice to commence.",
+        "kind": "technical",
+        "category": "general",
+        "section": "2.3 Completion Period"
+      },
+      {
+        "id": "R-004",
+        "text": "A detailed construction programme in Primavera P6 or Microsoft Project format shall be submitted within fourteen (14) days of the notice to commence and shall be updated monthly.",
+        "kind": "technical",
+        "category": "general",
+        "section": "2.3 Completion Period"
+      },
+      {
+        "id": "R-005",
+        "text": "All materials shall conform to the technical specifications and to the relevant Pakistan Standards or, where no Pakistan Standard exists, to the applicable British or ASTM standards named in the specifications.",
+        "kind": "technical",
+        "category": "general",
+        "section": "2.4 Materials and Workmanship"
+      },
+      {
+        "id": "R-006",
+        "text": "Structural concrete shall be batched at an approved plant with cube testing at a site laboratory; reinforcement steel shall be Grade 60 deformed bars from an approved mill with mill test certificates for every consignment.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "2.4 Materials and Workmanship"
+      },
+      {
+        "id": "R-007",
+        "text": "PUF insulated panels shall carry factory test certificates for density, thermal conductivity and fire classification.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "2.4 Materials and Workmanship"
+      },
+      {
+        "id": "R-008",
+        "text": "The contractor shall submit material approval requests, with samples where required, at least fourteen (14) days before intended use, and no material shall be incorporated in the works without the Engineer's written approval.",
+        "kind": "technical",
+        "category": "legal",
+        "section": "2.4 Materials and Workmanship"
+      },
+      {
+        "id": "R-009",
+        "text": "Bidders must satisfy all of the following mandatory requirements.",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-010",
+        "text": "Non-compliance with any requirement shall render the bid non-responsive:",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-011",
+        "text": "EC-1: The bidder must hold a valid constructor licence issued by the Pakistan Engineering Council (PEC) in category C-2 or above, with the licence valid for the year 2026 and covering the relevant specialisation codes (CE-01 civil works and ME-05 HVACR). PEC licence category C-2 is mandatory; bids submitted by firms licensed below category C-2 shall be rejected.",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-012",
+        "text": "EC-2: The bidder must be registered with the Securities and Exchange Commission of Pakistan or the Registrar of Firms, and with the Federal Board of Revenue (NTN and STRN), and must appear on the Active Taxpayers List.",
+        "kind": "mandatory",
+        "category": "legal",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-013",
+        "text": "EC-3: The bidder must have completed, within the last eight (8) years, at least two (2) industrial or warehouse construction projects each of contract value not less than PKR 250 million, of which at least one must have included cold storage or industrial refrigeration works. Completion certificates from the employers concerned must be enclosed.",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-014",
+        "text": "EC-4: The bidder must have an average annual construction turnover of not less than PKR 400 million over the last three (3) audited financial years, supported by audited financial statements.",
+        "kind": "mandatory",
+        "category": "financial",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-015",
+        "text": "EC-5: The bidder must demonstrate access to liquid assets or unconditional credit lines of not less than PKR 80 million, supported by a bank certificate issued not earlier than thirty (30) days before the bid submission deadline.",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-016",
+        "text": "EC-6: The bidder must submit an affidavit that it is not blacklisted or debarred by any federal, provincial or local government department, autonomous body or public sector organisation in Pakistan.",
+        "kind": "mandatory",
+        "category": "legal",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-017",
+        "text": "EC-7: The bidder must furnish bid security equal to three percent (3%) of the bid price in the form of a bank guarantee or pay order from a scheduled bank of Pakistan.",
+        "kind": "mandatory",
+        "category": "financial",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-018",
+        "text": "EC-8: The bidder shall deploy a full-time site agent who is a PEC-registered professional civil engineer with at least ten (10) years of post-registration experience in industrial building construction, supported by a PEC-registered mechanical engineer with at least seven (7) years of experience in refrigeration and HVAC installations. CVs, PEC registration numbers and undertakings of availability must be submitted with the bid.",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-019",
+        "text": "EC-9: The bidder must have a documented health, safety and environment (HSE) management system;",
+        "kind": "mandatory",
+        "category": "technical",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-020",
+        "text": "ISO 45001 certification or an equivalent third-party-audited HSE system is mandatory.",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-021",
+        "text": "Event Date Time (PKT) Issuance of Tender Document Friday, 12 June 2026 - Pre-Bid Site Visit and Meeting Tuesday, 7 July 2026 10:30 Deadline for Clarification Questions Friday, 31 July 2026 16:00 Bid Submission Deadline Wednesday, 19 August 2026 11:00 Public Opening of Bids Wednesday, 19 August 2026 11:30 A pre-bid site visit and meeting shall be held on Tuesday, 7 July 2026 at 10:30 PKT, assembling at the NFLC Regional Office, Southern Regional Logistics Park.",
+        "kind": "technical",
+        "category": "general",
+        "section": "4. KEY DATES"
+      },
+      {
+        "id": "R-022",
+        "text": "bidders shall be deemed to have inspected the site and satisfied themselves as to ground conditions, access and utilities.",
+        "kind": "technical",
+        "category": "general",
+        "section": "4. KEY DATES"
+      },
+      {
+        "id": "R-023",
+        "text": "Clarification questions must be emailed to tenders@nflc.com.pk no later than Friday, 31 July 2026 at 16:00 PKT.",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "4. KEY DATES"
+      },
+      {
+        "id": "R-024",
+        "text": "Bids shall be opened publicly the same day at 11:30 PKT in the presence of bidders' representatives who choose to attend.",
+        "kind": "technical",
+        "category": "general",
+        "section": "4. KEY DATES"
+      },
+      {
+        "id": "R-025",
+        "text": "The estimate is provided for information; bids shall be evaluated against the bill of quantities rates quoted by the bidder.",
+        "kind": "technical",
+        "category": "general",
+        "section": "5.1 Estimated Cost"
+      },
+      {
+        "id": "R-026",
+        "text": "The contract shall be admeasurement-based; quantities are provisional and payment shall be made against measured work at quoted unit rates.",
+        "kind": "technical",
+        "category": "general",
+        "section": "5.2 Bill of Quantities Structure"
+      },
+      {
+        "id": "R-027",
+        "text": "A price adjustment formula for steel, cement and fuel, as set out in the conditions of contract, shall apply after the sixth month.",
+        "kind": "technical",
+        "category": "general",
+        "section": "5.2 Bill of Quantities Structure"
+      },
+      {
+        "id": "R-028",
+        "text": "The contractor shall implement a site-specific HSE plan, which must be submitted within fourteen (14) days of the notice to commence and approved by the Engineer before mobilisation of major plant.",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "6. HEALTH, SAFETY AND ENVIRONMENT REQUIREMENTS"
+      },
+      {
+        "id": "R-029",
+        "text": "The HSE plan shall address, at a minimum: scaffolding and work at height; lifting operations and crane management; confined space entry; ammonia handling and refrigerant safety during charging and commissioning; hot works and welding; electrical safety and lock-out tag-out; dust and noise control; waste management; and emergency response.",
+        "kind": "technical",
+        "category": "general",
+        "section": "6. HEALTH, SAFETY AND ENVIRONMENT REQUIREMENTS"
+      },
+      {
+        "id": "R-030",
+        "text": "The contractor shall deploy a full-time qualified HSE officer for the duration of the works, shall conduct daily toolbox talks, and shall report all incidents, including near misses, within twenty-four (24) hours.",
+        "kind": "technical",
+        "category": "general",
+        "section": "6. HEALTH, SAFETY AND ENVIRONMENT REQUIREMENTS"
+      },
+      {
+        "id": "R-031",
+        "text": "The Employer operates a zero-fatality policy; any fatal accident attributable to contractor negligence shall constitute grounds for termination.",
+        "kind": "technical",
+        "category": "general",
+        "section": "6. HEALTH, SAFETY AND ENVIRONMENT REQUIREMENTS"
+      },
+      {
+        "id": "R-032",
+        "text": "All workers shall be provided with personal protective equipment and shall be covered under workmen's compensation insurance.",
+        "kind": "technical",
+        "category": "general",
+        "section": "6. HEALTH, SAFETY AND ENVIRONMENT REQUIREMENTS"
+      },
+      {
+        "id": "R-033",
+        "text": "Monthly HSE statistics shall be appended to each interim payment certificate.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "6. HEALTH, SAFETY AND ENVIRONMENT REQUIREMENTS"
+      },
+      {
+        "id": "R-034",
+        "text": "Bids shall first be screened against the mandatory eligibility criteria in Section 3.",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "7. EVALUATION CRITERIA"
+      },
+      {
+        "id": "R-035",
+        "text": "Responsive bids shall then be scored against the following criteria; the contract shall be awarded to the highest-scoring responsive bidder: Evaluation Criterion Weight (Points) Relevant Construction Experience and Completion Record 25 Technical Staff, Plant and Equipment Capacity 15 Construction Methodology and Programme 15 Financial Soundness 10 Bid Price 35 Total 100 A minimum score of forty (40) points out of the sixty-five (65) non-price points is required for the bid price to be evaluated.",
+        "kind": "scored",
+        "category": "experience",
+        "section": "7. EVALUATION CRITERIA"
+      },
+      {
+        "id": "R-036",
+        "text": "The lowest evaluated bid price shall receive the full 35 points; other bids shall receive points in inverse proportion to their evaluated price.",
+        "kind": "scored",
+        "category": "general",
+        "section": "7. EVALUATION CRITERIA"
+      },
+      {
+        "id": "R-037",
+        "text": "Bidders shall provide written answers to the following questions as part of their technical submission.",
+        "kind": "technical",
+        "category": "general",
+        "section": "8. TECHNICAL QUESTIONNAIRE"
+      },
+      {
+        "id": "R-038",
+        "text": "Each answer shall not exceed two (2) pages:",
+        "kind": "technical",
+        "category": "general",
+        "section": "8. TECHNICAL QUESTIONNAIRE"
+      },
+      {
+        "id": "R-039",
+        "text": "Telephonic enquiries shall not be entertained; all queries shall be emailed to tenders@nflc.com.pk quoting reference NFLC/CW/2026/T-087.",
+        "kind": "technical",
+        "category": "experience",
+        "section": "9.1 Marking and Delivery"
+      },
+      {
+        "id": "R-040",
+        "text": "The bid must contain the following documents, in the order listed, with an index and page numbering:",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "9.2 Checklist of Documents"
+      },
+      {
+        "id": "R-041",
+        "text": "Bids not accompanied by the bid security or the valid PEC licence shall be rejected at opening without further evaluation.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "9.2 Checklist of Documents"
+      },
+      {
+        "id": "R-042",
+        "text": "The contract shall be executed on the standard form of contract for admeasurement works adopted by the Employer, based on the PEC standard conditions.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "10. CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      {
+        "id": "R-043",
+        "text": "The successful bidder shall furnish a performance security equal to ten percent (10%) of the contract price within fourteen (14) days of the letter of acceptance, valid until the end of the defects liability period.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "10. CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      {
+        "id": "R-044",
+        "text": "If the contractor fails to complete the works within the completion period of fourteen (14) months, liquidated damages shall be levied at the rate of 0.1 percent (zero point one percent) of the contract price per day of delay, up to a maximum of ten percent (10%) of the contract price, after which the Employer may terminate the contract and complete the works at the contractor's risk and cost.",
+        "kind": "scored",
+        "category": "delivery",
+        "section": "10. CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      {
+        "id": "R-045",
+        "text": "The defects liability period shall be twelve (12) months from the certified date of completion, during which the contractor shall remedy all defects at its own expense.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "10. CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      {
+        "id": "R-046",
+        "text": "Retention money of five percent (5%) shall be deducted from each interim payment certificate, one half releasable on completion and the balance on expiry of the defects liability period.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "10. CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      {
+        "id": "R-047",
+        "text": "The contractor shall, before commencement, effect and maintain contractor's all risks insurance for the full contract value plus fifteen percent (15%), third-party liability insurance of not less than PKR 25 million per occurrence, and workmen's compensation insurance covering all site personnel, each with the Employer named as co-insured, and shall furnish copies of the policies and premium receipts to the Engineer.",
+        "kind": "technical",
+        "category": "general",
+        "section": "10. CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      {
+        "id": "R-048",
+        "text": "The contract shall be governed by the laws of Pakistan, and disputes shall first be referred to the Engineer for determination and thereafter, failing amicable settlement within twenty-eight (28) days, to arbitration in Karachi under the Arbitration Act, 1940.",
+        "kind": "technical",
+        "category": "general",
+        "section": "10. CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      {
+        "id": "R-049",
+        "text": "All communications shall quote tender reference NFLC/CW/2026/T-087.",
+        "kind": "technical",
+        "category": "experience",
+        "section": "11. CONTACT INFORMATION"
+      },
+      {
+        "id": "R-050",
+        "text": "Canvassing in any form shall result in disqualification.",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "11. CONTACT INFORMATION"
+      }
+    ],
+    "entities": {
+      "deadlines": [
+        {
+          "label": "Date of issue",
+          "dateIso": "2026-06-12",
+          "raw": "Date of Issue: Friday, 12 June 2026"
+        },
+        {
+          "label": "Pre-bid meeting",
+          "dateIso": "2026-06-12",
+          "raw": "Event Date Time (PKT) Issuance of Tender Document Friday, 12 June 2026 - Pre-Bid Site Visit and Meeting Tuesday, 7 July 2026 10:30 Deadline for Clarification Questions Friday, 31 July 2026 16:00 Bid Submission Deadline W"
+        },
+        {
+          "label": "Pre-bid meeting",
+          "dateIso": "2026-07-07",
+          "raw": "Event Date Time (PKT) Issuance of Tender Document Friday, 12 June 2026 - Pre-Bid Site Visit and Meeting Tuesday, 7 July 2026 10:30 Deadline for Clarification Questions Friday, 31 July 2026 16:00 Bid Submission Deadline W"
+        },
+        {
+          "label": "Pre-bid meeting",
+          "dateIso": "2026-07-31",
+          "raw": "Event Date Time (PKT) Issuance of Tender Document Friday, 12 June 2026 - Pre-Bid Site Visit and Meeting Tuesday, 7 July 2026 10:30 Deadline for Clarification Questions Friday, 31 July 2026 16:00 Bid Submission Deadline W"
+        },
+        {
+          "label": "Pre-bid meeting",
+          "dateIso": "2026-08-19",
+          "raw": "Event Date Time (PKT) Issuance of Tender Document Friday, 12 June 2026 - Pre-Bid Site Visit and Meeting Tuesday, 7 July 2026 10:30 Deadline for Clarification Questions Friday, 31 July 2026 16:00 Bid Submission Deadline W"
+        },
+        {
+          "label": "Clarification questions",
+          "dateIso": "2026-07-31",
+          "raw": "Clarification questions must be emailed to tenders@nflc.com.pk no later than Friday, 31 July 2026 at 16:00 PKT."
+        },
+        {
+          "label": "Proposal submission",
+          "dateIso": "2026-08-19",
+          "raw": "Sealed bids must be delivered to the Tender Box at NFLC Head Office no later than Wednesday, 19 August 2026 at 11:00 hours Pakistan Standard Time (PKT); bids received after this deadline shall be returned unopened."
+        },
+        {
+          "label": "Bid validity",
+          "dateIso": "2026-11-17",
+          "raw": "Bids shall remain valid for ninety (90) days from the bid submission deadline, that is, up to and including Tuesday, 17 November 2026."
+        }
+      ],
+      "budget": [
+        {
+          "raw": "EC-3: The bidder must have completed, within the last eight (8) years, at least two (2) industrial or warehouse construction projects each of contract value not less than PKR 250 million, of which at least one must have ",
+          "currency": "PKR",
+          "amount": 250000000,
+          "amountUsd": 892857
+        },
+        {
+          "raw": "5.1 Estimated Cost The Engineer's estimated cost of the works is PKR 480,000,000 (Pakistani Rupees four hundred and eighty million only), equivalent to approximately USD 1.72 million.",
+          "currency": "PKR",
+          "amount": 480000000,
+          "amountUsd": 1714286
+        },
+        {
+          "raw": "5.1 Estimated Cost The Engineer's estimated cost of the works is PKR 480,000,000 (Pakistani Rupees four hundred and eighty million only), equivalent to approximately USD 1.72 million.",
+          "currency": "USD",
+          "amount": 1720000,
+          "amountUsd": 1720000
+        },
+        {
+          "raw": "CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES The contract shall be executed on the standard form of contract for admeasurement works adopted by the Employer, based on the PEC standard conditions. The successf",
+          "currency": "PKR",
+          "amount": 25000000,
+          "amountUsd": 89286
+        }
+      ],
+      "evaluationWeights": [
+        {
+          "criterion": "Relevant Construction Experience and Completion Record",
+          "weightPct": 25,
+          "raw": "Relevant Construction Experience and Completion Record 25"
+        },
+        {
+          "criterion": "Technical Staff, Plant and Equipment Capacity",
+          "weightPct": 15,
+          "raw": "Technical Staff, Plant and Equipment Capacity 15"
+        },
+        {
+          "criterion": "Construction Methodology and Programme",
+          "weightPct": 15,
+          "raw": "Construction Methodology and Programme 15"
+        },
+        {
+          "criterion": "Financial Soundness",
+          "weightPct": 10,
+          "raw": "Financial Soundness 10"
+        },
+        {
+          "criterion": "Bid Price",
+          "weightPct": 35,
+          "raw": "Bid Price 35"
+        }
+      ],
+      "bidSecurity": "EC-7: The bidder must furnish bid security equal to three percent (3%) of the bid price in the form of a bank guarantee or pay order from a scheduled bank of Pakistan.",
+      "contacts": [
+        "tenders@nflc.com.pk"
+      ]
+    },
+    "questions": [
+      {
+        "id": "Q-001",
+        "text": "Construction Methodology: Describe your overall construction methodology and sequencing for",
+        "section": "8. TECHNICAL QUESTIONNAIRE"
+      },
+      {
+        "id": "Q-002",
+        "text": "Refrigeration Plant: Describe the proposed refrigeration system design, including refrigerant selection",
+        "section": "8. TECHNICAL QUESTIONNAIRE"
+      },
+      {
+        "id": "Q-003",
+        "text": "HSE Management: Describe how your HSE management system will be applied on this site, including",
+        "section": "8. TECHNICAL QUESTIONNAIRE"
+      },
+      {
+        "id": "Q-004",
+        "text": "Quality Assurance and Materials Testing: Describe your quality management arrangements, including",
+        "section": "8. TECHNICAL QUESTIONNAIRE"
+      },
+      {
+        "id": "Q-005",
+        "text": "Resources and Programme: Provide a summary of the key plant and equipment you will mobilise, the",
+        "section": "8. TECHNICAL QUESTIONNAIRE"
+      }
+    ],
+    "aiMode": "heuristic"
+  },
+  "compliance": [
+    {
+      "requirementId": "R-001",
+      "requirement": {
+        "id": "R-001",
+        "text": "The contractor shall execute and complete the following principal components, in accordance with the drawings, technical specifications and bill of quantities issued with this tender:",
+        "kind": "technical",
+        "category": "general",
+        "section": "2.1 General Description"
+      },
+      "status": "partial",
+      "confidence": 0.548,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.148,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-002",
+          "title": "Land Records Digitization & Management Information System",
+          "score": 0.057,
+          "snippet": "Digitized 14.6 million rural land record documents (registers haqdaran-e-zameen, mutations, fard) using high-speed scanning, Urdu OCR and double-blind data entry, then built the land records MIS with "
+        },
+        {
+          "recordId": "CAP-026",
+          "title": "COVID-19 Vaccination Appointment & Certificate System",
+          "score": 0.057,
+          "snippet": "Delivered, under emergency timelines, a national vaccination appointment system with CNIC-based registration via web, SMS and call center, center capacity scheduling, dose tracking and QR-verifiable d"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration))."
+    },
+    {
+      "requirementId": "R-002",
+      "requirement": {
+        "id": "R-002",
+        "text": "The works shall be executed on a construct-only basis against the Employer's issued-for-construction drawings, except for the refrigeration plant and the pre-engineered steel building, for which the contractor shall provide detailed shop drawings and design calculations, prepared and stamped by a professional engineer registered with the Pakistan Engineering Council (PEC), for the Employer's approval prior to fabrication.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "2.2 Design Responsibility"
+      },
+      "status": "gap",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "recordId": "CAP-021",
+          "title": "Raast Instant Payments Integration for Commercial Bank",
+          "score": 0.071,
+          "snippet": "Integrated the bank's core and digital channels with Pakistan's Raast instant payment system covering P2P alias (RtP) payments, bulk disbursements and merchant P2M flows, with ISO 20022 message transf"
+        },
+        {
+          "recordId": "CAP-017",
+          "title": "Document Management & Workflow Automation for Energy Company",
+          "score": 0.064,
+          "snippet": "Deployed an enterprise document management system with records classification, retention schedules, full-text OCR search and workflow automation for correspondence, contracts and joint-venture approva"
+        },
+        {
+          "recordId": "CAP-004",
+          "title": "Civil Registration & Vital Statistics (CRVS) System",
+          "score": 0.062,
+          "snippet": "Implemented a province-wide civil registration system for birth, death, marriage and divorce events with union-council level data entry, NADRA integration for CNIC-linked family records and an offline"
+        }
+      ],
+      "note": "Missing certification(s): PEC. Consider partnering or pre-bid clarification."
+    },
+    {
+      "requirementId": "R-003",
+      "requirement": {
+        "id": "R-003",
+        "text": "The entire works shall be completed and handed over, tested and commissioned, within fourteen (14) months from the date of the Engineer's notice to commence.",
+        "kind": "technical",
+        "category": "general",
+        "section": "2.3 Completion Period"
+      },
+      "status": "gap",
+      "confidence": 0.493,
+      "evidence": [
+        {
+          "recordId": "CAP-012",
+          "title": "Core Banking Legacy Data Migration & Reconciliation",
+          "score": 0.093,
+          "snippet": "Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip"
+        },
+        {
+          "recordId": "CAP-011",
+          "title": "24/7 IT Service Desk & SLA Operations for Federal Ministry",
+          "score": 0.093,
+          "snippet": "Operated an ITIL v4-aligned 24/7 service desk and network operations center supporting 4,500 users across 60 sites, covering incident, problem, change and asset management with a CMDB and self-service"
+        },
+        {
+          "recordId": "CAP-049",
+          "title": "Campus MIS Implementation for Private University",
+          "score": 0.089,
+          "snippet": "Implemented our campus MIS product for a private university of 14,000 students, covering admissions with merit formula configuration, semester registration, examinations, fee installment plans and alu"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-004",
+      "requirement": {
+        "id": "R-004",
+        "text": "A detailed construction programme in Primavera P6 or Microsoft Project format shall be submitted within fourteen (14) days of the notice to commence and shall be updated monthly.",
+        "kind": "technical",
+        "category": "general",
+        "section": "2.3 Completion Period"
+      },
+      "status": "partial",
+      "confidence": 0.573,
+      "evidence": [
+        {
+          "recordId": "CAP-010",
+          "title": "ERP Implementation (Microsoft Dynamics 365 Finance & Operations)",
+          "score": 0.173,
+          "snippet": "Implemented Microsoft Dynamics 365 Finance & Operations across finance, supply chain, asset management and HR/payroll for a 9,000-employee utility, including chart-of-accounts redesign and data migrat"
+        },
+        {
+          "recordId": "CAP-039",
+          "title": "Dynamics 365 ERP Rollout for Textile Manufacturing Group",
+          "score": 0.097,
+          "snippet": "Leveraging our utility-sector ERP experience, implemented Microsoft Dynamics 365 Finance & Operations with production control, costing and export documentation for a vertically integrated textile grou"
+        },
+        {
+          "recordId": "CAP-001",
+          "title": "Punjab Citizen Facilitation Portal & Mobile App",
+          "score": 0.081,
+          "snippet": "Designed, developed and operated a bilingual Urdu/English citizen e-services portal and Android/iOS app offering 64 online services including domicile, birth certificates and fee payments. The portal "
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: ERP Implementation (Microsoft Dynamics 365 Finance & Operations))."
+    },
+    {
+      "requirementId": "R-005",
+      "requirement": {
+        "id": "R-005",
+        "text": "All materials shall conform to the technical specifications and to the relevant Pakistan Standards or, where no Pakistan Standard exists, to the applicable British or ASTM standards named in the specifications.",
+        "kind": "technical",
+        "category": "general",
+        "section": "2.4 Materials and Workmanship"
+      },
+      "status": "gap",
+      "confidence": 0.48400000000000004,
+      "evidence": [
+        {
+          "recordId": "CAP-039",
+          "title": "Dynamics 365 ERP Rollout for Textile Manufacturing Group",
+          "score": 0.084,
+          "snippet": "Leveraging our utility-sector ERP experience, implemented Microsoft Dynamics 365 Finance & Operations with production control, costing and export documentation for a vertically integrated textile grou"
+        },
+        {
+          "recordId": "CAP-021",
+          "title": "Raast Instant Payments Integration for Commercial Bank",
+          "score": 0.075,
+          "snippet": "Integrated the bank's core and digital channels with Pakistan's Raast instant payment system covering P2P alias (RtP) payments, bulk disbursements and merchant P2M flows, with ISO 20022 message transf"
+        },
+        {
+          "recordId": "CAP-026",
+          "title": "COVID-19 Vaccination Appointment & Certificate System",
+          "score": 0.043,
+          "snippet": "Delivered, under emergency timelines, a national vaccination appointment system with CNIC-based registration via web, SMS and call center, center capacity scheduling, dose tracking and QR-verifiable d"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-006",
+      "requirement": {
+        "id": "R-006",
+        "text": "Structural concrete shall be batched at an approved plant with cube testing at a site laboratory; reinforcement steel shall be Grade 60 deformed bars from an approved mill with mill test certificates for every consignment.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "2.4 Materials and Workmanship"
+      },
+      "status": "gap",
+      "confidence": 0.487,
+      "evidence": [
+        {
+          "recordId": "CAP-011",
+          "title": "24/7 IT Service Desk & SLA Operations for Federal Ministry",
+          "score": 0.087,
+          "snippet": "Operated an ITIL v4-aligned 24/7 service desk and network operations center supporting 4,500 users across 60 sites, covering incident, problem, change and asset management with a CMDB and self-service"
+        },
+        {
+          "recordId": "CAP-041",
+          "title": "Cybersecurity Assessment & ISO 27001 Readiness for Insurer",
+          "score": 0.078,
+          "snippet": "Repeat engagement applying our SOC and VAPT methodology for an insurer: penetration testing of 24 internet-facing applications, internal network assessment, and an ISO/IEC 27001:2022 gap assessment wi"
+        },
+        {
+          "recordId": "CAP-026",
+          "title": "COVID-19 Vaccination Appointment & Certificate System",
+          "score": 0.065,
+          "snippet": "Delivered, under emergency timelines, a national vaccination appointment system with CNIC-based registration via web, SMS and call center, center capacity scheduling, dose tracking and QR-verifiable d"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-007",
+      "requirement": {
+        "id": "R-007",
+        "text": "PUF insulated panels shall carry factory test certificates for density, thermal conductivity and fire classification.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "2.4 Materials and Workmanship"
+      },
+      "status": "gap",
+      "confidence": 0.498,
+      "evidence": [
+        {
+          "recordId": "CAP-026",
+          "title": "COVID-19 Vaccination Appointment & Certificate System",
+          "score": 0.098,
+          "snippet": "Delivered, under emergency timelines, a national vaccination appointment system with CNIC-based registration via web, SMS and call center, center capacity scheduling, dose tracking and QR-verifiable d"
+        },
+        {
+          "recordId": "CAP-004",
+          "title": "Civil Registration & Vital Statistics (CRVS) System",
+          "score": 0.084,
+          "snippet": "Implemented a province-wide civil registration system for birth, death, marriage and divorce events with union-council level data entry, NADRA integration for CNIC-linked family records and an offline"
+        },
+        {
+          "recordId": "CAP-017",
+          "title": "Document Management & Workflow Automation for Energy Company",
+          "score": 0.082,
+          "snippet": "Deployed an enterprise document management system with records classification, retention schedules, full-text OCR search and workflow automation for correspondence, contracts and joint-venture approva"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-008",
+      "requirement": {
+        "id": "R-008",
+        "text": "The contractor shall submit material approval requests, with samples where required, at least fourteen (14) days before intended use, and no material shall be incorporated in the works without the Engineer's written approval.",
+        "kind": "technical",
+        "category": "legal",
+        "section": "2.4 Materials and Workmanship"
+      },
+      "status": "partial",
+      "confidence": 0.548,
+      "evidence": [
+        {
+          "recordId": "CAP-017",
+          "title": "Document Management & Workflow Automation for Energy Company",
+          "score": 0.148,
+          "snippet": "Deployed an enterprise document management system with records classification, retention schedules, full-text OCR search and workflow automation for correspondence, contracts and joint-venture approva"
+        },
+        {
+          "recordId": "CAP-022",
+          "title": "Loan Origination & Credit Scoring System",
+          "score": 0.125,
+          "snippet": "Implemented a digital loan origination system for group and individual microloans covering field-officer tablet onboarding, credit bureau (eCIB) checks, configurable credit-scoring scorecards and disb"
+        },
+        {
+          "recordId": "CAP-012",
+          "title": "Core Banking Legacy Data Migration & Reconciliation",
+          "score": 0.076,
+          "snippet": "Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Document Management & Workflow Automation for Energy Company)."
+    },
+    {
+      "requirementId": "R-009",
+      "requirement": {
+        "id": "R-009",
+        "text": "Bidders must satisfy all of the following mandatory requirements.",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "gap",
+      "confidence": 0.48300000000000004,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.083,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-020",
+          "title": "Mobile Wallet Application for Electronic Money Institution",
+          "score": 0.082,
+          "snippet": "Designed and built a consumer mobile wallet app (Android/iOS) with digital onboarding via NADRA e-KYC and liveness detection, P2P transfers, QR merchant payments (RAAST P2M ready), mobile top-ups, bil"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-010",
+      "requirement": {
+        "id": "R-010",
+        "text": "Non-compliance with any requirement shall render the bid non-responsive:",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "partial",
+      "confidence": 0.54,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.14,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-020",
+          "title": "Mobile Wallet Application for Electronic Money Institution",
+          "score": 0.082,
+          "snippet": "Designed and built a consumer mobile wallet app (Android/iOS) with digital onboarding via NADRA e-KYC and liveness detection, P2P transfers, QR merchant payments (RAAST P2M ready), mobile top-ups, bil"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration))."
+    },
+    {
+      "requirementId": "R-011",
+      "requirement": {
+        "id": "R-011",
+        "text": "EC-1: The bidder must hold a valid constructor licence issued by the Pakistan Engineering Council (PEC) in category C-2 or above, with the licence valid for the year 2026 and covering the relevant specialisation codes (CE-01 civil works and ME-05 HVACR). PEC licence category C-2 is mandatory; bids submitted by firms licensed below category C-2 shall be rejected.",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "gap",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "recordId": "CAP-004",
+          "title": "Civil Registration & Vital Statistics (CRVS) System",
+          "score": 0.127,
+          "snippet": "Implemented a province-wide civil registration system for birth, death, marriage and divorce events with union-council level data entry, NADRA integration for CNIC-linked family records and an offline"
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.091,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-021",
+          "title": "Raast Instant Payments Integration for Commercial Bank",
+          "score": 0.062,
+          "snippet": "Integrated the bank's core and digital channels with Pakistan's Raast instant payment system covering P2P alias (RtP) payments, bulk disbursements and merchant P2M flows, with ISO 20022 message transf"
+        }
+      ],
+      "note": "Missing certification(s): PEC. Consider partnering or pre-bid clarification."
+    },
+    {
+      "requirementId": "R-012",
+      "requirement": {
+        "id": "R-012",
+        "text": "EC-2: The bidder must be registered with the Securities and Exchange Commission of Pakistan or the Registrar of Firms, and with the Federal Board of Revenue (NTN and STRN), and must appear on the Active Taxpayers List.",
+        "kind": "mandatory",
+        "category": "legal",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "pass",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "recordId": "CAP-006",
+          "title": "Online Tax Filing & Revenue Collection Portal",
+          "score": 0.161,
+          "snippet": "Replaced manual sales-tax-on-services filing with an online portal for taxpayer registration, e-filing of monthly returns, e-payments via 1Link/ADC channels and risk-based audit case selection. Built "
+        },
+        {
+          "recordId": "CAP-038",
+          "title": "Inland Revenue e-Filing Portal — Azad Jammu & Kashmir",
+          "score": 0.122,
+          "snippet": "Deployed a tailored instance of our revenue-collection platform for the AJK Inland Revenue Department, covering taxpayer registration, sales-tax e-filing, e-payments and arrears management with a bili"
+        },
+        {
+          "recordId": "CAP-016",
+          "title": "HR Management Information System for Federal Workforce",
+          "score": 0.116,
+          "snippet": "Built a centralized HRMIS managing service records, postings/transfers, promotions, leave and seniority lists for 28,000 federal civil servants, digitizing 1.4 million pages of legacy service books wi"
+        }
+      ],
+      "note": "Registered with SECP, FBR; certificates available."
+    },
+    {
+      "requirementId": "R-013",
+      "requirement": {
+        "id": "R-013",
+        "text": "EC-3: The bidder must have completed, within the last eight (8) years, at least two (2) industrial or warehouse construction projects each of contract value not less than PKR 250 million, of which at least one must have included cold storage or industrial refrigeration works. Completion certificates from the employers concerned must be enclosed.",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "partial",
+      "confidence": 0.52,
+      "evidence": [
+        {
+          "recordId": "CAP-028",
+          "title": "Warehouse Management System for FMCG Distributor",
+          "score": 0.12,
+          "snippet": "Implemented a warehouse management system across five distribution centers with barcode-driven receiving, putaway, wave picking, batch/expiry (FEFO) control and cycle counting on Android handheld term"
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.103,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-012",
+          "title": "Core Banking Legacy Data Migration & Reconciliation",
+          "score": 0.094,
+          "snippet": "Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Warehouse Management System for FMCG Distributor)."
+    },
+    {
+      "requirementId": "R-014",
+      "requirement": {
+        "id": "R-014",
+        "text": "EC-4: The bidder must have an average annual construction turnover of not less than PKR 400 million over the last three (3) audited financial years, supported by audited financial statements.",
+        "kind": "mandatory",
+        "category": "financial",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "pass",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "recordId": "CAP-004",
+          "title": "Civil Registration & Vital Statistics (CRVS) System",
+          "score": 0.097,
+          "snippet": "Implemented a province-wide civil registration system for birth, death, marriage and divorce events with union-council level data entry, NADRA integration for CNIC-linked family records and an offline"
+        },
+        {
+          "recordId": "CAP-006",
+          "title": "Online Tax Filing & Revenue Collection Portal",
+          "score": 0.079,
+          "snippet": "Replaced manual sales-tax-on-services filing with an online portal for taxpayer registration, e-filing of monthly returns, e-payments via 1Link/ADC channels and risk-based audit case selection. Built "
+        },
+        {
+          "recordId": "CAP-010",
+          "title": "ERP Implementation (Microsoft Dynamics 365 Finance & Operations)",
+          "score": 0.068,
+          "snippet": "Implemented Microsoft Dynamics 365 Finance & Operations across finance, supply chain, asset management and HR/payroll for a 9,000-employee utility, including chart-of-accounts redesign and data migrat"
+        }
+      ],
+      "note": "Average annual turnover ≈ USD 1600k meets the ≈ USD 1429k threshold."
+    },
+    {
+      "requirementId": "R-015",
+      "requirement": {
+        "id": "R-015",
+        "text": "EC-5: The bidder must demonstrate access to liquid assets or unconditional credit lines of not less than PKR 80 million, supported by a bank certificate issued not earlier than thirty (30) days before the bid submission deadline.",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "partial",
+      "confidence": 0.528,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.128,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-002",
+          "title": "Land Records Digitization & Management Information System",
+          "score": 0.098,
+          "snippet": "Digitized 14.6 million rural land record documents (registers haqdaran-e-zameen, mutations, fard) using high-speed scanning, Urdu OCR and double-blind data entry, then built the land records MIS with "
+        },
+        {
+          "recordId": "CAP-022",
+          "title": "Loan Origination & Credit Scoring System",
+          "score": 0.076,
+          "snippet": "Implemented a digital loan origination system for group and individual microloans covering field-officer tablet onboarding, credit bureau (eCIB) checks, configurable credit-scoring scorecards and disb"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration))."
+    },
+    {
+      "requirementId": "R-016",
+      "requirement": {
+        "id": "R-016",
+        "text": "EC-6: The bidder must submit an affidavit that it is not blacklisted or debarred by any federal, provincial or local government department, autonomous body or public sector organisation in Pakistan.",
+        "kind": "mandatory",
+        "category": "legal",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "pass",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "recordId": "CAP-036",
+          "title": "Federal e-Procurement System Enhancement & Rollout",
+          "score": 0.114,
+          "snippet": "National-scale follow-on to our provincial e-procurement build: enhanced the federal e-procurement platform with framework agreements, reverse auctions, supplier performance scoring and open-contracti"
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.09,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-004",
+          "title": "Civil Registration & Vital Statistics (CRVS) System",
+          "score": 0.088,
+          "snippet": "Implemented a province-wide civil registration system for birth, death, marriage and divorce events with union-council level data entry, NADRA integration for CNIC-linked family records and an offline"
+        }
+      ],
+      "note": "Not blacklisted; affidavit can be furnished on stamp paper."
+    },
+    {
+      "requirementId": "R-017",
+      "requirement": {
+        "id": "R-017",
+        "text": "EC-7: The bidder must furnish bid security equal to three percent (3%) of the bid price in the form of a bank guarantee or pay order from a scheduled bank of Pakistan.",
+        "kind": "mandatory",
+        "category": "financial",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "pass",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.145,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-043",
+          "title": "E-Commerce Payment Gateway Integration for Retail Group",
+          "score": 0.086,
+          "snippet": "Repeat application of our payment-gateway middleware for a retail group's e-commerce platforms: card-not-present acquiring integration with two acquiring banks, wallet and BNPL payment options, 3-D Se"
+        },
+        {
+          "recordId": "CAP-021",
+          "title": "Raast Instant Payments Integration for Commercial Bank",
+          "score": 0.083,
+          "snippet": "Integrated the bank's core and digital channels with Pakistan's Raast instant payment system covering P2P alias (RtP) payments, bulk disbursements and merchant P2M flows, with ISO 20022 message transf"
+        }
+      ],
+      "note": "Bid security is a submission commitment — bank guarantee/pay order to be arranged before the deadline."
+    },
+    {
+      "requirementId": "R-018",
+      "requirement": {
+        "id": "R-018",
+        "text": "EC-8: The bidder shall deploy a full-time site agent who is a PEC-registered professional civil engineer with at least ten (10) years of post-registration experience in industrial building construction, supported by a PEC-registered mechanical engineer with at least seven (7) years of experience in refrigeration and HVAC installations. CVs, PEC registration numbers and undertakings of availability must be submitted with the bid.",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "gap",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.114,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-004",
+          "title": "Civil Registration & Vital Statistics (CRVS) System",
+          "score": 0.089,
+          "snippet": "Implemented a province-wide civil registration system for birth, death, marriage and divorce events with union-council level data entry, NADRA integration for CNIC-linked family records and an offline"
+        },
+        {
+          "recordId": "CAP-011",
+          "title": "24/7 IT Service Desk & SLA Operations for Federal Ministry",
+          "score": 0.085,
+          "snippet": "Operated an ITIL v4-aligned 24/7 service desk and network operations center supporting 4,500 users across 60 sites, covering incident, problem, change and asset management with a CMDB and self-service"
+        }
+      ],
+      "note": "Missing certification(s): PEC. Consider partnering or pre-bid clarification."
+    },
+    {
+      "requirementId": "R-019",
+      "requirement": {
+        "id": "R-019",
+        "text": "EC-9: The bidder must have a documented health, safety and environment (HSE) management system;",
+        "kind": "mandatory",
+        "category": "technical",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "gap",
+      "confidence": 0.48300000000000004,
+      "evidence": [
+        {
+          "recordId": "CAP-025",
+          "title": "District Health Dashboards on DHIS2",
+          "score": 0.083,
+          "snippet": "Customized and scaled the DHIS2 health information platform for province-wide reporting across 1,900 facilities, building district performance dashboards for immunization coverage, maternal health and"
+        },
+        {
+          "recordId": "CAP-012",
+          "title": "Core Banking Legacy Data Migration & Reconciliation",
+          "score": 0.072,
+          "snippet": "Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip"
+        },
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.071,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-020",
+      "requirement": {
+        "id": "R-020",
+        "text": "ISO 45001 certification or an equivalent third-party-audited HSE system is mandatory.",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "3. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "gap",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "recordId": "CAP-021",
+          "title": "Raast Instant Payments Integration for Commercial Bank",
+          "score": 0.176,
+          "snippet": "Integrated the bank's core and digital channels with Pakistan's Raast instant payment system covering P2P alias (RtP) payments, bulk disbursements and merchant P2M flows, with ISO 20022 message transf"
+        },
+        {
+          "recordId": "CAP-050",
+          "title": "Online Examination & Certification Platform for Banking Institute",
+          "score": 0.145,
+          "snippet": "Extended our LMS experience to a professional certification body: secure online examination platform with randomized question banks, browser lockdown and AI-assisted webcam proctoring flags, plus auto"
+        },
+        {
+          "recordId": "CAP-013",
+          "title": "Cybersecurity Assessment, VAPT & SOC Establishment",
+          "score": 0.142,
+          "snippet": "Conducted enterprise-wide vulnerability assessment and penetration testing (external, internal, web and mobile) across 70 applications and 900 hosts, then designed and stood up a security operations c"
+        }
+      ],
+      "note": "Missing certification(s): ISO 45001. Consider partnering or pre-bid clarification."
+    },
+    {
+      "requirementId": "R-021",
+      "requirement": {
+        "id": "R-021",
+        "text": "Event Date Time (PKT) Issuance of Tender Document Friday, 12 June 2026 - Pre-Bid Site Visit and Meeting Tuesday, 7 July 2026 10:30 Deadline for Clarification Questions Friday, 31 July 2026 16:00 Bid Submission Deadline Wednesday, 19 August 2026 11:00 Public Opening of Bids Wednesday, 19 August 2026 11:30 A pre-bid site visit and meeting shall be held on Tuesday, 7 July 2026 at 10:30 PKT, assembling at the NFLC Regional Office, Southern Regional Logistics Park.",
+        "kind": "technical",
+        "category": "general",
+        "section": "4. KEY DATES"
+      },
+      "status": "partial",
+      "confidence": 0.547,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.147,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.124,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        },
+        {
+          "recordId": "CAP-017",
+          "title": "Document Management & Workflow Automation for Energy Company",
+          "score": 0.114,
+          "snippet": "Deployed an enterprise document management system with records classification, retention schedules, full-text OCR search and workflow automation for correspondence, contracts and joint-venture approva"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration))."
+    },
+    {
+      "requirementId": "R-022",
+      "requirement": {
+        "id": "R-022",
+        "text": "bidders shall be deemed to have inspected the site and satisfied themselves as to ground conditions, access and utilities.",
+        "kind": "technical",
+        "category": "general",
+        "section": "4. KEY DATES"
+      },
+      "status": "gap",
+      "confidence": 0.47600000000000003,
+      "evidence": [
+        {
+          "recordId": "CAP-011",
+          "title": "24/7 IT Service Desk & SLA Operations for Federal Ministry",
+          "score": 0.076,
+          "snippet": "Operated an ITIL v4-aligned 24/7 service desk and network operations center supporting 4,500 users across 60 sites, covering incident, problem, change and asset management with a CMDB and self-service"
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.071,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-023",
+          "title": "Hospital Management Information System (HMIS) for Teaching Hospital",
+          "score": 0.054,
+          "snippet": "Implemented an integrated HMIS covering OPD/IPD registration, electronic medical records, laboratory (LIS) and radiology (RIS/PACS integration), pharmacy stock, billing and blood bank for a 600-bed te"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-023",
+      "requirement": {
+        "id": "R-023",
+        "text": "Clarification questions must be emailed to tenders@nflc.com.pk no later than Friday, 31 July 2026 at 16:00 PKT.",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "4. KEY DATES"
+      },
+      "status": "partial",
+      "confidence": 0.575,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.175,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-050",
+          "title": "Online Examination & Certification Platform for Banking Institute",
+          "score": 0.139,
+          "snippet": "Extended our LMS experience to a professional certification body: secure online examination platform with randomized question banks, browser lockdown and AI-assisted webcam proctoring flags, plus auto"
+        },
+        {
+          "recordId": "CAP-036",
+          "title": "Federal e-Procurement System Enhancement & Rollout",
+          "score": 0.068,
+          "snippet": "National-scale follow-on to our provincial e-procurement build: enhanced the federal e-procurement platform with framework agreements, reverse auctions, supplier performance scoring and open-contracti"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration))."
+    },
+    {
+      "requirementId": "R-024",
+      "requirement": {
+        "id": "R-024",
+        "text": "Bids shall be opened publicly the same day at 11:30 PKT in the presence of bidders' representatives who choose to attend.",
+        "kind": "technical",
+        "category": "general",
+        "section": "4. KEY DATES"
+      },
+      "status": "partial",
+      "confidence": 0.513,
+      "evidence": [
+        {
+          "recordId": "CAP-029",
+          "title": "Route Optimization Engine for LPG Distribution",
+          "score": 0.113,
+          "snippet": "Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver "
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.107,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-012",
+          "title": "Core Banking Legacy Data Migration & Reconciliation",
+          "score": 0.045,
+          "snippet": "Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Route Optimization Engine for LPG Distribution)."
+    },
+    {
+      "requirementId": "R-025",
+      "requirement": {
+        "id": "R-025",
+        "text": "The estimate is provided for information; bids shall be evaluated against the bill of quantities rates quoted by the bidder.",
+        "kind": "technical",
+        "category": "general",
+        "section": "5.1 Estimated Cost"
+      },
+      "status": "partial",
+      "confidence": 0.502,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.102,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-021",
+          "title": "Raast Instant Payments Integration for Commercial Bank",
+          "score": 0.079,
+          "snippet": "Integrated the bank's core and digital channels with Pakistan's Raast instant payment system covering P2P alias (RtP) payments, bulk disbursements and merchant P2M flows, with ISO 20022 message transf"
+        },
+        {
+          "recordId": "CAP-018",
+          "title": "Payment Gateway Integration & Switching Middleware",
+          "score": 0.07,
+          "snippet": "Built ISO 8583 switching middleware connecting the bank's core banking system to 1Link and interbank payment rails, enabling ATM acquiring, IBFT, utility bill payments and card-not-present e-commerce "
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration))."
+    },
+    {
+      "requirementId": "R-026",
+      "requirement": {
+        "id": "R-026",
+        "text": "The contract shall be admeasurement-based; quantities are provisional and payment shall be made against measured work at quoted unit rates.",
+        "kind": "technical",
+        "category": "general",
+        "section": "5.2 Bill of Quantities Structure"
+      },
+      "status": "partial",
+      "confidence": 0.52,
+      "evidence": [
+        {
+          "recordId": "CAP-021",
+          "title": "Raast Instant Payments Integration for Commercial Bank",
+          "score": 0.12,
+          "snippet": "Integrated the bank's core and digital channels with Pakistan's Raast instant payment system covering P2P alias (RtP) payments, bulk disbursements and merchant P2M flows, with ISO 20022 message transf"
+        },
+        {
+          "recordId": "CAP-018",
+          "title": "Payment Gateway Integration & Switching Middleware",
+          "score": 0.07,
+          "snippet": "Built ISO 8583 switching middleware connecting the bank's core banking system to 1Link and interbank payment rails, enabling ATM acquiring, IBFT, utility bill payments and card-not-present e-commerce "
+        },
+        {
+          "recordId": "CAP-043",
+          "title": "E-Commerce Payment Gateway Integration for Retail Group",
+          "score": 0.068,
+          "snippet": "Repeat application of our payment-gateway middleware for a retail group's e-commerce platforms: card-not-present acquiring integration with two acquiring banks, wallet and BNPL payment options, 3-D Se"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Raast Instant Payments Integration for Commercial Bank)."
+    },
+    {
+      "requirementId": "R-027",
+      "requirement": {
+        "id": "R-027",
+        "text": "A price adjustment formula for steel, cement and fuel, as set out in the conditions of contract, shall apply after the sixth month.",
+        "kind": "technical",
+        "category": "general",
+        "section": "5.2 Bill of Quantities Structure"
+      },
+      "status": "gap",
+      "confidence": 0.48400000000000004,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.084,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-032",
+          "title": "Provincial Learning Management System & Teacher Training",
+          "score": 0.082,
+          "snippet": "Rolled out a Moodle-based learning management system serving 600,000 students with curriculum-aligned digital content in Urdu and English, low-bandwidth streaming profiles and SMS-based parent notific"
+        },
+        {
+          "recordId": "CAP-049",
+          "title": "Campus MIS Implementation for Private University",
+          "score": 0.063,
+          "snippet": "Implemented our campus MIS product for a private university of 14,000 students, covering admissions with merit formula configuration, semester registration, examinations, fee installment plans and alu"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-028",
+      "requirement": {
+        "id": "R-028",
+        "text": "The contractor shall implement a site-specific HSE plan, which must be submitted within fourteen (14) days of the notice to commence and approved by the Engineer before mobilisation of major plant.",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "6. HEALTH, SAFETY AND ENVIRONMENT REQUIREMENTS"
+      },
+      "status": "gap",
+      "confidence": 0.48100000000000004,
+      "evidence": [
+        {
+          "recordId": "CAP-049",
+          "title": "Campus MIS Implementation for Private University",
+          "score": 0.081,
+          "snippet": "Implemented our campus MIS product for a private university of 14,000 students, covering admissions with merit formula configuration, semester registration, examinations, fee installment plans and alu"
+        },
+        {
+          "recordId": "CAP-001",
+          "title": "Punjab Citizen Facilitation Portal & Mobile App",
+          "score": 0.065,
+          "snippet": "Designed, developed and operated a bilingual Urdu/English citizen e-services portal and Android/iOS app offering 64 online services including domicile, birth certificates and fee payments. The portal "
+        },
+        {
+          "recordId": "CAP-041",
+          "title": "Cybersecurity Assessment & ISO 27001 Readiness for Insurer",
+          "score": 0.061,
+          "snippet": "Repeat engagement applying our SOC and VAPT methodology for an insurer: penetration testing of 24 internet-facing applications, internal network assessment, and an ISO/IEC 27001:2022 gap assessment wi"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-029",
+      "requirement": {
+        "id": "R-029",
+        "text": "The HSE plan shall address, at a minimum: scaffolding and work at height; lifting operations and crane management; confined space entry; ammonia handling and refrigerant safety during charging and commissioning; hot works and welding; electrical safety and lock-out tag-out; dust and noise control; waste management; and emergency response.",
+        "kind": "technical",
+        "category": "general",
+        "section": "6. HEALTH, SAFETY AND ENVIRONMENT REQUIREMENTS"
+      },
+      "status": "partial",
+      "confidence": 0.512,
+      "evidence": [
+        {
+          "recordId": "CAP-047",
+          "title": "Ambulance Fleet Tracking & Dispatch for Emergency Service",
+          "score": 0.112,
+          "snippet": "Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit"
+        },
+        {
+          "recordId": "CAP-012",
+          "title": "Core Banking Legacy Data Migration & Reconciliation",
+          "score": 0.093,
+          "snippet": "Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip"
+        },
+        {
+          "recordId": "CAP-028",
+          "title": "Warehouse Management System for FMCG Distributor",
+          "score": 0.085,
+          "snippet": "Implemented a warehouse management system across five distribution centers with barcode-driven receiving, putaway, wave picking, batch/expiry (FEFO) control and cycle counting on Android handheld term"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Ambulance Fleet Tracking & Dispatch for Emergency Service)."
+    },
+    {
+      "requirementId": "R-030",
+      "requirement": {
+        "id": "R-030",
+        "text": "The contractor shall deploy a full-time qualified HSE officer for the duration of the works, shall conduct daily toolbox talks, and shall report all incidents, including near misses, within twenty-four (24) hours.",
+        "kind": "technical",
+        "category": "general",
+        "section": "6. HEALTH, SAFETY AND ENVIRONMENT REQUIREMENTS"
+      },
+      "status": "gap",
+      "confidence": 0.499,
+      "evidence": [
+        {
+          "recordId": "CAP-012",
+          "title": "Core Banking Legacy Data Migration & Reconciliation",
+          "score": 0.099,
+          "snippet": "Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip"
+        },
+        {
+          "recordId": "CAP-025",
+          "title": "District Health Dashboards on DHIS2",
+          "score": 0.071,
+          "snippet": "Customized and scaled the DHIS2 health information platform for province-wide reporting across 1,900 facilities, building district performance dashboards for immunization coverage, maternal health and"
+        },
+        {
+          "recordId": "CAP-018",
+          "title": "Payment Gateway Integration & Switching Middleware",
+          "score": 0.066,
+          "snippet": "Built ISO 8583 switching middleware connecting the bank's core banking system to 1Link and interbank payment rails, enabling ATM acquiring, IBFT, utility bill payments and card-not-present e-commerce "
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-031",
+      "requirement": {
+        "id": "R-031",
+        "text": "The Employer operates a zero-fatality policy; any fatal accident attributable to contractor negligence shall constitute grounds for termination.",
+        "kind": "technical",
+        "category": "general",
+        "section": "6. HEALTH, SAFETY AND ENVIRONMENT REQUIREMENTS"
+      },
+      "status": "gap",
+      "confidence": 0.496,
+      "evidence": [
+        {
+          "recordId": "CAP-041",
+          "title": "Cybersecurity Assessment & ISO 27001 Readiness for Insurer",
+          "score": 0.096,
+          "snippet": "Repeat engagement applying our SOC and VAPT methodology for an insurer: penetration testing of 24 internet-facing applications, internal network assessment, and an ISO/IEC 27001:2022 gap assessment wi"
+        },
+        {
+          "recordId": "CAP-006",
+          "title": "Online Tax Filing & Revenue Collection Portal",
+          "score": 0.069,
+          "snippet": "Replaced manual sales-tax-on-services filing with an online portal for taxpayer registration, e-filing of monthly returns, e-payments via 1Link/ADC channels and risk-based audit case selection. Built "
+        },
+        {
+          "recordId": "CAP-040",
+          "title": "24/7 Managed NOC & Service Desk for Commercial Bank",
+          "score": 0.068,
+          "snippet": "Multi-year managed services contract building on our federal service-desk operation: 24/7 NOC and service desk for a bank's 280-branch network, ATM estate monitoring and core-banking batch oversight, "
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-032",
+      "requirement": {
+        "id": "R-032",
+        "text": "All workers shall be provided with personal protective equipment and shall be covered under workmen's compensation insurance.",
+        "kind": "technical",
+        "category": "general",
+        "section": "6. HEALTH, SAFETY AND ENVIRONMENT REQUIREMENTS"
+      },
+      "status": "gap",
+      "confidence": 0.499,
+      "evidence": [
+        {
+          "recordId": "CAP-041",
+          "title": "Cybersecurity Assessment & ISO 27001 Readiness for Insurer",
+          "score": 0.099,
+          "snippet": "Repeat engagement applying our SOC and VAPT methodology for an insurer: penetration testing of 24 internet-facing applications, internal network assessment, and an ISO/IEC 27001:2022 gap assessment wi"
+        },
+        {
+          "recordId": "CAP-028",
+          "title": "Warehouse Management System for FMCG Distributor",
+          "score": 0.063,
+          "snippet": "Implemented a warehouse management system across five distribution centers with barcode-driven receiving, putaway, wave picking, batch/expiry (FEFO) control and cycle counting on Android handheld term"
+        },
+        {
+          "recordId": "CAP-037",
+          "title": "Vehicle Registration & Excise Management System",
+          "score": 0.061,
+          "snippet": "Adapted our license-management platform for motor vehicle registration, transfer and token tax collection across 30 excise offices, with biometric owner verification, online tax calculators and doorst"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-033",
+      "requirement": {
+        "id": "R-033",
+        "text": "Monthly HSE statistics shall be appended to each interim payment certificate.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "6. HEALTH, SAFETY AND ENVIRONMENT REQUIREMENTS"
+      },
+      "status": "partial",
+      "confidence": 0.573,
+      "evidence": [
+        {
+          "recordId": "CAP-004",
+          "title": "Civil Registration & Vital Statistics (CRVS) System",
+          "score": 0.173,
+          "snippet": "Implemented a province-wide civil registration system for birth, death, marriage and divorce events with union-council level data entry, NADRA integration for CNIC-linked family records and an offline"
+        },
+        {
+          "recordId": "CAP-026",
+          "title": "COVID-19 Vaccination Appointment & Certificate System",
+          "score": 0.102,
+          "snippet": "Delivered, under emergency timelines, a national vaccination appointment system with CNIC-based registration via web, SMS and call center, center capacity scheduling, dose tracking and QR-verifiable d"
+        },
+        {
+          "recordId": "CAP-007",
+          "title": "Federal Pension Disbursement Automation System",
+          "score": 0.085,
+          "snippet": "Automated pension case processing, sanction workflows and monthly disbursement for 310,000 federal pensioners, replacing paper files with a document-managed digital case file and direct-credit payment"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Civil Registration & Vital Statistics (CRVS) System)."
+    },
+    {
+      "requirementId": "R-034",
+      "requirement": {
+        "id": "R-034",
+        "text": "Bids shall first be screened against the mandatory eligibility criteria in Section 3.",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "7. EVALUATION CRITERIA"
+      },
+      "status": "partial",
+      "confidence": 0.514,
+      "evidence": [
+        {
+          "recordId": "CAP-021",
+          "title": "Raast Instant Payments Integration for Commercial Bank",
+          "score": 0.114,
+          "snippet": "Integrated the bank's core and digital channels with Pakistan's Raast instant payment system covering P2P alias (RtP) payments, bulk disbursements and merchant P2M flows, with ISO 20022 message transf"
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.105,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-038",
+          "title": "Inland Revenue e-Filing Portal — Azad Jammu & Kashmir",
+          "score": 0.034,
+          "snippet": "Deployed a tailored instance of our revenue-collection platform for the AJK Inland Revenue Department, covering taxpayer registration, sales-tax e-filing, e-payments and arrears management with a bili"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Raast Instant Payments Integration for Commercial Bank)."
+    },
+    {
+      "requirementId": "R-035",
+      "requirement": {
+        "id": "R-035",
+        "text": "Responsive bids shall then be scored against the following criteria; the contract shall be awarded to the highest-scoring responsive bidder: Evaluation Criterion Weight (Points) Relevant Construction Experience and Completion Record 25 Technical Staff, Plant and Equipment Capacity 15 Construction Methodology and Programme 15 Financial Soundness 10 Bid Price 35 Total 100 A minimum score of forty (40) points out of the sixty-five (65) non-price points is required for the bid price to be evaluated.",
+        "kind": "scored",
+        "category": "experience",
+        "section": "7. EVALUATION CRITERIA"
+      },
+      "status": "partial",
+      "confidence": 0.5800000000000001,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.18,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-031",
+          "title": "University Management Information System (Campus MIS)",
+          "score": 0.101,
+          "snippet": "Implemented an integrated campus MIS covering online admissions, course registration, timetabling, examinations and transcripts, student fee management and HR/payroll for a university of 32,000 studen"
+        },
+        {
+          "recordId": "CAP-044",
+          "title": "G2P Digital Disbursement Platform for Social Protection Program",
+          "score": 0.072,
+          "snippet": "Extended our branchless-banking platform experience to government-to-person payments: a disbursement management system pushing quarterly cash-transfer payments to 6 million beneficiaries through bank,"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration))."
+    },
+    {
+      "requirementId": "R-036",
+      "requirement": {
+        "id": "R-036",
+        "text": "The lowest evaluated bid price shall receive the full 35 points; other bids shall receive points in inverse proportion to their evaluated price.",
+        "kind": "scored",
+        "category": "general",
+        "section": "7. EVALUATION CRITERIA"
+      },
+      "status": "partial",
+      "confidence": 0.525,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.125,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-040",
+          "title": "24/7 Managed NOC & Service Desk for Commercial Bank",
+          "score": 0.066,
+          "snippet": "Multi-year managed services contract building on our federal service-desk operation: 24/7 NOC and service desk for a bank's 280-branch network, ATM estate monitoring and core-banking batch oversight, "
+        },
+        {
+          "recordId": "CAP-044",
+          "title": "G2P Digital Disbursement Platform for Social Protection Program",
+          "score": 0.058,
+          "snippet": "Extended our branchless-banking platform experience to government-to-person payments: a disbursement management system pushing quarterly cash-transfer payments to 6 million beneficiaries through bank,"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration))."
+    },
+    {
+      "requirementId": "R-037",
+      "requirement": {
+        "id": "R-037",
+        "text": "Bidders shall provide written answers to the following questions as part of their technical submission.",
+        "kind": "technical",
+        "category": "general",
+        "section": "8. TECHNICAL QUESTIONNAIRE"
+      },
+      "status": "gap",
+      "confidence": 0.491,
+      "evidence": [
+        {
+          "recordId": "CAP-050",
+          "title": "Online Examination & Certification Platform for Banking Institute",
+          "score": 0.091,
+          "snippet": "Extended our LMS experience to a professional certification body: secure online examination platform with randomized question banks, browser lockdown and AI-assisted webcam proctoring flags, plus auto"
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.09,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-023",
+          "title": "Hospital Management Information System (HMIS) for Teaching Hospital",
+          "score": 0.053,
+          "snippet": "Implemented an integrated HMIS covering OPD/IPD registration, electronic medical records, laboratory (LIS) and radiology (RIS/PACS integration), pharmacy stock, billing and blood bank for a 600-bed te"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-038",
+      "requirement": {
+        "id": "R-038",
+        "text": "Each answer shall not exceed two (2) pages:",
+        "kind": "technical",
+        "category": "general",
+        "section": "8. TECHNICAL QUESTIONNAIRE"
+      },
+      "status": "gap",
+      "confidence": 0.49,
+      "evidence": [
+        {
+          "recordId": "CAP-016",
+          "title": "HR Management Information System for Federal Workforce",
+          "score": 0.09,
+          "snippet": "Built a centralized HRMIS managing service records, postings/transfers, promotions, leave and seniority lists for 28,000 federal civil servants, digitizing 1.4 million pages of legacy service books wi"
+        },
+        {
+          "recordId": "CAP-040",
+          "title": "24/7 Managed NOC & Service Desk for Commercial Bank",
+          "score": 0.084,
+          "snippet": "Multi-year managed services contract building on our federal service-desk operation: 24/7 NOC and service desk for a bank's 280-branch network, ATM estate monitoring and core-banking batch oversight, "
+        },
+        {
+          "recordId": "CAP-018",
+          "title": "Payment Gateway Integration & Switching Middleware",
+          "score": 0.073,
+          "snippet": "Built ISO 8583 switching middleware connecting the bank's core banking system to 1Link and interbank payment rails, enabling ATM acquiring, IBFT, utility bill payments and card-not-present e-commerce "
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-039",
+      "requirement": {
+        "id": "R-039",
+        "text": "Telephonic enquiries shall not be entertained; all queries shall be emailed to tenders@nflc.com.pk quoting reference NFLC/CW/2026/T-087.",
+        "kind": "technical",
+        "category": "experience",
+        "section": "9.1 Marking and Delivery"
+      },
+      "status": "partial",
+      "confidence": 0.549,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.149,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-037",
+          "title": "Vehicle Registration & Excise Management System",
+          "score": 0.094,
+          "snippet": "Adapted our license-management platform for motor vehicle registration, transfer and token tax collection across 30 excise offices, with biometric owner verification, online tax calculators and doorst"
+        },
+        {
+          "recordId": "CAP-036",
+          "title": "Federal e-Procurement System Enhancement & Rollout",
+          "score": 0.079,
+          "snippet": "National-scale follow-on to our provincial e-procurement build: enhanced the federal e-procurement platform with framework agreements, reverse auctions, supplier performance scoring and open-contracti"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration))."
+    },
+    {
+      "requirementId": "R-040",
+      "requirement": {
+        "id": "R-040",
+        "text": "The bid must contain the following documents, in the order listed, with an index and page numbering:",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "9.2 Checklist of Documents"
+      },
+      "status": "partial",
+      "confidence": 0.526,
+      "evidence": [
+        {
+          "recordId": "CAP-017",
+          "title": "Document Management & Workflow Automation for Energy Company",
+          "score": 0.126,
+          "snippet": "Deployed an enterprise document management system with records classification, retention schedules, full-text OCR search and workflow automation for correspondence, contracts and joint-venture approva"
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.112,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-035",
+          "title": "Urban Land Records Service Centers & Mutation Workflow — Phase II",
+          "score": 0.086,
+          "snippet": "Second-generation land records program extending our digitization experience to urban property records: 9.8 million registry documents scanned and indexed, e-registration deeds workflow with biometric"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Document Management & Workflow Automation for Energy Company)."
+    },
+    {
+      "requirementId": "R-041",
+      "requirement": {
+        "id": "R-041",
+        "text": "Bids not accompanied by the bid security or the valid PEC licence shall be rejected at opening without further evaluation.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "9.2 Checklist of Documents"
+      },
+      "status": "gap",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.2,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-013",
+          "title": "Cybersecurity Assessment, VAPT & SOC Establishment",
+          "score": 0.081,
+          "snippet": "Conducted enterprise-wide vulnerability assessment and penetration testing (external, internal, web and mobile) across 70 applications and 900 hosts, then designed and stood up a security operations c"
+        },
+        {
+          "recordId": "CAP-015",
+          "title": "Private Cloud & Data Center Virtualization Program",
+          "score": 0.06,
+          "snippet": "Consolidated 240 physical servers from 19 departments into a virtualized private-cloud platform with self-service provisioning, chargeback reporting and automated backup, hosted in the government's ex"
+        }
+      ],
+      "note": "Missing certification(s): PEC. Consider partnering or pre-bid clarification."
+    },
+    {
+      "requirementId": "R-042",
+      "requirement": {
+        "id": "R-042",
+        "text": "The contract shall be executed on the standard form of contract for admeasurement works adopted by the Employer, based on the PEC standard conditions.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "10. CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      "status": "gap",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "recordId": "CAP-012",
+          "title": "Core Banking Legacy Data Migration & Reconciliation",
+          "score": 0.085,
+          "snippet": "Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip"
+        },
+        {
+          "recordId": "CAP-039",
+          "title": "Dynamics 365 ERP Rollout for Textile Manufacturing Group",
+          "score": 0.075,
+          "snippet": "Leveraging our utility-sector ERP experience, implemented Microsoft Dynamics 365 Finance & Operations with production control, costing and export documentation for a vertically integrated textile grou"
+        },
+        {
+          "recordId": "CAP-017",
+          "title": "Document Management & Workflow Automation for Energy Company",
+          "score": 0.061,
+          "snippet": "Deployed an enterprise document management system with records classification, retention schedules, full-text OCR search and workflow automation for correspondence, contracts and joint-venture approva"
+        }
+      ],
+      "note": "Missing certification(s): PEC. Consider partnering or pre-bid clarification."
+    },
+    {
+      "requirementId": "R-043",
+      "requirement": {
+        "id": "R-043",
+        "text": "The successful bidder shall furnish a performance security equal to ten percent (10%) of the contract price within fourteen (14) days of the letter of acceptance, valid until the end of the defects liability period.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "10. CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      "status": "gap",
+      "confidence": 0.49,
+      "evidence": [
+        {
+          "recordId": "CAP-010",
+          "title": "ERP Implementation (Microsoft Dynamics 365 Finance & Operations)",
+          "score": 0.09,
+          "snippet": "Implemented Microsoft Dynamics 365 Finance & Operations across finance, supply chain, asset management and HR/payroll for a 9,000-employee utility, including chart-of-accounts redesign and data migrat"
+        },
+        {
+          "recordId": "CAP-013",
+          "title": "Cybersecurity Assessment, VAPT & SOC Establishment",
+          "score": 0.077,
+          "snippet": "Conducted enterprise-wide vulnerability assessment and penetration testing (external, internal, web and mobile) across 70 applications and 900 hosts, then designed and stood up a security operations c"
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.076,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-044",
+      "requirement": {
+        "id": "R-044",
+        "text": "If the contractor fails to complete the works within the completion period of fourteen (14) months, liquidated damages shall be levied at the rate of 0.1 percent (zero point one percent) of the contract price per day of delay, up to a maximum of ten percent (10%) of the contract price, after which the Employer may terminate the contract and complete the works at the contractor's risk and cost.",
+        "kind": "scored",
+        "category": "delivery",
+        "section": "10. CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      "status": "partial",
+      "confidence": 0.525,
+      "evidence": [
+        {
+          "recordId": "CAP-012",
+          "title": "Core Banking Legacy Data Migration & Reconciliation",
+          "score": 0.125,
+          "snippet": "Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip"
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.101,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.064,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Core Banking Legacy Data Migration & Reconciliation)."
+    },
+    {
+      "requirementId": "R-045",
+      "requirement": {
+        "id": "R-045",
+        "text": "The defects liability period shall be twelve (12) months from the certified date of completion, during which the contractor shall remedy all defects at its own expense.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "10. CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      "status": "gap",
+      "confidence": 0.486,
+      "evidence": [
+        {
+          "recordId": "CAP-032",
+          "title": "Provincial Learning Management System & Teacher Training",
+          "score": 0.086,
+          "snippet": "Rolled out a Moodle-based learning management system serving 600,000 students with curriculum-aligned digital content in Urdu and English, low-bandwidth streaming profiles and SMS-based parent notific"
+        },
+        {
+          "recordId": "CAP-002",
+          "title": "Land Records Digitization & Management Information System",
+          "score": 0.084,
+          "snippet": "Digitized 14.6 million rural land record documents (registers haqdaran-e-zameen, mutations, fard) using high-speed scanning, Urdu OCR and double-blind data entry, then built the land records MIS with "
+        },
+        {
+          "recordId": "CAP-011",
+          "title": "24/7 IT Service Desk & SLA Operations for Federal Ministry",
+          "score": 0.073,
+          "snippet": "Operated an ITIL v4-aligned 24/7 service desk and network operations center supporting 4,500 users across 60 sites, covering incident, problem, change and asset management with a CMDB and self-service"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-046",
+      "requirement": {
+        "id": "R-046",
+        "text": "Retention money of five percent (5%) shall be deducted from each interim payment certificate, one half releasable on completion and the balance on expiry of the defects liability period.",
+        "kind": "technical",
+        "category": "certification",
+        "section": "10. CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      "status": "partial",
+      "confidence": 0.601,
+      "evidence": [
+        {
+          "recordId": "CAP-020",
+          "title": "Mobile Wallet Application for Electronic Money Institution",
+          "score": 0.201,
+          "snippet": "Designed and built a consumer mobile wallet app (Android/iOS) with digital onboarding via NADRA e-KYC and liveness detection, P2P transfers, QR merchant payments (RAAST P2M ready), mobile top-ups, bil"
+        },
+        {
+          "recordId": "CAP-012",
+          "title": "Core Banking Legacy Data Migration & Reconciliation",
+          "score": 0.115,
+          "snippet": "Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip"
+        },
+        {
+          "recordId": "CAP-026",
+          "title": "COVID-19 Vaccination Appointment & Certificate System",
+          "score": 0.06,
+          "snippet": "Delivered, under emergency timelines, a national vaccination appointment system with CNIC-based registration via web, SMS and call center, center capacity scheduling, dose tracking and QR-verifiable d"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Mobile Wallet Application for Electronic Money Institution)."
+    },
+    {
+      "requirementId": "R-047",
+      "requirement": {
+        "id": "R-047",
+        "text": "The contractor shall, before commencement, effect and maintain contractor's all risks insurance for the full contract value plus fifteen percent (15%), third-party liability insurance of not less than PKR 25 million per occurrence, and workmen's compensation insurance covering all site personnel, each with the Employer named as co-insured, and shall furnish copies of the policies and premium receipts to the Engineer.",
+        "kind": "technical",
+        "category": "general",
+        "section": "10. CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      "status": "gap",
+      "confidence": 0.496,
+      "evidence": [
+        {
+          "recordId": "CAP-041",
+          "title": "Cybersecurity Assessment & ISO 27001 Readiness for Insurer",
+          "score": 0.096,
+          "snippet": "Repeat engagement applying our SOC and VAPT methodology for an insurer: penetration testing of 24 internet-facing applications, internal network assessment, and an ISO/IEC 27001:2022 gap assessment wi"
+        },
+        {
+          "recordId": "CAP-002",
+          "title": "Land Records Digitization & Management Information System",
+          "score": 0.087,
+          "snippet": "Digitized 14.6 million rural land record documents (registers haqdaran-e-zameen, mutations, fard) using high-speed scanning, Urdu OCR and double-blind data entry, then built the land records MIS with "
+        },
+        {
+          "recordId": "CAP-011",
+          "title": "24/7 IT Service Desk & SLA Operations for Federal Ministry",
+          "score": 0.078,
+          "snippet": "Operated an ITIL v4-aligned 24/7 service desk and network operations center supporting 4,500 users across 60 sites, covering incident, problem, change and asset management with a CMDB and self-service"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-048",
+      "requirement": {
+        "id": "R-048",
+        "text": "The contract shall be governed by the laws of Pakistan, and disputes shall first be referred to the Engineer for determination and thereafter, failing amicable settlement within twenty-eight (28) days, to arbitration in Karachi under the Arbitration Act, 1940.",
+        "kind": "technical",
+        "category": "general",
+        "section": "10. CONDITIONS OF CONTRACT, PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      "status": "partial",
+      "confidence": 0.511,
+      "evidence": [
+        {
+          "recordId": "CAP-021",
+          "title": "Raast Instant Payments Integration for Commercial Bank",
+          "score": 0.111,
+          "snippet": "Integrated the bank's core and digital channels with Pakistan's Raast instant payment system covering P2P alias (RtP) payments, bulk disbursements and merchant P2M flows, with ISO 20022 message transf"
+        },
+        {
+          "recordId": "CAP-016",
+          "title": "HR Management Information System for Federal Workforce",
+          "score": 0.109,
+          "snippet": "Built a centralized HRMIS managing service records, postings/transfers, promotions, leave and seniority lists for 28,000 federal civil servants, digitizing 1.4 million pages of legacy service books wi"
+        },
+        {
+          "recordId": "CAP-018",
+          "title": "Payment Gateway Integration & Switching Middleware",
+          "score": 0.064,
+          "snippet": "Built ISO 8583 switching middleware connecting the bank's core banking system to 1Link and interbank payment rails, enabling ATM acquiring, IBFT, utility bill payments and card-not-present e-commerce "
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Raast Instant Payments Integration for Commercial Bank)."
+    },
+    {
+      "requirementId": "R-049",
+      "requirement": {
+        "id": "R-049",
+        "text": "All communications shall quote tender reference NFLC/CW/2026/T-087.",
+        "kind": "technical",
+        "category": "experience",
+        "section": "11. CONTACT INFORMATION"
+      },
+      "status": "pass",
+      "confidence": 0.622,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.222,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-036",
+          "title": "Federal e-Procurement System Enhancement & Rollout",
+          "score": 0.118,
+          "snippet": "National-scale follow-on to our provincial e-procurement build: enhanced the federal e-procurement platform with framework agreements, reverse auctions, supplier performance scoring and open-contracti"
+        }
+      ],
+      "note": "Strong evidence in capability library (top match: Provincial e-Procurement Platform (e-Tendering & Supplier Registration))."
+    },
+    {
+      "requirementId": "R-050",
+      "requirement": {
+        "id": "R-050",
+        "text": "Canvassing in any form shall result in disqualification.",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "11. CONTACT INFORMATION"
+      },
+      "status": "partial",
+      "confidence": 0.505,
+      "evidence": [
+        {
+          "recordId": "CAP-031",
+          "title": "University Management Information System (Campus MIS)",
+          "score": 0.105,
+          "snippet": "Implemented an integrated campus MIS covering online admissions, course registration, timetabling, examinations and transcripts, student fee management and HR/payroll for a university of 32,000 studen"
+        },
+        {
+          "recordId": "CAP-009",
+          "title": "e-Recruitment Portal for Public Service Commission",
+          "score": 0.103,
+          "snippet": "Developed an online job application and recruitment management portal handling vacancy publication, candidate registration with CNIC validation, online fee payment, admit-card generation and merit-lis"
+        },
+        {
+          "recordId": "CAP-050",
+          "title": "Online Examination & Certification Platform for Banking Institute",
+          "score": 0.1,
+          "snippet": "Extended our LMS experience to a professional certification body: secure online examination platform with randomized question banks, browser lockdown and AI-assisted webcam proctoring flags, plus auto"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: University Management Information System (Campus MIS))."
+    }
+  ],
+  "win": {
+    "probability": 34,
+    "decision": "NO-GO",
+    "factors": [
+      {
+        "key": "budgetAlignment",
+        "label": "Budget alignment",
+        "score": 72,
+        "weight": 0.2,
+        "detail": "RFP ≈ USD 1720k vs winning sweet spot USD 310k–1085k."
+      },
+      {
+        "key": "domainWinRate",
+        "label": "Past win rate in domain",
+        "score": 13,
+        "weight": 0.25,
+        "detail": "Won 1 of 8 past Construction bids."
+      },
+      {
+        "key": "complianceCoverage",
+        "label": "Compliance coverage",
+        "score": 5,
+        "weight": 0.3,
+        "detail": "5 pass / 22 partial / 23 gap across 50 requirements; 6 mandatory gap(s)."
+      },
+      {
+        "key": "competitivePressure",
+        "label": "Competitive pressure",
+        "score": 58,
+        "weight": 0.1,
+        "detail": "Avg 4.3 competitors per comparable bid; incumbent present in 38% of them."
+      },
+      {
+        "key": "capabilityDepth",
+        "label": "Capability evidence depth",
+        "score": 57,
+        "weight": 0.15,
+        "detail": "30 of 50 requirements have library evidence (sector: Construction)."
+      }
+    ],
+    "rationale": "Estimated win probability 34%. Strongest factor: budget alignment (72). Weakest factor: compliance coverage (5). Mandatory gaps to resolve before bidding: R-009, R-011, R-018, R-019, R-020, R-028 — consider a consortium partner, pre-bid clarification, or fast-track certification."
+  },
+  "draft": [
+    {
+      "id": "S-001",
+      "title": "Executive Summary",
+      "content": "Axiom Digital Systems (Pvt) Ltd is pleased to submit this proposal for **Construction of Regional Warehouse and Cold Storage Facility (5,000 sqm) at the Southern Regional Logistics Park**. With 14+ years of delivery, 180 professionals and certifications including ISO 9001:2015, ISO/IEC 27001:2022, CMMI-DEV Level 3, Microsoft Gold Partner, AWS Select Partner, we meet 5 of 50 extracted requirements outright, with mitigation plans for the remainder.",
+      "status": "draft",
+      "requirementIds": [],
+      "evidenceIds": []
+    },
+    {
+      "id": "S-002",
+      "title": "Company Profile & Eligibility",
+      "content": "**Axiom Digital Systems (Pvt) Ltd** (Private Limited Company incorporated under the Companies Act with SECP, est. 2012) — HQ Islamabad; offices: Islamabad (HQ), Lahore, Karachi.\n\n- Registrations: SECP Certificate of Incorporation, PSEB Registered IT/ITeS Company, FBR National Tax Number (NTN), FBR Sales Tax Registration (STRN), Punjab Procurement Regulatory Authority (PPRA) supplier registration, Sindh Public Procurement Regulatory Authority (SPPRA) supplier registration, Khyber Pakhtunkhwa Public Procurement Regulatory Authority (KPPRA) supplier registration\n- Certifications: ISO 9001:2015, ISO/IEC 27001:2022, CMMI-DEV Level 3, Microsoft Gold Partner, AWS Select Partner\n- Average annual turnover: ≈ USD 1.6M\n- Sectors served: IT Services, E-Government, Fintech, Health IT, Logistics, Education\n\nOf 17 mandatory eligibility clauses extracted from the RFP, 4 are met with documentary evidence (see Compliance Matrix).",
+      "status": "draft",
+      "requirementIds": [
+        "R-009",
+        "R-010",
+        "R-011",
+        "R-012",
+        "R-013",
+        "R-014",
+        "R-015",
+        "R-016",
+        "R-017",
+        "R-018",
+        "R-019",
+        "R-020",
+        "R-023",
+        "R-028",
+        "R-034",
+        "R-040",
+        "R-050"
+      ],
+      "evidenceIds": []
+    },
+    {
+      "id": "S-003",
+      "title": "Understanding of Requirements & Proposed Approach",
+      "content": "NFLC/CW/2026/T-087 | National Food Logistics Company (Private) Limited Page 1 TENDER DOCUMENT Construction of Regional Warehouse and Cold Storage Facility (5,000 sqm) at the Southern Regional Logistics Park Reference No: NFLC/CW/2026/T-087 Issued by: National Food Logistics Company (Private) Limited Date of Issue: Friday, 12 June 2026 Procurement Method: Single Stage - One Envelope (National Competitive Bidding) Cont\n\nOur approach addresses the 30 technical requirements through proven delivery patterns:\n\n- **Provincial e-Procurement Platform (e-Tendering & Supplier Registration)** [CAP-003]: Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor\n- **Core Banking Legacy Data Migration & Reconciliation** [CAP-012]: Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip\n- **24/7 IT Service Desk & SLA Operations for Federal Ministry** [CAP-011]: Operated an ITIL v4-aligned 24/7 service desk and network operations center supporting 4,500 users across 60 sites, covering incident, problem, change and asset management with a CMDB and self-service\n- **Campus MIS Implementation for Private University** [CAP-049]: Implemented our campus MIS product for a private university of 14,000 students, covering admissions with merit formula configuration, semester registration, examinations, fee installment plans and alu\n- **ERP Implementation (Microsoft Dynamics 365 Finance & Operations)** [CAP-010]: Implemented Microsoft Dynamics 365 Finance & Operations across finance, supply chain, asset management and HR/payroll for a 9,000-employee utility, including chart-of-accounts redesign and data migrat",
+      "status": "draft",
+      "requirementIds": [
+        "R-001",
+        "R-002",
+        "R-003",
+        "R-004",
+        "R-005",
+        "R-006",
+        "R-007",
+        "R-008",
+        "R-021",
+        "R-022",
+        "R-024",
+        "R-025",
+        "R-026",
+        "R-027",
+        "R-029",
+        "R-030",
+        "R-031",
+        "R-032",
+        "R-033",
+        "R-037",
+        "R-038",
+        "R-039",
+        "R-041",
+        "R-042",
+        "R-043",
+        "R-045",
+        "R-046",
+        "R-047",
+        "R-048",
+        "R-049"
+      ],
+      "evidenceIds": []
+    },
+    {
+      "id": "S-004",
+      "title": "Response: Construction Methodology: Describe your overall construction methodology and sequencing fo…",
+      "content": "Axiom Digital Systems (Pvt) Ltd will address this requirement drawing on directly relevant delivery experience:\n\n- **Provincial e-Procurement Platform (e-Tendering & Supplier Registration)** [CAP-003]: Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor\n- **University Management Information System (Campus MIS)** [CAP-031]: Implemented an integrated campus MIS covering online admissions, course registration, timetabling, examinations and transcripts, student fee management and HR/payroll for a university of 32,000 studen\n- **ERP Implementation (Microsoft Dynamics 365 Finance & Operations)** [CAP-010]: Implemented Microsoft Dynamics 365 Finance & Operations across finance, supply chain, asset management and HR/payroll for a 9,000-employee utility, including chart-of-accounts redesign and data migrat\n\nOur response approach: we map the stated requirement to a proven delivery pattern, assign accountable owners from our PMO, and verify acceptance criteria with the client at each milestone.\n\n_Construction Methodology: Describe your overall construction methodology and sequencing for_",
+      "status": "draft",
+      "requirementIds": [
+        "R-035",
+        "R-002",
+        "R-004"
+      ],
+      "evidenceIds": [
+        "CAP-003",
+        "CAP-031",
+        "CAP-021",
+        "CAP-017",
+        "CAP-010",
+        "CAP-039"
+      ]
+    },
+    {
+      "id": "S-005",
+      "title": "Response: Refrigeration Plant: Describe the proposed refrigeration system design, including refriger…",
+      "content": "Axiom Digital Systems (Pvt) Ltd will address this requirement drawing on directly relevant delivery experience:\n\n- **24/7 IT Service Desk & SLA Operations for Federal Ministry** [CAP-011]: Operated an ITIL v4-aligned 24/7 service desk and network operations center supporting 4,500 users across 60 sites, covering incident, problem, change and asset management with a CMDB and self-service\n- **Warehouse Management System for FMCG Distributor** [CAP-028]: Implemented a warehouse management system across five distribution centers with barcode-driven receiving, putaway, wave picking, batch/expiry (FEFO) control and cycle counting on Android handheld term\n- **Provincial e-Procurement Platform (e-Tendering & Supplier Registration)** [CAP-003]: Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor\n\nOur response approach: we map the stated requirement to a proven delivery pattern, assign accountable owners from our PMO, and verify acceptance criteria with the client at each milestone.\n\n_Refrigeration Plant: Describe the proposed refrigeration system design, including refrigerant selection_",
+      "status": "draft",
+      "requirementIds": [
+        "R-002",
+        "R-006",
+        "R-013"
+      ],
+      "evidenceIds": [
+        "CAP-021",
+        "CAP-017",
+        "CAP-011",
+        "CAP-041",
+        "CAP-028",
+        "CAP-003"
+      ]
+    },
+    {
+      "id": "S-006",
+      "title": "Response: HSE Management: Describe how your HSE management system will be applied on this site, incl…",
+      "content": "Axiom Digital Systems (Pvt) Ltd will address this requirement drawing on directly relevant delivery experience:\n\n- **District Health Dashboards on DHIS2** [CAP-025]: Customized and scaled the DHIS2 health information platform for province-wide reporting across 1,900 facilities, building district performance dashboards for immunization coverage, maternal health and\n- **Ambulance Fleet Tracking & Dispatch for Emergency Service** [CAP-047]: Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit\n- **Core Banking Legacy Data Migration & Reconciliation** [CAP-012]: Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip\n\nOur response approach: we map the stated requirement to a proven delivery pattern, assign accountable owners from our PMO, and verify acceptance criteria with the client at each milestone.\n\n_HSE Management: Describe how your HSE management system will be applied on this site, including_",
+      "status": "draft",
+      "requirementIds": [
+        "R-019",
+        "R-029",
+        "R-020"
+      ],
+      "evidenceIds": [
+        "CAP-025",
+        "CAP-012",
+        "CAP-047",
+        "CAP-012",
+        "CAP-021",
+        "CAP-050"
+      ]
+    },
+    {
+      "id": "S-007",
+      "title": "Response: Quality Assurance and Materials Testing: Describe your quality management arrangements, in…",
+      "content": "Axiom Digital Systems (Pvt) Ltd will address this requirement drawing on directly relevant delivery experience:\n\n- **Ambulance Fleet Tracking & Dispatch for Emergency Service** [CAP-047]: Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit\n- **Core Banking Legacy Data Migration & Reconciliation** [CAP-012]: Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip\n- **Warehouse Management System for FMCG Distributor** [CAP-028]: Implemented a warehouse management system across five distribution centers with barcode-driven receiving, putaway, wave picking, batch/expiry (FEFO) control and cycle counting on Android handheld term\n\nOur response approach: we map the stated requirement to a proven delivery pattern, assign accountable owners from our PMO, and verify acceptance criteria with the client at each milestone.\n\n_Quality Assurance and Materials Testing: Describe your quality management arrangements, including_",
+      "status": "draft",
+      "requirementIds": [
+        "R-029",
+        "R-005",
+        "R-006"
+      ],
+      "evidenceIds": [
+        "CAP-047",
+        "CAP-012",
+        "CAP-039",
+        "CAP-021",
+        "CAP-011",
+        "CAP-041"
+      ]
+    },
+    {
+      "id": "S-008",
+      "title": "Response: Resources and Programme: Provide a summary of the key plant and equipment you will mobilis…",
+      "content": "Axiom Digital Systems (Pvt) Ltd will address this requirement drawing on directly relevant delivery experience:\n\n- **Provincial e-Procurement Platform (e-Tendering & Supplier Registration)** [CAP-003]: Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor\n- **University Management Information System (Campus MIS)** [CAP-031]: Implemented an integrated campus MIS covering online admissions, course registration, timetabling, examinations and transcripts, student fee management and HR/payroll for a university of 32,000 studen\n- **ERP Implementation (Microsoft Dynamics 365 Finance & Operations)** [CAP-010]: Implemented Microsoft Dynamics 365 Finance & Operations across finance, supply chain, asset management and HR/payroll for a 9,000-employee utility, including chart-of-accounts redesign and data migrat\n\nOur response approach: we map the stated requirement to a proven delivery pattern, assign accountable owners from our PMO, and verify acceptance criteria with the client at each milestone.\n\n_Resources and Programme: Provide a summary of the key plant and equipment you will mobilise, the_",
+      "status": "draft",
+      "requirementIds": [
+        "R-035",
+        "R-002",
+        "R-004"
+      ],
+      "evidenceIds": [
+        "CAP-003",
+        "CAP-031",
+        "CAP-021",
+        "CAP-017",
+        "CAP-010",
+        "CAP-039"
+      ]
+    },
+    {
+      "id": "S-009",
+      "title": "Relevant Experience & Past Performance",
+      "content": "**Punjab Citizen Facilitation Portal & Mobile App** [CAP-001] — Provincial Information Technology Board (Punjab) (Government), 2021, USD 950k, 24 months.\nDesigned, developed and operated a bilingual Urdu/English citizen e-services portal and Android/iOS app offering 64 online services including domicile, birth certificates and fee payments. The portal meets WCAG 2.1 AA accessibility guidelines, integrates NADRA CNIC verification and 1Link/easypaisa e-payments, and runs on a load-balanced Kubernetes cluster with 99.9% uptime SLA. A PMP-led PMO managed delivery across 12 departments, with end-user training and capacity building for 400+ government staff. _Outcome: 3.2 million citizen accounts in 18 months; average service turnaround cut from 9 days to 48 hours; 78% of applications now submitted online._\n\n**Land Records Digitization & Management Information System** [CAP-002] — Provincial Board of Revenue (Sindh) (Government), 2019, USD 1400k, 36 months.\nDigitized 14.6 million rural land record documents (registers haqdaran-e-zameen, mutations, fard) using high-speed scanning, Urdu OCR and double-blind data entry, then built the land records MIS with cadastral GIS mapping and service-center workflow for certified fard issuance and mutation processing. Implemented role-based access, biometric verification of applicants and a full audit trail aligned with ISO 27001 controls. Delivered training and capacity building for 600 revenue officials across 24 districts. _Outcome: Mutation processing time reduced from 45 days to 7 days; 99.2% scanning accuracy verified by third-party audit; over 5 million certified land record copies issued digitally._\n\n**Provincial e-Procurement Platform (e-Tendering & Supplier Registration)** [CAP-003] — Provincial Public Procurement Regulatory Authority (Government), 2022, USD 1100k, 30 months.\nBuilt and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation workflows, contract award publication and grievance handling. The system enforces procurement rules engines per PPRA regulations and produces complete audit logs for accountability bodies. Operated a 24/7 bidder helpdesk with bilingual Urdu/English support and ran capacity-building workshops for 1,800 suppliers and 350 procuring-entity officers. _Outcome: 4,100 tenders processed worth USD 700M in first two years; average tender cycle shortened by 31%; supplier participation per tender up from 3.1 to 5.8 bids._\n\n**Civil Registration & Vital Statistics (CRVS) System** [CAP-004] — Local Government & Community Development Department (Government), 2018, USD 700k, 24 months.\nImplemented a province-wide civil registration system for birth, death, marriage and divorce events with union-council level data entry, NADRA integration for CNIC-linked family records and an offline-capable Android field app for registrars in low-connectivity areas. Included automated certificate printing with QR-code verification and statistical dashboards for health and planning departments. Conducted train-the-trainer programs reaching 2,400 union council secretaries. _Outcome: Birth registration coverage rose from 34% to 71% in three years; certificate issuance time cut from 15 days to same-day at 3,400 union councils._\n\n**Driving License Issuance & Management System** [CAP-005] — Provincial Traffic Police Department (Government), 2020, USD 520k, 18 months.\nDelivered a license management system covering learner permits, driving tests, license issuance, renewals and duplicates across 28 licensing centers, with biometric capture (fingerprint and facial photo), NADRA verification and secure card personalization integration. Citizens book appointments and pay fees online through a bilingual Urdu/English portal; an e-challan interface flags unpaid violations before renewal. Provided 24/7 application support under a 99.5% availability SLA. _Outcome: License issuance time reduced from 12 days to 3 days; 1.1 million licenses processed; counter fraud incidents down 85% after biometric rollout._\n\n**Online Tax Filing & Revenue Collection Portal** [CAP-006] — Provincial Revenue Authority (Government), 2023, USD 880k, 22 months.\nReplaced manual sales-tax-on-services filing with an online portal for taxpayer registration, e-filing of monthly returns, e-payments via 1Link/ADC channels and risk-based audit case selection. Built taxpayer ledgers, withholding statements, refund workflows and a business-intelligence layer for revenue forecasting. The platform passed an independent VAPT, operates under ISO 27001-aligned ISMS controls, and is supported by a 24/7 bilingual helpdesk with a 99.9% uptime SLA during filing windows. _Outcome: Registered taxpayer base grew 42%; on-time filing compliance improved from 61% to 88%; collections increased 27% year-on-year after launch._",
+      "status": "draft",
+      "requirementIds": [],
+      "evidenceIds": [
+        "CAP-001",
+        "CAP-002",
+        "CAP-003",
+        "CAP-004",
+        "CAP-005",
+        "CAP-006"
+      ]
+    },
+    {
+      "id": "S-010",
+      "title": "Compliance Matrix",
+      "content": "| # | Requirement | Type | Status | Evidence / Note |\n|---|---|---|---|---|\n| R-001 | The contractor shall execute and complete the following principal components, in accordanc… | technical | ⚠️ Partial | [CAP-003] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-002 | The works shall be executed on a construct-only basis against the Employer's issued-for-co… | technical | ❌ Gap | [CAP-021] Missing certification(s): PEC. Consider partnering or pre-bid clarification. |\n| R-003 | The entire works shall be completed and handed over, tested and commissioned, within fourt… | technical | ❌ Gap | [CAP-012] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-004 | A detailed construction programme in Primavera P6 or Microsoft Project format shall be sub… | technical | ⚠️ Partial | [CAP-010] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-005 | All materials shall conform to the technical specifications and to the relevant Pakistan S… | technical | ❌ Gap | [CAP-039] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-006 | Structural concrete shall be batched at an approved plant with cube testing at a site labo… | technical | ❌ Gap | [CAP-011] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-007 | PUF insulated panels shall carry factory test certificates for density, thermal conductivi… | technical | ❌ Gap | [CAP-026] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-008 | The contractor shall submit material approval requests, with samples where required, at le… | technical | ⚠️ Partial | [CAP-017] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-009 | Bidders must satisfy all of the following mandatory requirements. | mandatory | ❌ Gap | [CAP-003] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-010 | Non-compliance with any requirement shall render the bid non-responsive: | mandatory | ⚠️ Partial | [CAP-003] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-011 | EC-1: The bidder must hold a valid constructor licence issued by the Pakistan Engineering … | mandatory | ❌ Gap | [CAP-004] Missing certification(s): PEC. Consider partnering or pre-bid clarification. |\n| R-012 | EC-2: The bidder must be registered with the Securities and Exchange Commission of Pakista… | mandatory | ✅ Pass | [CAP-006] Registered with SECP, FBR; certificates available. |\n| R-013 | EC-3: The bidder must have completed, within the last eight (8) years, at least two (2) in… | mandatory | ⚠️ Partial | [CAP-028] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-014 | EC-4: The bidder must have an average annual construction turnover of not less than PKR 40… | mandatory | ✅ Pass | [CAP-004] Average annual turnover ≈ USD 1600k meets the ≈ USD 1429k threshold. |\n| R-015 | EC-5: The bidder must demonstrate access to liquid assets or unconditional credit lines of… | mandatory | ⚠️ Partial | [CAP-003] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-016 | EC-6: The bidder must submit an affidavit that it is not blacklisted or debarred by any fe… | mandatory | ✅ Pass | [CAP-036] Not blacklisted; affidavit can be furnished on stamp paper. |\n| R-017 | EC-7: The bidder must furnish bid security equal to three percent (3%) of the bid price in… | mandatory | ✅ Pass | [CAP-003] Bid security is a submission commitment — bank guarantee/pay order to be arrange |\n| R-018 | EC-8: The bidder shall deploy a full-time site agent who is a PEC-registered professional … | mandatory | ❌ Gap | [CAP-003] Missing certification(s): PEC. Consider partnering or pre-bid clarification. |\n| R-019 | EC-9: The bidder must have a documented health, safety and environment (HSE) management sy… | mandatory | ❌ Gap | [CAP-025] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-020 | ISO 45001 certification or an equivalent third-party-audited HSE system is mandatory. | mandatory | ❌ Gap | [CAP-021] Missing certification(s): ISO 45001. Consider partnering or pre-bid clarificatio |\n| R-021 | Event Date Time (PKT) Issuance of Tender Document Friday, 12 June 2026 - Pre-Bid Site Visi… | technical | ⚠️ Partial | [CAP-003] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-022 | bidders shall be deemed to have inspected the site and satisfied themselves as to ground c… | technical | ❌ Gap | [CAP-011] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-023 | Clarification questions must be emailed to tenders@nflc.com.pk no later than Friday, 31 Ju… | mandatory | ⚠️ Partial | [CAP-003] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-024 | Bids shall be opened publicly the same day at 11:30 PKT in the presence of bidders' repres… | technical | ⚠️ Partial | [CAP-029] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-025 | The estimate is provided for information; bids shall be evaluated against the bill of quan… | technical | ⚠️ Partial | [CAP-003] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-026 | The contract shall be admeasurement-based; quantities are provisional and payment shall be… | technical | ⚠️ Partial | [CAP-021] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-027 | A price adjustment formula for steel, cement and fuel, as set out in the conditions of con… | technical | ❌ Gap | [CAP-003] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-028 | The contractor shall implement a site-specific HSE plan, which must be submitted within fo… | mandatory | ❌ Gap | [CAP-049] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-029 | The HSE plan shall address, at a minimum: scaffolding and work at height; lifting operatio… | technical | ⚠️ Partial | [CAP-047] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-030 | The contractor shall deploy a full-time qualified HSE officer for the duration of the work… | technical | ❌ Gap | [CAP-012] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-031 | The Employer operates a zero-fatality policy; any fatal accident attributable to contracto… | technical | ❌ Gap | [CAP-041] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-032 | All workers shall be provided with personal protective equipment and shall be covered unde… | technical | ❌ Gap | [CAP-041] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-033 | Monthly HSE statistics shall be appended to each interim payment certificate. | technical | ⚠️ Partial | [CAP-004] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-034 | Bids shall first be screened against the mandatory eligibility criteria in Section 3. | mandatory | ⚠️ Partial | [CAP-021] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-035 | Responsive bids shall then be scored against the following criteria; the contract shall be… | scored | ⚠️ Partial | [CAP-003] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-036 | The lowest evaluated bid price shall receive the full 35 points; other bids shall receive … | scored | ⚠️ Partial | [CAP-003] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-037 | Bidders shall provide written answers to the following questions as part of their technica… | technical | ❌ Gap | [CAP-050] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-038 | Each answer shall not exceed two (2) pages: | technical | ❌ Gap | [CAP-016] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-039 | Telephonic enquiries shall not be entertained; all queries shall be emailed to tenders@nfl… | technical | ⚠️ Partial | [CAP-003] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-040 | The bid must contain the following documents, in the order listed, with an index and page … | mandatory | ⚠️ Partial | [CAP-017] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-041 | Bids not accompanied by the bid security or the valid PEC licence shall be rejected at ope… | technical | ❌ Gap | [CAP-003] Missing certification(s): PEC. Consider partnering or pre-bid clarification. |\n| R-042 | The contract shall be executed on the standard form of contract for admeasurement works ad… | technical | ❌ Gap | [CAP-012] Missing certification(s): PEC. Consider partnering or pre-bid clarification. |\n| R-043 | The successful bidder shall furnish a performance security equal to ten percent (10%) of t… | technical | ❌ Gap | [CAP-010] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-044 | If the contractor fails to complete the works within the completion period of fourteen (14… | scored | ⚠️ Partial | [CAP-012] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-045 | The defects liability period shall be twelve (12) months from the certified date of comple… | technical | ❌ Gap | [CAP-032] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-046 | Retention money of five percent (5%) shall be deducted from each interim payment certifica… | technical | ⚠️ Partial | [CAP-020] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-047 | The contractor shall, before commencement, effect and maintain contractor's all risks insu… | technical | ❌ Gap | [CAP-041] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-048 | The contract shall be governed by the laws of Pakistan, and disputes shall first be referr… | technical | ⚠️ Partial | [CAP-021] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-049 | All communications shall quote tender reference NFLC/CW/2026/T-087. | technical | ✅ Pass | [CAP-003] Strong evidence in capability library (top match: Provincial e-Procurement Platf |\n| R-050 | Canvassing in any form shall result in disqualification. | mandatory | ⚠️ Partial | [CAP-031] Related but not exact evidence — strengthen the narrative or add a reference (cl |",
+      "status": "draft",
+      "requirementIds": [
+        "R-001",
+        "R-002",
+        "R-003",
+        "R-004",
+        "R-005",
+        "R-006",
+        "R-007",
+        "R-008",
+        "R-009",
+        "R-010",
+        "R-011",
+        "R-012",
+        "R-013",
+        "R-014",
+        "R-015",
+        "R-016",
+        "R-017",
+        "R-018",
+        "R-019",
+        "R-020",
+        "R-021",
+        "R-022",
+        "R-023",
+        "R-024",
+        "R-025",
+        "R-026",
+        "R-027",
+        "R-028",
+        "R-029",
+        "R-030",
+        "R-031",
+        "R-032",
+        "R-033",
+        "R-034",
+        "R-035",
+        "R-036",
+        "R-037",
+        "R-038",
+        "R-039",
+        "R-040",
+        "R-041",
+        "R-042",
+        "R-043",
+        "R-044",
+        "R-045",
+        "R-046",
+        "R-047",
+        "R-048",
+        "R-049",
+        "R-050"
+      ],
+      "evidenceIds": []
+    },
+    {
+      "id": "S-011",
+      "title": "Gap Mitigation Plan",
+      "content": "- **R-001** (general, partial): The contractor shall execute and complete the following principal components, in accordance with the drawings, technical\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration)).\n- **R-002** (certification, gap): The works shall be executed on a construct-only basis against the Employer's issued-for-construction drawings, except fo\n  - _Mitigation_: Missing certification(s): PEC. Consider partnering or pre-bid clarification.\n- **R-003** (general, gap): The entire works shall be completed and handed over, tested and commissioned, within fourteen (14) months from the date \n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-004** (general, partial): A detailed construction programme in Primavera P6 or Microsoft Project format shall be submitted within fourteen (14) da\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: ERP Implementation (Microsoft Dynamics 365 Finance & Operations)).\n- **R-005** (general, gap): All materials shall conform to the technical specifications and to the relevant Pakistan Standards or, where no Pakistan\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-006** (certification, gap): Structural concrete shall be batched at an approved plant with cube testing at a site laboratory; reinforcement steel sh\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-007** (certification, gap): PUF insulated panels shall carry factory test certificates for density, thermal conductivity and fire classification.\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-008** (legal, partial): The contractor shall submit material approval requests, with samples where required, at least fourteen (14) days before \n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Document Management & Workflow Automation for Energy Company).\n- **R-009** (general, gap): Bidders must satisfy all of the following mandatory requirements.\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-010** (general, partial): Non-compliance with any requirement shall render the bid non-responsive:\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration)).\n- **R-011** (certification, gap): EC-1: The bidder must hold a valid constructor licence issued by the Pakistan Engineering Council (PEC) in category C-2 \n  - _Mitigation_: Missing certification(s): PEC. Consider partnering or pre-bid clarification.\n- **R-013** (certification, partial): EC-3: The bidder must have completed, within the last eight (8) years, at least two (2) industrial or warehouse construc\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Warehouse Management System for FMCG Distributor).\n- **R-015** (certification, partial): EC-5: The bidder must demonstrate access to liquid assets or unconditional credit lines of not less than PKR 80 million,\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration)).\n- **R-018** (certification, gap): EC-8: The bidder shall deploy a full-time site agent who is a PEC-registered professional civil engineer with at least t\n  - _Mitigation_: Missing certification(s): PEC. Consider partnering or pre-bid clarification.\n- **R-019** (technical, gap): EC-9: The bidder must have a documented health, safety and environment (HSE) management system;\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-020** (certification, gap): ISO 45001 certification or an equivalent third-party-audited HSE system is mandatory.\n  - _Mitigation_: Missing certification(s): ISO 45001. Consider partnering or pre-bid clarification.\n- **R-021** (general, partial): Event Date Time (PKT) Issuance of Tender Document Friday, 12 June 2026 - Pre-Bid Site Visit and Meeting Tuesday, 7 July \n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration)).\n- **R-022** (general, gap): bidders shall be deemed to have inspected the site and satisfied themselves as to ground conditions, access and utilitie\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-023** (general, partial): Clarification questions must be emailed to tenders@nflc.com.pk no later than Friday, 31 July 2026 at 16:00 PKT.\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration)).\n- **R-024** (general, partial): Bids shall be opened publicly the same day at 11:30 PKT in the presence of bidders' representatives who choose to attend\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Route Optimization Engine for LPG Distribution).\n- **R-025** (general, partial): The estimate is provided for information; bids shall be evaluated against the bill of quantities rates quoted by the bid\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration)).\n- **R-026** (general, partial): The contract shall be admeasurement-based; quantities are provisional and payment shall be made against measured work at\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Raast Instant Payments Integration for Commercial Bank).\n- **R-027** (general, gap): A price adjustment formula for steel, cement and fuel, as set out in the conditions of contract, shall apply after the s\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-028** (general, gap): The contractor shall implement a site-specific HSE plan, which must be submitted within fourteen (14) days of the notice\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-029** (general, partial): The HSE plan shall address, at a minimum: scaffolding and work at height; lifting operations and crane management; confi\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Ambulance Fleet Tracking & Dispatch for Emergency Service).\n- **R-030** (general, gap): The contractor shall deploy a full-time qualified HSE officer for the duration of the works, shall conduct daily toolbox\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-031** (general, gap): The Employer operates a zero-fatality policy; any fatal accident attributable to contractor negligence shall constitute \n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-032** (general, gap): All workers shall be provided with personal protective equipment and shall be covered under workmen's compensation insur\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-033** (certification, partial): Monthly HSE statistics shall be appended to each interim payment certificate.\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Civil Registration & Vital Statistics (CRVS) System).\n- **R-034** (general, partial): Bids shall first be screened against the mandatory eligibility criteria in Section 3.\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Raast Instant Payments Integration for Commercial Bank).\n- **R-035** (experience, partial): Responsive bids shall then be scored against the following criteria; the contract shall be awarded to the highest-scorin\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration)).\n- **R-036** (general, partial): The lowest evaluated bid price shall receive the full 35 points; other bids shall receive points in inverse proportion t\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration)).\n- **R-037** (general, gap): Bidders shall provide written answers to the following questions as part of their technical submission.\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-038** (general, gap): Each answer shall not exceed two (2) pages:\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-039** (experience, partial): Telephonic enquiries shall not be entertained; all queries shall be emailed to tenders@nflc.com.pk quoting reference NFL\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration)).\n- **R-040** (general, partial): The bid must contain the following documents, in the order listed, with an index and page numbering:\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Document Management & Workflow Automation for Energy Company).\n- **R-041** (certification, gap): Bids not accompanied by the bid security or the valid PEC licence shall be rejected at opening without further evaluatio\n  - _Mitigation_: Missing certification(s): PEC. Consider partnering or pre-bid clarification.\n- **R-042** (certification, gap): The contract shall be executed on the standard form of contract for admeasurement works adopted by the Employer, based o\n  - _Mitigation_: Missing certification(s): PEC. Consider partnering or pre-bid clarification.\n- **R-043** (technical, gap): The successful bidder shall furnish a performance security equal to ten percent (10%) of the contract price within fourt\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-044** (delivery, partial): If the contractor fails to complete the works within the completion period of fourteen (14) months, liquidated damages s\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Core Banking Legacy Data Migration & Reconciliation).\n- **R-045** (certification, gap): The defects liability period shall be twelve (12) months from the certified date of completion, during which the contrac\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-046** (certification, partial): Retention money of five percent (5%) shall be deducted from each interim payment certificate, one half releasable on com\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Mobile Wallet Application for Electronic Money Institution).\n- **R-047** (general, gap): The contractor shall, before commencement, effect and maintain contractor's all risks insurance for the full contract va\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-048** (general, partial): The contract shall be governed by the laws of Pakistan, and disputes shall first be referred to the Engineer for determi\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Raast Instant Payments Integration for Commercial Bank).\n- **R-050** (general, partial): Canvassing in any form shall result in disqualification.\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: University Management Information System (Campus MIS)).",
+      "status": "draft",
+      "requirementIds": [
+        "R-001",
+        "R-002",
+        "R-003",
+        "R-004",
+        "R-005",
+        "R-006",
+        "R-007",
+        "R-008",
+        "R-009",
+        "R-010",
+        "R-011",
+        "R-013",
+        "R-015",
+        "R-018",
+        "R-019",
+        "R-020",
+        "R-021",
+        "R-022",
+        "R-023",
+        "R-024",
+        "R-025",
+        "R-026",
+        "R-027",
+        "R-028",
+        "R-029",
+        "R-030",
+        "R-031",
+        "R-032",
+        "R-033",
+        "R-034",
+        "R-035",
+        "R-036",
+        "R-037",
+        "R-038",
+        "R-039",
+        "R-040",
+        "R-041",
+        "R-042",
+        "R-043",
+        "R-044",
+        "R-045",
+        "R-046",
+        "R-047",
+        "R-048",
+        "R-050"
+      ],
+      "evidenceIds": []
+    }
+  ]
+}

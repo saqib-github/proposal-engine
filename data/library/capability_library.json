@@ -1,0 +1,1318 @@
+[
+  {
+    "id": "CAP-001",
+    "title": "Punjab Citizen Facilitation Portal & Mobile App",
+    "sector": "E-Government",
+    "client": "Provincial Information Technology Board (Punjab)",
+    "clientType": "Government",
+    "region": "Punjab, Pakistan",
+    "yearCompleted": 2021,
+    "contractValueUsd": 950000,
+    "durationMonths": 24,
+    "summary": "Designed, developed and operated a bilingual Urdu/English citizen e-services portal and Android/iOS app offering 64 online services including domicile, birth certificates and fee payments. The portal meets WCAG 2.1 AA accessibility guidelines, integrates NADRA CNIC verification and 1Link/easypaisa e-payments, and runs on a load-balanced Kubernetes cluster with 99.9% uptime SLA. A PMP-led PMO managed delivery across 12 departments, with end-user training and capacity building for 400+ government staff.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022",
+      "CMMI-DEV Level 3"
+    ],
+    "technologies": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Kubernetes",
+      "Keycloak SSO",
+      "Redis",
+      "Flutter"
+    ],
+    "outcomes": "3.2 million citizen accounts in 18 months; average service turnaround cut from 9 days to 48 hours; 78% of applications now submitted online.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-002",
+    "title": "Land Records Digitization & Management Information System",
+    "sector": "E-Government",
+    "client": "Provincial Board of Revenue (Sindh)",
+    "clientType": "Government",
+    "region": "Sindh, Pakistan",
+    "yearCompleted": 2019,
+    "contractValueUsd": 1400000,
+    "durationMonths": 36,
+    "summary": "Digitized 14.6 million rural land record documents (registers haqdaran-e-zameen, mutations, fard) using high-speed scanning, Urdu OCR and double-blind data entry, then built the land records MIS with cadastral GIS mapping and service-center workflow for certified fard issuance and mutation processing. Implemented role-based access, biometric verification of applicants and a full audit trail aligned with ISO 27001 controls. Delivered training and capacity building for 600 revenue officials across 24 districts.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Oracle Database",
+      "PostGIS",
+      "QGIS",
+      "Apache Kafka",
+      "Angular"
+    ],
+    "outcomes": "Mutation processing time reduced from 45 days to 7 days; 99.2% scanning accuracy verified by third-party audit; over 5 million certified land record copies issued digitally.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-003",
+    "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+    "sector": "E-Government",
+    "client": "Provincial Public Procurement Regulatory Authority",
+    "clientType": "Government",
+    "region": "Khyber Pakhtunkhwa, Pakistan",
+    "yearCompleted": 2022,
+    "contractValueUsd": 1100000,
+    "durationMonths": 30,
+    "summary": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation workflows, contract award publication and grievance handling. The system enforces procurement rules engines per PPRA regulations and produces complete audit logs for accountability bodies. Operated a 24/7 bidder helpdesk with bilingual Urdu/English support and ran capacity-building workshops for 1,800 suppliers and 350 procuring-entity officers.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022",
+      "CMMI-DEV Level 3"
+    ],
+    "technologies": [
+      ".NET Core",
+      "SQL Server",
+      "Angular",
+      "RabbitMQ",
+      "HSM/PKI",
+      "Docker",
+      "Nginx"
+    ],
+    "outcomes": "4,100 tenders processed worth USD 700M in first two years; average tender cycle shortened by 31%; supplier participation per tender up from 3.1 to 5.8 bids.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-004",
+    "title": "Civil Registration & Vital Statistics (CRVS) System",
+    "sector": "E-Government",
+    "client": "Local Government & Community Development Department",
+    "clientType": "Government",
+    "region": "Punjab, Pakistan",
+    "yearCompleted": 2018,
+    "contractValueUsd": 700000,
+    "durationMonths": 24,
+    "summary": "Implemented a province-wide civil registration system for birth, death, marriage and divorce events with union-council level data entry, NADRA integration for CNIC-linked family records and an offline-capable Android field app for registrars in low-connectivity areas. Included automated certificate printing with QR-code verification and statistical dashboards for health and planning departments. Conducted train-the-trainer programs reaching 2,400 union council secretaries.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "Java",
+      "Spring",
+      "PostgreSQL",
+      "Android (Kotlin)",
+      "Liferay",
+      "Jasper Reports"
+    ],
+    "outcomes": "Birth registration coverage rose from 34% to 71% in three years; certificate issuance time cut from 15 days to same-day at 3,400 union councils.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-005",
+    "title": "Driving License Issuance & Management System",
+    "sector": "E-Government",
+    "client": "Provincial Traffic Police Department",
+    "clientType": "Government",
+    "region": "Khyber Pakhtunkhwa, Pakistan",
+    "yearCompleted": 2020,
+    "contractValueUsd": 520000,
+    "durationMonths": 18,
+    "summary": "Delivered a license management system covering learner permits, driving tests, license issuance, renewals and duplicates across 28 licensing centers, with biometric capture (fingerprint and facial photo), NADRA verification and secure card personalization integration. Citizens book appointments and pay fees online through a bilingual Urdu/English portal; an e-challan interface flags unpaid violations before renewal. Provided 24/7 application support under a 99.5% availability SLA.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      ".NET",
+      "SQL Server",
+      "React",
+      "Biometric SDK (SecuGen)",
+      "REST APIs",
+      "Crystal Reports"
+    ],
+    "outcomes": "License issuance time reduced from 12 days to 3 days; 1.1 million licenses processed; counter fraud incidents down 85% after biometric rollout.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-006",
+    "title": "Online Tax Filing & Revenue Collection Portal",
+    "sector": "E-Government",
+    "client": "Provincial Revenue Authority",
+    "clientType": "Government",
+    "region": "Punjab, Pakistan",
+    "yearCompleted": 2023,
+    "contractValueUsd": 880000,
+    "durationMonths": 22,
+    "summary": "Replaced manual sales-tax-on-services filing with an online portal for taxpayer registration, e-filing of monthly returns, e-payments via 1Link/ADC channels and risk-based audit case selection. Built taxpayer ledgers, withholding statements, refund workflows and a business-intelligence layer for revenue forecasting. The platform passed an independent VAPT, operates under ISO 27001-aligned ISMS controls, and is supported by a 24/7 bilingual helpdesk with a 99.9% uptime SLA during filing windows.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022",
+      "CMMI-DEV Level 3"
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Oracle Database",
+      "React",
+      "Apache Superset",
+      "Kafka",
+      "Kubernetes"
+    ],
+    "outcomes": "Registered taxpayer base grew 42%; on-time filing compliance improved from 61% to 88%; collections increased 27% year-on-year after launch.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-007",
+    "title": "Federal Pension Disbursement Automation System",
+    "sector": "E-Government",
+    "client": "Federal Directorate of Pensions",
+    "clientType": "Government",
+    "region": "Islamabad, Pakistan",
+    "yearCompleted": 2017,
+    "contractValueUsd": 430000,
+    "durationMonths": 14,
+    "summary": "Automated pension case processing, sanction workflows and monthly disbursement for 310,000 federal pensioners, replacing paper files with a document-managed digital case file and direct-credit payments to bank accounts. Implemented biometric proof-of-life verification through bank branch and mobile channels to eliminate ghost pensioners. Migrated 25 years of legacy records with a verified data migration and reconciliation methodology.",
+    "certifications": [
+      "ISO 9001:2015"
+    ],
+    "technologies": [
+      "Java",
+      "Spring",
+      "Oracle Database",
+      "jBPM",
+      "Alfresco DMS",
+      "JasperReports"
+    ],
+    "outcomes": "Pension sanction time cut from 6 months to 3 weeks; 18,500 duplicate/ghost records eliminated saving USD 4.2M annually; zero missed payment runs in 36 months.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-008",
+    "title": "Citizen Complaint & Grievance Redressal Portal",
+    "sector": "E-Government",
+    "client": "Chief Minister's Delivery Unit",
+    "clientType": "Government",
+    "region": "Sindh, Pakistan",
+    "yearCompleted": 2019,
+    "contractValueUsd": 300000,
+    "durationMonths": 10,
+    "summary": "Launched a multi-channel grievance redressal platform (web portal, mobile app, SMS and call-center integration) routing citizen complaints to 38 departments with escalation matrices, geo-tagging and SLA-based resolution tracking. Dashboards give district administrators heat maps of complaint categories and aging. The bilingual Urdu/English interface meets WCAG 2.1 accessibility guidelines and supports voice-note complaints for low-literacy users.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "Node.js",
+      "React",
+      "MongoDB",
+      "Redis",
+      "Twilio SMS Gateway",
+      "Power BI"
+    ],
+    "outcomes": "612,000 complaints processed in first 18 months with 82% resolved within SLA; citizen satisfaction score of 4.1/5 across resolved cases.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-009",
+    "title": "e-Recruitment Portal for Public Service Commission",
+    "sector": "E-Government",
+    "client": "Provincial Public Service Commission",
+    "clientType": "Government",
+    "region": "Balochistan, Pakistan",
+    "yearCompleted": 2014,
+    "contractValueUsd": 180000,
+    "durationMonths": 9,
+    "summary": "Developed an online job application and recruitment management portal handling vacancy publication, candidate registration with CNIC validation, online fee payment, admit-card generation and merit-list computation. Automated test-center seat allocation and OMR result imports reduced manual collation errors. The system scaled to absorb 90,000 applications in a single recruitment drive with zero downtime.",
+    "certifications": [
+      "ISO 9001:2015"
+    ],
+    "technologies": [
+      "PHP (Laravel)",
+      "MySQL",
+      "jQuery",
+      "Bootstrap",
+      "OMR Integration"
+    ],
+    "outcomes": "Application processing cost per candidate reduced 64%; merit list publication time cut from 8 weeks to 9 days; 420,000 candidates served over five recruitment cycles.",
+    "referenceAvailable": false
+  },
+  {
+    "id": "CAP-010",
+    "title": "ERP Implementation (Microsoft Dynamics 365 Finance & Operations)",
+    "sector": "IT Services",
+    "client": "National Power Distribution Utility",
+    "clientType": "Government",
+    "region": "Islamabad, Pakistan",
+    "yearCompleted": 2021,
+    "contractValueUsd": 1200000,
+    "durationMonths": 30,
+    "summary": "Implemented Microsoft Dynamics 365 Finance & Operations across finance, supply chain, asset management and HR/payroll for a 9,000-employee utility, including chart-of-accounts redesign and data migration from a 20-year-old Oracle EBS estate. Delivered role-based training and capacity building for 1,100 end users through a train-the-trainer program, with a PMP-led PMO running fortnightly steering reviews. Post-go-live hypercare transitioned into a 24/7 managed support arrangement under a 99.9% availability SLA.",
+    "certifications": [
+      "ISO 9001:2015",
+      "CMMI-DEV Level 3",
+      "Microsoft Gold Partner"
+    ],
+    "technologies": [
+      "Microsoft Dynamics 365 F&O",
+      "Azure",
+      "SQL Server",
+      "Power BI",
+      "SSIS",
+      "Azure DevOps"
+    ],
+    "outcomes": "Month-end financial close reduced from 22 days to 6 days; procurement cycle time down 38%; single integrated ledger replaced 14 disconnected systems.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-011",
+    "title": "24/7 IT Service Desk & SLA Operations for Federal Ministry",
+    "sector": "IT Services",
+    "client": "Federal Ministry (IT Wing)",
+    "clientType": "Government",
+    "region": "Islamabad, Pakistan",
+    "yearCompleted": 2022,
+    "contractValueUsd": 600000,
+    "durationMonths": 36,
+    "summary": "Operated an ITIL v4-aligned 24/7 service desk and network operations center supporting 4,500 users across 60 sites, covering incident, problem, change and asset management with a CMDB and self-service portal. Achieved 99.9% uptime SLA on core services with 15-minute P1 response commitments, measured through monthly service review scorecards. Staffed a bilingual Urdu/English helpdesk with certified L1–L3 engineers and provided quarterly cybersecurity hygiene training for ministry staff.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "ServiceNow",
+      "ManageEngine",
+      "Zabbix",
+      "Grafana",
+      "Active Directory",
+      "VMware"
+    ],
+    "outcomes": "First-call resolution improved from 48% to 76%; mean time to restore P1 incidents cut to 38 minutes; SLA compliance above 99% for 30 consecutive months.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-012",
+    "title": "Core Banking Legacy Data Migration & Reconciliation",
+    "sector": "IT Services",
+    "client": "Mid-Tier Commercial Bank",
+    "clientType": "Private Enterprise",
+    "region": "Karachi, Pakistan",
+    "yearCompleted": 2018,
+    "contractValueUsd": 450000,
+    "durationMonths": 14,
+    "summary": "Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pipelines, mock-run rehearsals and automated reconciliation reports. Designed field-level mapping with the bank's operations teams and ran four dress rehearsals before the cutover weekend. All work performed under ISO 27001-aligned data handling controls with masked non-production environments.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022",
+      "CMMI-DEV Level 3"
+    ],
+    "technologies": [
+      "Informatica PowerCenter",
+      "Oracle Database",
+      "Temenos T24",
+      "Python",
+      "Control-M",
+      "Shell"
+    ],
+    "outcomes": "Cutover completed in a 52-hour weekend window with 100% balance reconciliation on day one; zero customer-facing data incidents in the 90-day stabilization period.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-013",
+    "title": "Cybersecurity Assessment, VAPT & SOC Establishment",
+    "sector": "IT Services",
+    "client": "Provincial Data Center Authority",
+    "clientType": "Government",
+    "region": "Punjab, Pakistan",
+    "yearCompleted": 2023,
+    "contractValueUsd": 380000,
+    "durationMonths": 12,
+    "summary": "Conducted enterprise-wide vulnerability assessment and penetration testing (external, internal, web and mobile) across 70 applications and 900 hosts, then designed and stood up a security operations center with SIEM onboarding, use-case engineering and incident-response playbooks. Implemented an ISO/IEC 27001-based ISMS including risk register, policies and internal audit, preparing the authority for certification. Delivered SOC analyst training and tabletop incident-response exercises for the client's security team.",
+    "certifications": [
+      "ISO/IEC 27001:2022",
+      "ISO 9001:2015"
+    ],
+    "technologies": [
+      "Wazuh SIEM",
+      "Elastic Stack",
+      "Nessus",
+      "Burp Suite",
+      "Metasploit",
+      "TheHive",
+      "MISP"
+    ],
+    "outcomes": "214 critical/high vulnerabilities identified and remediated; mean time to detect security events cut from days to under 20 minutes; client achieved ISO 27001 certification within 9 months.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-014",
+    "title": "Campus-Wide Enterprise Network Upgrade",
+    "sector": "IT Services",
+    "client": "Public Sector University",
+    "clientType": "Government",
+    "region": "Lahore, Pakistan",
+    "yearCompleted": 2020,
+    "contractValueUsd": 340000,
+    "durationMonths": 10,
+    "summary": "Redesigned and upgraded a 14-building campus network to a collapsed-core architecture with 10G fiber backbone, 380 access switches, Wi-Fi 6 coverage for 25,000 students and 802.1X NAC integrated with the university directory. Implemented network segmentation separating academic, administrative and examination VLANs, with centralized monitoring and configuration backup. Completed structured cabling certification and as-built documentation, plus administrator training for the university's network team.",
+    "certifications": [
+      "ISO 9001:2015"
+    ],
+    "technologies": [
+      "Cisco Catalyst",
+      "Aruba Wi-Fi 6",
+      "ClearPass NAC",
+      "OSPF/BGP",
+      "PRTG",
+      "Fiber OTDR"
+    ],
+    "outcomes": "Network availability rose to 99.95%; wireless concurrency capacity tripled to 18,000 devices; exam-period outages eliminated for six consecutive semesters.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-015",
+    "title": "Private Cloud & Data Center Virtualization Program",
+    "sector": "IT Services",
+    "client": "Provincial Information Technology Board (Sindh)",
+    "clientType": "Government",
+    "region": "Sindh, Pakistan",
+    "yearCompleted": 2019,
+    "contractValueUsd": 720000,
+    "durationMonths": 20,
+    "summary": "Consolidated 240 physical servers from 19 departments into a virtualized private-cloud platform with self-service provisioning, chargeback reporting and automated backup, hosted in the government's existing Tier-III data center. Built infrastructure-as-code templates and a Kubernetes layer for containerized e-government workloads, with capacity planning and DR replication to a secondary government facility. Trained 45 departmental administrators on the new platform through structured knowledge-transfer workshops.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "VMware vSphere",
+      "OpenStack",
+      "Kubernetes",
+      "Terraform",
+      "Ansible",
+      "Veeam",
+      "Ceph"
+    ],
+    "outcomes": "Server provisioning time cut from 6 weeks to 4 hours; hosting cost per workload reduced 44%; 97 legacy applications migrated without data loss.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-016",
+    "title": "HR Management Information System for Federal Workforce",
+    "sector": "IT Services",
+    "client": "Federal Establishment Division",
+    "clientType": "Government",
+    "region": "Islamabad, Pakistan",
+    "yearCompleted": 2016,
+    "contractValueUsd": 290000,
+    "durationMonths": 16,
+    "summary": "Built a centralized HRMIS managing service records, postings/transfers, promotions, leave and seniority lists for 28,000 federal civil servants, digitizing 1.4 million pages of legacy service books with indexed scanning. Implemented configurable workflow for establishment actions and integration with payroll. Included extensive change management with on-site training and capacity building across 40 attached departments.",
+    "certifications": [
+      "ISO 9001:2015"
+    ],
+    "technologies": [
+      ".NET",
+      "SQL Server",
+      "Angular",
+      "SSRS",
+      "Kofax Scanning"
+    ],
+    "outcomes": "Seniority list disputes reduced 70% through authoritative digital records; HR action turnaround improved from 3 weeks to 4 days.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-017",
+    "title": "Document Management & Workflow Automation for Energy Company",
+    "sector": "IT Services",
+    "client": "Oil & Gas Exploration Company",
+    "clientType": "Private Enterprise",
+    "region": "Islamabad, Pakistan",
+    "yearCompleted": 2015,
+    "contractValueUsd": 240000,
+    "durationMonths": 12,
+    "summary": "Deployed an enterprise document management system with records classification, retention schedules, full-text OCR search and workflow automation for correspondence, contracts and joint-venture approvals. Migrated 2.3 million documents from shared drives with deduplication and metadata enrichment. Integrated digital signatures for approval chains and trained 800 users across head office and field locations.",
+    "certifications": [
+      "ISO 9001:2015"
+    ],
+    "technologies": [
+      "Alfresco",
+      "Apache Solr",
+      "Tesseract OCR",
+      "Java",
+      "PostgreSQL",
+      "LDAP"
+    ],
+    "outcomes": "Document retrieval time cut from hours to under 30 seconds; approval cycle times reduced 55%; physical archive storage costs down 60%.",
+    "referenceAvailable": false
+  },
+  {
+    "id": "CAP-018",
+    "title": "Payment Gateway Integration & Switching Middleware",
+    "sector": "Fintech",
+    "client": "Microfinance Bank",
+    "clientType": "Private Enterprise",
+    "region": "Karachi, Pakistan",
+    "yearCompleted": 2021,
+    "contractValueUsd": 650000,
+    "durationMonths": 18,
+    "summary": "Built ISO 8583 switching middleware connecting the bank's core banking system to 1Link and interbank payment rails, enabling ATM acquiring, IBFT, utility bill payments and card-not-present e-commerce transactions through a PCI DSS-aligned payment gateway. Implemented HSM-backed key management, real-time fraud rules and reconciliation with automated settlement files. The platform processes transactions 24/7 under a 99.95% availability SLA with active-active deployment across two data centers.",
+    "certifications": [
+      "ISO/IEC 27001:2022",
+      "ISO 9001:2015",
+      "CMMI-DEV Level 3"
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "ISO 8583 (jPOS)",
+      "Oracle Database",
+      "Thales HSM",
+      "Kafka",
+      "Kubernetes"
+    ],
+    "outcomes": "Transaction success rate improved to 99.4%; settlement reconciliation effort cut from 3 FTE-days to 2 hours daily; 11 million transactions per month at peak.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-019",
+    "title": "Branchless Banking & Agent Network Platform",
+    "sector": "Fintech",
+    "client": "Telecom-Led Branchless Banking Operator",
+    "clientType": "Private Enterprise",
+    "region": "Nationwide, Pakistan",
+    "yearCompleted": 2019,
+    "contractValueUsd": 980000,
+    "durationMonths": 26,
+    "summary": "Developed the agent network management platform for a branchless banking operator with 45,000 retail agents: agent onboarding with NADRA biometric e-KYC verification, liquidity and float management, commission engines, and cash-in/cash-out transaction processing integrated with the wallet core. Built USSD and Android channels for feature-phone and smartphone agents, with offline queuing for low-connectivity rural areas. Complied with State Bank branchless banking regulations including AML/CFT transaction monitoring hooks.",
+    "certifications": [
+      "ISO/IEC 27001:2022",
+      "ISO 9001:2015"
+    ],
+    "technologies": [
+      "Java",
+      "Spring",
+      "PostgreSQL",
+      "USSD Gateway",
+      "Android (Kotlin)",
+      "Redis",
+      "RabbitMQ",
+      "NADRA Biometric SDK"
+    ],
+    "outcomes": "Agent onboarding time cut from 9 days to same-day with biometric e-KYC; agent network grew 3x on the platform; 99.6% transaction success across 60M monthly transactions.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-020",
+    "title": "Mobile Wallet Application for Electronic Money Institution",
+    "sector": "Fintech",
+    "client": "Licensed Electronic Money Institution (EMI)",
+    "clientType": "Private Enterprise",
+    "region": "Lahore, Pakistan",
+    "yearCompleted": 2022,
+    "contractValueUsd": 540000,
+    "durationMonths": 15,
+    "summary": "Designed and built a consumer mobile wallet app (Android/iOS) with digital onboarding via NADRA e-KYC and liveness detection, P2P transfers, QR merchant payments (RAAST P2M ready), mobile top-ups, bill payments and card issuance integration. Microservices backend with event-driven ledger ensures double-entry integrity and real-time balance consistency. Achieved State Bank EMI compliance requirements including transaction limits, AML screening integration and bilingual Urdu/English UX for mass-market adoption.",
+    "certifications": [
+      "ISO/IEC 27001:2022",
+      "CMMI-DEV Level 3"
+    ],
+    "technologies": [
+      "React Native",
+      "Node.js (NestJS)",
+      "PostgreSQL",
+      "Kafka",
+      "Kubernetes",
+      "Keycloak",
+      "RAAST APIs"
+    ],
+    "outcomes": "1.4 million registered wallets in year one with 99.95% uptime; digital onboarding completion rate of 81%; app store rating 4.5 sustained across releases.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-021",
+    "title": "Raast Instant Payments Integration for Commercial Bank",
+    "sector": "Fintech",
+    "client": "Mid-Tier Commercial Bank",
+    "clientType": "Private Enterprise",
+    "region": "Karachi, Pakistan",
+    "yearCompleted": 2023,
+    "contractValueUsd": 420000,
+    "durationMonths": 11,
+    "summary": "Integrated the bank's core and digital channels with Pakistan's Raast instant payment system covering P2P alias (RtP) payments, bulk disbursements and merchant P2M flows, with ISO 20022 message transformation, idempotency controls and real-time posting to the core ledger. Built a 24/7 monitoring dashboard with automated alerting on scheme SLA breaches and reconciliation against scheme settlement reports. Passed central-bank scheme certification on first attempt.",
+    "certifications": [
+      "ISO/IEC 27001:2022",
+      "ISO 9001:2015"
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "ISO 20022",
+      "IBM MQ",
+      "Oracle Database",
+      "Grafana",
+      "OpenShift"
+    ],
+    "outcomes": "Scheme certification achieved in 7 months end-to-end; Raast volumes reached 2.8M transactions/month within a year; straight-through-processing rate of 99.7%.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-022",
+    "title": "Loan Origination & Credit Scoring System",
+    "sector": "Fintech",
+    "client": "Non-Bank Microfinance Company",
+    "clientType": "Private Enterprise",
+    "region": "Lahore, Pakistan",
+    "yearCompleted": 2017,
+    "contractValueUsd": 310000,
+    "durationMonths": 12,
+    "summary": "Implemented a digital loan origination system for group and individual microloans covering field-officer tablet onboarding, credit bureau (eCIB) checks, configurable credit-scoring scorecards and disbursement integration with branchless banking wallets. Workflow engine routes applications through verification, approval committees and documentation with full audit trails. Included portfolio dashboards for PAR monitoring and branch performance.",
+    "certifications": [
+      "ISO 9001:2015"
+    ],
+    "technologies": [
+      "Java",
+      "Spring",
+      "MySQL",
+      "Android Tablet App",
+      "Drools Rules Engine",
+      "Pentaho BI"
+    ],
+    "outcomes": "Loan approval turnaround cut from 12 days to 48 hours; data-entry errors down 73% via field digitization; portfolio grew 2.4x with the same back-office headcount.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-023",
+    "title": "Hospital Management Information System (HMIS) for Teaching Hospital",
+    "sector": "Health IT",
+    "client": "600-Bed Public Teaching Hospital",
+    "clientType": "Government",
+    "region": "Khyber Pakhtunkhwa, Pakistan",
+    "yearCompleted": 2018,
+    "contractValueUsd": 760000,
+    "durationMonths": 24,
+    "summary": "Implemented an integrated HMIS covering OPD/IPD registration, electronic medical records, laboratory (LIS) and radiology (RIS/PACS integration), pharmacy stock, billing and blood bank for a 600-bed teaching hospital. HL7 interfaces connect lab analyzers and PACS, and a patient portal provides bilingual Urdu/English report access. Delivered 24/7 go-live support and structured training and capacity building for 1,900 clinical and administrative staff under a PMP-led PMO.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "HL7 (Mirth Connect)",
+      "React",
+      "DICOM/PACS Integration",
+      "Android"
+    ],
+    "outcomes": "Patient registration time cut from 25 to 4 minutes; lab result turnaround improved 58%; medication stock-outs reduced 81% through pharmacy inventory controls.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-024",
+    "title": "Telemedicine Platform for Rural Primary Care",
+    "sector": "Health IT",
+    "client": "International Development Partner (Health Program)",
+    "clientType": "Donor-Funded",
+    "region": "Gilgit-Baltistan, Pakistan",
+    "yearCompleted": 2021,
+    "contractValueUsd": 480000,
+    "durationMonths": 16,
+    "summary": "Built a telemedicine platform linking 85 rural basic health units to specialist physicians in tertiary hospitals, with low-bandwidth-optimized video consultations, an offline-first EMR that syncs over intermittent connectivity, e-prescriptions and referral tracking. Trained 240 lady health visitors and paramedics through hands-on capacity-building clinics. The solution operates in Urdu and English with a simplified UI validated through field usability studies.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "WebRTC",
+      "React",
+      "Node.js",
+      "CouchDB/PouchDB offline sync",
+      "PostgreSQL",
+      "Jitsi"
+    ],
+    "outcomes": "94,000 teleconsultations completed in 24 months; specialist referral travel reduced an average 210 km per patient; 41% drop in avoidable referrals to tertiary care.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-025",
+    "title": "District Health Dashboards on DHIS2",
+    "sector": "Health IT",
+    "client": "Provincial Health Department",
+    "clientType": "Government",
+    "region": "Sindh, Pakistan",
+    "yearCompleted": 2020,
+    "contractValueUsd": 350000,
+    "durationMonths": 14,
+    "summary": "Customized and scaled the DHIS2 health information platform for province-wide reporting across 1,900 facilities, building district performance dashboards for immunization coverage, maternal health and disease surveillance indicators. Developed Android-based facility reporting with validation rules that cut data-quality errors, plus automated feeds from vertical programs. Conducted train-the-trainer cascades reaching 2,600 health information officers.",
+    "certifications": [
+      "ISO 9001:2015"
+    ],
+    "technologies": [
+      "DHIS2",
+      "PostgreSQL",
+      "Android",
+      "Apache Superset",
+      "Java",
+      "REST APIs"
+    ],
+    "outcomes": "Monthly facility reporting completeness rose from 68% to 96%; report submission lag cut from 6 weeks to 5 days; data-quality audit scores doubled.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-026",
+    "title": "COVID-19 Vaccination Appointment & Certificate System",
+    "sector": "Health IT",
+    "client": "National Health Emergency Operations Center",
+    "clientType": "Government",
+    "region": "Nationwide, Pakistan",
+    "yearCompleted": 2021,
+    "contractValueUsd": 290000,
+    "durationMonths": 6,
+    "summary": "Delivered, under emergency timelines, a national vaccination appointment system with CNIC-based registration via web, SMS and call center, center capacity scheduling, dose tracking and QR-verifiable digital vaccination certificates. The platform absorbed extreme launch spikes through autoscaled cloud infrastructure and queue-based load leveling. Operated a 24/7 technical war room during the campaign's peak with 99.9% uptime.",
+    "certifications": [
+      "ISO/IEC 27001:2022",
+      "AWS Select Partner"
+    ],
+    "technologies": [
+      "AWS (EC2, RDS, SQS, CloudFront)",
+      "Node.js",
+      "React",
+      "PostgreSQL",
+      "Redis",
+      "SMS Gateway"
+    ],
+    "outcomes": "29 million appointments scheduled; certificate verification API served 1.2M scans/day at peak; zero data-breach incidents across the program.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-027",
+    "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+    "sector": "Logistics",
+    "client": "National Courier & Express Company",
+    "clientType": "Private Enterprise",
+    "region": "Nationwide, Pakistan",
+    "yearCompleted": 2019,
+    "contractValueUsd": 560000,
+    "durationMonths": 18,
+    "summary": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. Control-tower dashboards give route replay, ETA prediction and SLA breach alerts to regional operations teams, while driver-behavior scoring feeds safety coaching. Integrated with the courier's shipment system so customer service sees parcel-level vehicle locations in real time.",
+    "certifications": [
+      "ISO 9001:2015"
+    ],
+    "technologies": [
+      "Java",
+      "Kafka",
+      "TimescaleDB",
+      "Traccar/GPS Protocols",
+      "React",
+      "PostGIS",
+      "Grafana"
+    ],
+    "outcomes": "On-time delivery improved 14 percentage points; fuel cost per route down 11% through idling and route-deviation control; vehicle utilization up 19%.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-028",
+    "title": "Warehouse Management System for FMCG Distributor",
+    "sector": "Logistics",
+    "client": "FMCG Distribution Group",
+    "clientType": "Private Enterprise",
+    "region": "Lahore, Pakistan",
+    "yearCompleted": 2020,
+    "contractValueUsd": 470000,
+    "durationMonths": 15,
+    "summary": "Implemented a warehouse management system across five distribution centers with barcode-driven receiving, putaway, wave picking, batch/expiry (FEFO) control and cycle counting on Android handheld terminals. Integrated with the distributor's ERP for orders and inventory sync, and added a yard/dock scheduling module to smooth inbound congestion. Provided floor-level training and capacity building for 350 warehouse staff with bilingual Urdu/English work instructions.",
+    "certifications": [
+      "ISO 9001:2015"
+    ],
+    "technologies": [
+      ".NET Core",
+      "SQL Server",
+      "Android (Zebra handhelds)",
+      "Barcode/RFID",
+      "React",
+      "SSRS"
+    ],
+    "outcomes": "Picking accuracy rose to 99.7%; order-to-dispatch lead time cut 46%; inventory shrinkage reduced 63% in the first year.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-029",
+    "title": "Route Optimization Engine for LPG Distribution",
+    "sector": "Logistics",
+    "client": "LPG Marketing & Distribution Company",
+    "clientType": "Private Enterprise",
+    "region": "Punjab, Pakistan",
+    "yearCompleted": 2022,
+    "contractValueUsd": 380000,
+    "durationMonths": 12,
+    "summary": "Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver shift rules. Dispatchers get suggested route plans with manual override, and an Android driver app handles proof-of-delivery, cylinder reconciliation and cash collection. The optimizer integrates with the company's SAP order pipeline through nightly and intraday syncs.",
+    "certifications": [
+      "ISO 9001:2015",
+      "CMMI-DEV Level 3"
+    ],
+    "technologies": [
+      "Python",
+      "Google OR-Tools",
+      "PostgreSQL/PostGIS",
+      "OSRM",
+      "React",
+      "Android (Kotlin)",
+      "SAP Integration"
+    ],
+    "outcomes": "Fleet kilometers reduced 17% for the same delivery volume; deliveries per vehicle per day up 22%; cash reconciliation discrepancies down 88% via digital POD.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-030",
+    "title": "Port Container Tracking & Customs e-Clearance Integration",
+    "sector": "Logistics",
+    "client": "Private Container Terminal Operator",
+    "clientType": "Private Enterprise",
+    "region": "Karachi, Pakistan",
+    "yearCompleted": 2016,
+    "contractValueUsd": 410000,
+    "durationMonths": 16,
+    "summary": "Developed a container tracking and gate-automation system for a port terminal, integrating OCR gate cameras, RFID truck tags and yard position updates with the terminal operating system. Built two-way EDI/API integration with the national customs clearance system (WeBOC) for examination holds and release messages, plus a shipper portal for real-time container status and e-DO workflows. Reduced manual paperwork at gates through digital job orders.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "Java",
+      "Oracle Database",
+      "EDI (UN/EDIFACT)",
+      "ANPR/OCR Cameras",
+      "RFID",
+      "jQuery/Bootstrap Portal"
+    ],
+    "outcomes": "Average truck gate turnaround cut from 41 to 13 minutes; customs release-to-gate-out time reduced 35%; portal adoption by 1,900 freight forwarders.",
+    "referenceAvailable": false
+  },
+  {
+    "id": "CAP-031",
+    "title": "University Management Information System (Campus MIS)",
+    "sector": "Education",
+    "client": "Public Sector University",
+    "clientType": "Government",
+    "region": "Islamabad, Pakistan",
+    "yearCompleted": 2017,
+    "contractValueUsd": 520000,
+    "durationMonths": 22,
+    "summary": "Implemented an integrated campus MIS covering online admissions, course registration, timetabling, examinations and transcripts, student fee management and HR/payroll for a university of 32,000 students. Semester GPA processing and degree audit rules were automated per HEC policies, with a student/faculty self-service portal and mobile app. Migrated 15 years of academic records with verified data migration and ran training and capacity building for 700 staff and faculty.",
+    "certifications": [
+      "ISO 9001:2015",
+      "CMMI-DEV Level 3"
+    ],
+    "technologies": [
+      "Java",
+      "Spring",
+      "Oracle Database",
+      "Angular",
+      "JasperReports",
+      "Flutter"
+    ],
+    "outcomes": "Admission processing capacity doubled with same staff; result declaration time cut from 7 weeks to 10 days; fee defaults down 31% via automated reminders and online payment.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-032",
+    "title": "Provincial Learning Management System & Teacher Training",
+    "sector": "Education",
+    "client": "Provincial School Education Department",
+    "clientType": "Government",
+    "region": "Punjab, Pakistan",
+    "yearCompleted": 2020,
+    "contractValueUsd": 360000,
+    "durationMonths": 14,
+    "summary": "Rolled out a Moodle-based learning management system serving 600,000 students with curriculum-aligned digital content in Urdu and English, low-bandwidth streaming profiles and SMS-based parent notifications. Built teacher dashboards for assignment tracking and formative assessment item banks mapped to student learning outcomes. Conducted blended train-the-trainer programs certifying 4,500 master trainers across 36 districts as part of structured capacity building.",
+    "certifications": [
+      "ISO 9001:2015"
+    ],
+    "technologies": [
+      "Moodle (PHP)",
+      "MariaDB",
+      "Nginx",
+      "CDN/HLS Streaming",
+      "Android",
+      "SMS Gateway"
+    ],
+    "outcomes": "Platform sustained 160,000 concurrent users during exam season; teacher weekly active usage reached 71%; content completion rates doubled after gamification release.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-033",
+    "title": "School Information System & Education MIS (EMIS)",
+    "sector": "Education",
+    "client": "Provincial Elementary & Secondary Education Department",
+    "clientType": "Government",
+    "region": "Khyber Pakhtunkhwa, Pakistan",
+    "yearCompleted": 2023,
+    "contractValueUsd": 440000,
+    "durationMonths": 18,
+    "summary": "Built a province-wide education MIS capturing enrollment, attendance, teacher deployment and school facility data from 27,000 public schools through Android tablet collection by district monitoring teams. GIS school mapping and dashboards drive teacher rationalization and missing-facility investment decisions, while open-data APIs feed the education department's public transparency portal. Included data-quality validation engines and capacity building for 900 district officials.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "Django (Python)",
+      "PostgreSQL/PostGIS",
+      "Android (Kotlin)",
+      "Metabase",
+      "Leaflet GIS",
+      "REST APIs"
+    ],
+    "outcomes": "School data refresh cycle improved from annual census to monthly; 6,200 ghost-teacher entries flagged and resolved; facility investment targeting accuracy praised in donor review.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-034",
+    "title": "Citizen e-Services Portal Phase II — Khyber Pakhtunkhwa",
+    "sector": "E-Government",
+    "client": "Provincial Information Technology Board (Khyber Pakhtunkhwa)",
+    "clientType": "Government",
+    "region": "Khyber Pakhtunkhwa, Pakistan",
+    "yearCompleted": 2023,
+    "contractValueUsd": 780000,
+    "durationMonths": 20,
+    "summary": "Follow-on engagement replicating and extending our citizen facilitation portal for a second province, expanding the catalogue to 120 bilingual Urdu/English e-services with a unified citizen wallet for fee payments and WCAG 2.1 AA accessible design. Added an API gateway so other departments can publish services onto the platform under a shared single sign-on. Operated under a 99.9% uptime SLA with 24/7 monitoring from our Islamabad NOC.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022",
+      "CMMI-DEV Level 3"
+    ],
+    "technologies": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Kubernetes",
+      "Kong API Gateway",
+      "Keycloak SSO"
+    ],
+    "outcomes": "1.9 million citizen registrations in year one; 86% of targeted services fully online; service-center footfall reduced 39% in pilot districts.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-035",
+    "title": "Urban Land Records Service Centers & Mutation Workflow — Phase II",
+    "sector": "E-Government",
+    "client": "Provincial Land Records Authority (Punjab)",
+    "clientType": "Government",
+    "region": "Punjab, Pakistan",
+    "yearCompleted": 2022,
+    "contractValueUsd": 1600000,
+    "durationMonths": 30,
+    "summary": "Second-generation land records program extending our digitization experience to urban property records: 9.8 million registry documents scanned and indexed, e-registration deeds workflow with biometric verification of parties, and integration with the provincial e-stamping system. Established 38 service centers with queue management and citizen feedback kiosks. The program ran under a PMP-led PMO with monthly third-party data-quality audits.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Oracle Database",
+      "PostGIS",
+      "Biometric SDK",
+      "React",
+      "Kafka"
+    ],
+    "outcomes": "Urban property transfer time cut from 31 days to 5 days; stamp-duty leakage reduced 23% through e-stamping linkage; 98.9% document indexing accuracy.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-036",
+    "title": "Federal e-Procurement System Enhancement & Rollout",
+    "sector": "E-Government",
+    "client": "Federal Public Procurement Regulatory Authority",
+    "clientType": "Government",
+    "region": "Islamabad, Pakistan",
+    "yearCompleted": 2024,
+    "contractValueUsd": 1300000,
+    "durationMonths": 28,
+    "summary": "National-scale follow-on to our provincial e-procurement build: enhanced the federal e-procurement platform with framework agreements, reverse auctions, supplier performance scoring and open-contracting (OCDS) data publication. Onboarded 280 federal procuring agencies with structured change management, bilingual training academies and a 24/7 supplier helpdesk. Security hardened to ISO 27001 controls with annual third-party VAPT.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022",
+      "CMMI-DEV Level 3"
+    ],
+    "technologies": [
+      ".NET Core",
+      "SQL Server",
+      "Angular",
+      "Elasticsearch",
+      "RabbitMQ",
+      "Azure",
+      "PKI"
+    ],
+    "outcomes": "Federal tender publication compliance reached 97%; average savings of 12% recorded on reverse-auction categories; OCDS portal cited in international transparency review.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-037",
+    "title": "Vehicle Registration & Excise Management System",
+    "sector": "E-Government",
+    "client": "Provincial Excise, Taxation & Narcotics Control Department",
+    "clientType": "Government",
+    "region": "Sindh, Pakistan",
+    "yearCompleted": 2024,
+    "contractValueUsd": 640000,
+    "durationMonths": 16,
+    "summary": "Adapted our license-management platform for motor vehicle registration, transfer and token tax collection across 30 excise offices, with biometric owner verification, online tax calculators and doorstep number-plate delivery tracking. Integrated e-payment channels and a public vehicle-verification SMS/web service used by buyers and law enforcement. Provided staff training and a 3-year managed support arrangement with 99.5% availability SLA.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      ".NET",
+      "SQL Server",
+      "React",
+      "Biometric SDK",
+      "1Link e-Payments",
+      "SMS Gateway"
+    ],
+    "outcomes": "Vehicle transfer turnaround cut from 21 days to 4 days; token tax collection up 33% after online channels launched; 2.6 million verification queries served annually.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-038",
+    "title": "Inland Revenue e-Filing Portal — Azad Jammu & Kashmir",
+    "sector": "E-Government",
+    "client": "AJK Inland Revenue Department",
+    "clientType": "Government",
+    "region": "Azad Jammu & Kashmir, Pakistan",
+    "yearCompleted": 2025,
+    "contractValueUsd": 510000,
+    "durationMonths": 15,
+    "summary": "Deployed a tailored instance of our revenue-collection platform for the AJK Inland Revenue Department, covering taxpayer registration, sales-tax e-filing, e-payments and arrears management with a bilingual Urdu/English taxpayer portal. Added a mobile inspection app for field officers with offline assessment capture. Conducted taxpayer-facilitation drives and trained 160 departmental users as part of capacity building.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "React",
+      "Android (Kotlin)",
+      "Metabase"
+    ],
+    "outcomes": "First e-filing season closed with 74% electronic returns; revenue collection grew 19% year-on-year; manual challan errors eliminated at participating banks.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-039",
+    "title": "Dynamics 365 ERP Rollout for Textile Manufacturing Group",
+    "sector": "IT Services",
+    "client": "Textile Manufacturing & Export Group",
+    "clientType": "Private Enterprise",
+    "region": "Faisalabad, Pakistan",
+    "yearCompleted": 2023,
+    "contractValueUsd": 850000,
+    "durationMonths": 22,
+    "summary": "Leveraging our utility-sector ERP experience, implemented Microsoft Dynamics 365 Finance & Operations with production control, costing and export documentation for a vertically integrated textile group spanning spinning, weaving and garments units. Migrated three legacy ERPs into a single instance with harmonized item and customer masters. Included Power BI executive dashboards and capacity building for 600 users across five plants.",
+    "certifications": [
+      "ISO 9001:2015",
+      "CMMI-DEV Level 3",
+      "Microsoft Gold Partner"
+    ],
+    "technologies": [
+      "Microsoft Dynamics 365 F&O",
+      "Azure",
+      "Power BI",
+      "SQL Server",
+      "Logic Apps",
+      "Dual-write/Dataverse"
+    ],
+    "outcomes": "Order-to-ship cycle reduced 28%; standard costing variances surfaced weekly instead of quarterly; export documentation errors down 90%.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-040",
+    "title": "24/7 Managed NOC & Service Desk for Commercial Bank",
+    "sector": "IT Services",
+    "client": "Mid-Tier Commercial Bank",
+    "clientType": "Private Enterprise",
+    "region": "Karachi, Pakistan",
+    "yearCompleted": 2024,
+    "contractValueUsd": 720000,
+    "durationMonths": 36,
+    "summary": "Multi-year managed services contract building on our federal service-desk operation: 24/7 NOC and service desk for a bank's 280-branch network, ATM estate monitoring and core-banking batch oversight, under stringent 99.9% uptime SLAs with quarterly penalty/bonus gates. Implemented automated event correlation that suppresses noise and pages on true service impact. All processes operate under ISO 27001-aligned controls with full audit trails for State Bank inspections.",
+    "certifications": [
+      "ISO/IEC 27001:2022",
+      "ISO 9001:2015"
+    ],
+    "technologies": [
+      "ServiceNow",
+      "Zabbix",
+      "Grafana",
+      "NetFlow Analytics",
+      "Ansible Automation",
+      "VMware"
+    ],
+    "outcomes": "ATM network availability raised to 97.8% from 94.1%; P1 incidents down 35% year-on-year through proactive monitoring; all 12 quarterly SLA gates met.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-041",
+    "title": "Cybersecurity Assessment & ISO 27001 Readiness for Insurer",
+    "sector": "IT Services",
+    "client": "National Insurance Company",
+    "clientType": "Private Enterprise",
+    "region": "Karachi, Pakistan",
+    "yearCompleted": 2025,
+    "contractValueUsd": 210000,
+    "durationMonths": 8,
+    "summary": "Repeat engagement applying our SOC and VAPT methodology for an insurer: penetration testing of 24 internet-facing applications, internal network assessment, and an ISO/IEC 27001:2022 gap assessment with remediation roadmap, policy suite and risk register. Coached the client's newly formed security team through their first internal audit cycle and management review. Delivered phishing-simulation and security-awareness training for 1,200 employees.",
+    "certifications": [
+      "ISO/IEC 27001:2022",
+      "ISO 9001:2015"
+    ],
+    "technologies": [
+      "Nessus",
+      "Burp Suite",
+      "Wazuh SIEM",
+      "KnowBe4-style Phishing Sim",
+      "Elastic Stack"
+    ],
+    "outcomes": "Critical vulnerabilities closed within 60 days; client passed stage-1 ISO 27001 certification audit with zero major nonconformities; phishing click rate cut from 31% to 6%.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-042",
+    "title": "Hospital Campus Network & Wi-Fi Modernization",
+    "sector": "IT Services",
+    "client": "Private Tertiary Care Hospital Group",
+    "clientType": "Private Enterprise",
+    "region": "Lahore, Pakistan",
+    "yearCompleted": 2024,
+    "contractValueUsd": 280000,
+    "durationMonths": 9,
+    "summary": "Applied our campus networking practice to a three-hospital group: redundant 10G backbone, medical-grade Wi-Fi 6 with seamless roaming for clinical mobile carts, and segmented VLANs isolating biomedical devices from guest and corporate traffic. Designed for zero clinical downtime with after-hours phased cutovers and rollback plans per ward. Included network operations handover, documentation and administrator training.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "Aruba Wi-Fi 6",
+      "Cisco Catalyst",
+      "ClearPass NAC",
+      "Network Segmentation",
+      "PRTG"
+    ],
+    "outcomes": "Zero unplanned clinical downtime during 14-week migration; nurse-call and EMR cart disconnects eliminated; guest network complaints down 92%.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-043",
+    "title": "E-Commerce Payment Gateway Integration for Retail Group",
+    "sector": "Fintech",
+    "client": "National Retail & E-Commerce Group",
+    "clientType": "Private Enterprise",
+    "region": "Lahore, Pakistan",
+    "yearCompleted": 2024,
+    "contractValueUsd": 460000,
+    "durationMonths": 12,
+    "summary": "Repeat application of our payment-gateway middleware for a retail group's e-commerce platforms: card-not-present acquiring integration with two acquiring banks, wallet and BNPL payment options, 3-D Secure flows and tokenized card-on-file under PCI DSS-aligned controls. Built a unified payments orchestration layer with smart routing and automatic failover between providers. Reconciliation dashboards match orders, gateway settlements and bank statements daily.",
+    "certifications": [
+      "ISO/IEC 27001:2022",
+      "CMMI-DEV Level 3"
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "Kafka",
+      "3-D Secure",
+      "Kubernetes",
+      "React"
+    ],
+    "outcomes": "Payment success rate up from 88% to 96.5% via smart routing; checkout abandonment down 18%; settlement reconciliation fully automated across three providers.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-044",
+    "title": "G2P Digital Disbursement Platform for Social Protection Program",
+    "sector": "Fintech",
+    "client": "National Social Protection Programme (Donor-Assisted)",
+    "clientType": "Donor-Funded",
+    "region": "Nationwide, Pakistan",
+    "yearCompleted": 2023,
+    "contractValueUsd": 1100000,
+    "durationMonths": 24,
+    "summary": "Extended our branchless-banking platform experience to government-to-person payments: a disbursement management system pushing quarterly cash-transfer payments to 6 million beneficiaries through bank, wallet and agent cash-out channels with biometric verification at point of payment. Implemented beneficiary grievance tracking, payment reconciliation across multiple payment service providers and fraud analytics flagging anomalous cash-out patterns. Designed dashboards used by the program and its international development partners for disbursement monitoring.",
+    "certifications": [
+      "ISO/IEC 27001:2022",
+      "ISO 9001:2015",
+      "CMMI-DEV Level 3"
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Oracle Database",
+      "Kafka",
+      "Biometric Verification",
+      "Power BI",
+      "REST APIs"
+    ],
+    "outcomes": "Payment delivery success rose to 98.3% per cycle; reconciliation closed in 5 days instead of 7 weeks; flagged fraud patterns saved an estimated USD 3.1M per year.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-045",
+    "title": "HMIS Rollout to District Headquarters Hospitals — Phase II",
+    "sector": "Health IT",
+    "client": "Provincial Health Department (Secondary Care Wing)",
+    "clientType": "Government",
+    "region": "Khyber Pakhtunkhwa, Pakistan",
+    "yearCompleted": 2023,
+    "contractValueUsd": 980000,
+    "durationMonths": 26,
+    "summary": "Scaled our teaching-hospital HMIS to eight district headquarters hospitals as a centrally hosted multi-tenant deployment, standardizing OPD/IPD, laboratory, pharmacy and billing modules with hospital-specific configuration. Central dashboards give the health department cross-facility bed occupancy, medicine consumption and revenue views. Each rollout included on-site super-user training, data migration of patient master indexes and 24/7 go-live support under a single program PMO.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "HL7 (Mirth Connect)",
+      "React",
+      "Kubernetes",
+      "Grafana"
+    ],
+    "outcomes": "Eight hospitals live in 26 months with shared infrastructure cutting per-site cost 40%; province-wide medicine stock visibility achieved for the first time; patient wait times down 35% on average.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-046",
+    "title": "Tele-Ophthalmology Network for NGO Eye Hospitals",
+    "sector": "Health IT",
+    "client": "National Eye-Care NGO Network",
+    "clientType": "NGO",
+    "region": "Sindh, Pakistan",
+    "yearCompleted": 2024,
+    "contractValueUsd": 180000,
+    "durationMonths": 10,
+    "summary": "Adapted our telemedicine platform for an NGO's eye-care network, connecting 22 community vision centers to hub hospitals for remote fundus-image screening, diabetic-retinopathy grading queues and surgical referral booking. Optimized image upload for 3G connectivity with background sync and automated quality checks rejecting ungradeable images at capture time. Trained vision-center technicians and built donor-facing impact dashboards.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "DICOM Image Handling",
+      "Android (Kotlin)",
+      "MinIO Object Storage"
+    ],
+    "outcomes": "61,000 screenings in first year with 9% referral conversion to treatment; image rejection rate fell from 22% to 4%; average specialist grading turnaround under 24 hours.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-047",
+    "title": "Ambulance Fleet Tracking & Dispatch for Emergency Service",
+    "sector": "Logistics",
+    "client": "Provincial Emergency Rescue Service",
+    "clientType": "Government",
+    "region": "Punjab, Pakistan",
+    "yearCompleted": 2023,
+    "contractValueUsd": 490000,
+    "durationMonths": 14,
+    "summary": "Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated with the 1122 control rooms, and hospital-arrival notifications to emergency departments. Vehicle health telemetry schedules preventive maintenance to keep fleet readiness high. Included control-room operator training across 36 districts and 24/7 platform support under SLA.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "Java",
+      "Kafka",
+      "TimescaleDB",
+      "PostGIS",
+      "React",
+      "Asterisk CTI Integration",
+      "Grafana"
+    ],
+    "outcomes": "Average emergency response time improved 2.6 minutes province-wide; fleet out-of-service rate halved through telemetry-driven maintenance; 1.8 million emergencies dispatched on the platform.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-048",
+    "title": "Integrated WMS & Transport Management for 3PL Provider",
+    "sector": "Logistics",
+    "client": "Third-Party Logistics (3PL) Company",
+    "clientType": "Private Enterprise",
+    "region": "Karachi, Pakistan",
+    "yearCompleted": 2025,
+    "contractValueUsd": 530000,
+    "durationMonths": 16,
+    "summary": "Second-generation deployment combining our WMS with a transport management module for a 3PL operating nine warehouses and contracted line-haul fleets: multi-client inventory segregation with client billing engines, load planning and carrier assignment, and milestone-based shipment tracking exposed through a customer portal and APIs. Route optimization reduced empty backhaul through load consolidation suggestions. Delivered with phased go-lives to avoid client disruption and training for 420 operations staff.",
+    "certifications": [
+      "ISO 9001:2015",
+      "CMMI-DEV Level 3"
+    ],
+    "technologies": [
+      ".NET Core",
+      "SQL Server",
+      "React",
+      "Android (Zebra handhelds)",
+      "Google OR-Tools",
+      "REST APIs"
+    ],
+    "outcomes": "Billing leakage recovered 7% of revenue via automated client invoicing; truck utilization up 21%; new 3PL client onboarding time cut from 8 weeks to 12 days.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-049",
+    "title": "Campus MIS Implementation for Private University",
+    "sector": "Education",
+    "client": "Private Chartered University",
+    "clientType": "Private Enterprise",
+    "region": "Karachi, Pakistan",
+    "yearCompleted": 2021,
+    "contractValueUsd": 380000,
+    "durationMonths": 15,
+    "summary": "Implemented our campus MIS product for a private university of 14,000 students, covering admissions with merit formula configuration, semester registration, examinations, fee installment plans and alumni records. Integrated learning outcomes (OBE) attainment tracking for accreditation reporting and a faculty workload module. Online fee payments and a student mobile app reduced queue congestion at the start of each semester.",
+    "certifications": [
+      "ISO 9001:2015",
+      "CMMI-DEV Level 3"
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "React",
+      "Flutter",
+      "JasperReports"
+    ],
+    "outcomes": "Semester registration completed online by 97% of students; OBE accreditation reports generated in hours instead of weeks; fee collection cycle shortened by 11 days on average.",
+    "referenceAvailable": true
+  },
+  {
+    "id": "CAP-050",
+    "title": "Online Examination & Certification Platform for Banking Institute",
+    "sector": "Education",
+    "client": "National Banking Training Institute",
+    "clientType": "Private Enterprise",
+    "region": "Karachi, Pakistan",
+    "yearCompleted": 2026,
+    "contractValueUsd": 140000,
+    "durationMonths": 7,
+    "summary": "Extended our LMS experience to a professional certification body: secure online examination platform with randomized question banks, browser lockdown and AI-assisted webcam proctoring flags, plus automated certificate issuance with QR verification. Item-analysis reports help the institute calibrate question difficulty across exam cycles. Delivered administrator training and a managed exam-day support desk for peak sittings.",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISO/IEC 27001:2022"
+    ],
+    "technologies": [
+      "Node.js",
+      "React",
+      "PostgreSQL",
+      "WebRTC Proctoring",
+      "Redis",
+      "Docker"
+    ],
+    "outcomes": "14,000 candidates examined in first year with zero exam-day outages; result publication moved from 3 weeks to 48 hours; invigilation staffing cost cut 65%.",
+    "referenceAvailable": true
+  }
+]

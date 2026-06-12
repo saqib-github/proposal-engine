@@ -1,0 +1,2525 @@
+{
+  "id": "ws_mqb5ytjhe30943",
+  "name": "Supply and Implementation of a Fleet Tracking and Logistics Management Platform (450 Vehicles)",
+  "fileName": "rfp-fleet-tracking-system.docx",
+  "createdAt": "2026-06-12T16:51:41.454Z",
+  "status": "ready",
+  "analysis": {
+    "title": "Supply and Implementation of a Fleet Tracking and Logistics Management Platform (450 Vehicles)",
+    "sector": "Logistics",
+    "summary": "REQUEST FOR QUOTATIONS Supply and Implementation of a Fleet Tracking and Logistics Management Platform (450 Vehicles) Reference No: KMDS/IT/2026/RFQ-031 Issued by: Karachi Metropolitan Distribution Services (KMDS) Date of Issue: Friday, 12 June 2026 Procurement Method: Single Stage - Two Envelope Procedure Contact Email: procurement@kmds.com.pk",
+    "requirements": [
+      {
+        "id": "R-001",
+        "text": "The successful bidder (hereinafter \"the Supplier\") shall be responsible for:",
+        "kind": "technical",
+        "category": "general",
+        "section": "2.1 Summary of Scope"
+      },
+      {
+        "id": "R-002",
+        "text": "The Platform shall reach operational acceptance within twenty (20) weeks of purchase order, in accordance with the following indicative schedule:",
+        "kind": "technical",
+        "category": "technical",
+        "section": "2.2 Implementation Timeline"
+      },
+      {
+        "id": "R-003",
+        "text": "A pre-bid meeting shall be held online via Microsoft Teams on Thursday, 2 July 2026 at 11:30 PKT; the joining link shall be shared with firms that register their interest by email.",
+        "kind": "technical",
+        "category": "general",
+        "section": "3. KEY DATES"
+      },
+      {
+        "id": "R-004",
+        "text": "Technical envelopes shall be opened the same day at 14:30 PKT.",
+        "kind": "technical",
+        "category": "general",
+        "section": "3. KEY DATES"
+      },
+      {
+        "id": "R-005",
+        "text": "EL-1: The bidder must be a company registered in Pakistan with the Securities and Exchange Commission of Pakistan (SECP) and must hold valid NTN and STRN registrations with active taxpayer status.",
+        "kind": "mandatory",
+        "category": "legal",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-006",
+        "text": "EL-2: The bidder must have been in continuous operation in software development, telematics or systems integration for at least three (3) years as of the date of this RFQ.",
+        "kind": "mandatory",
+        "category": "technical",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-007",
+        "text": "EL-3: The bidder must hold a valid ISO 9001 quality management certification;",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-008",
+        "text": "ISO/IEC 27001 certification is additionally required because the Platform will process commercially sensitive delivery and customer location data.",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-009",
+        "text": "Both certifications are mandatory.",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-010",
+        "text": "EL-4: The bidder must have successfully delivered at least two (2) vehicle tracking, telematics or logistics management projects in the last five (5) years, each covering at least 150 vehicles or with a contract value of at least PKR 25 million.",
+        "kind": "mandatory",
+        "category": "experience",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-011",
+        "text": "EL-5: The bidder must have an average annual turnover of at least PKR 80 million over the last three (3) audited financial years.",
+        "kind": "mandatory",
+        "category": "financial",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-012",
+        "text": "EL-6: The bidder must maintain a support presence in Karachi, either an existing office or a written undertaking to designate Karachi-based support staff before operational acceptance, to meet the on-site response times in Section 6.",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-013",
+        "text": "EL-7: The bidder must submit an affidavit that it is not blacklisted by any federal, provincial or local government entity or public sector organisation in Pakistan.",
+        "kind": "mandatory",
+        "category": "legal",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-014",
+        "text": "EL-8: The bidder must furnish bid security equal to two percent (2%) of the quoted price, in the form of a pay order or bank guarantee from a scheduled bank in favour of Karachi Metropolitan Distribution Services.",
+        "kind": "mandatory",
+        "category": "financial",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-015",
+        "text": "EL-9: All proposed GPS tracking devices must be type-approved by the Pakistan Telecommunication Authority (PTA).",
+        "kind": "mandatory",
+        "category": "technical",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      {
+        "id": "R-016",
+        "text": "FT-01: The Supplier shall provide GPS/IoT tracking devices supporting GPS and GLONASS positioning, 4G LTE connectivity with 2G fallback, an internal backup battery of at least 4 hours, ignition sensing, and a minimum ingress protection rating of IP65 for externally mounted components.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.1 Tracking Devices and Sensors"
+      },
+      {
+        "id": "R-017",
+        "text": "FT-02: Devices shall report position, speed, heading, ignition state and configured event data at intervals not exceeding 10 seconds while in motion and 5 minutes while stationary, with store-and-forward buffering of at least 5,000 records during connectivity loss.",
+        "kind": "technical",
+        "category": "general",
+        "section": "5.1 Tracking Devices and Sensors"
+      },
+      {
+        "id": "R-018",
+        "text": "FT-03: Fuel level sensors shall achieve an accuracy of plus or minus 3 percent after per-vehicle calibration, and the Platform shall detect and alert refuelling and fuel drain events with timestamp, location and estimated volume.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.1 Tracking Devices and Sensors"
+      },
+      {
+        "id": "R-019",
+        "text": "FT-04: Temperature sensors in refrigerated units shall report at intervals not exceeding 60 seconds, with configurable thresholds and breach alerts to dispatchers and in the driver application.",
+        "kind": "technical",
+        "category": "general",
+        "section": "5.1 Tracking Devices and Sensors"
+      },
+      {
+        "id": "R-020",
+        "text": "FT-05: The Supplier shall manage SIM provisioning and airtime for all devices for the full two-year support period, with monthly connectivity reporting.",
+        "kind": "technical",
+        "category": "general",
+        "section": "5.1 Tracking Devices and Sensors"
+      },
+      {
+        "id": "R-021",
+        "text": "FT-06: The Platform shall provide live map tracking of all 450 vehicles with at most 15 seconds of latency, historical trip playback for a minimum of 12 months online, and geofencing with entry, exit and dwell-time alerts.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      {
+        "id": "R-022",
+        "text": "FT-07: The Platform shall provide route planning and optimisation that produces multi-stop delivery routes for at least 300 daily orders across the three distribution centres, accounting for vehicle capacity, delivery time windows and zone restrictions, and shall recalculate routes when orders change.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      {
+        "id": "R-023",
+        "text": "FT-08: The Platform shall compute a driver behaviour score per driver per period, based at a minimum on harsh braking, harsh acceleration, over-speeding against configurable road-class limits, sharp cornering, excessive idling and unauthorised stops, and shall produce ranked driver league reports.",
+        "kind": "scored",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      {
+        "id": "R-024",
+        "text": "FT-09: The Platform shall integrate with the KMDS warehouse management system through documented REST APIs to receive dispatch orders and return delivery status and electronic proof-of-delivery records, including recipient name, signature image, photo and geo-stamp.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      {
+        "id": "R-025",
+        "text": "FT-10: The Platform shall provide role-based dashboards for dispatchers, fleet supervisors and management, including fleet utilisation, on-time delivery percentage, kilometres run, fuel consumption versus benchmark, maintenance due lists and exception summaries, with scheduled email reports and export to Excel and CSV.",
+        "kind": "scored",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      {
+        "id": "R-026",
+        "text": "FT-11: The Platform shall maintain a vehicle maintenance module covering service schedules by kilometres and calendar, defect reporting from the driver application, and workshop job records.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      {
+        "id": "R-027",
+        "text": "FT-12: The driver mobile application shall operate on Android 10 or later, shall support Urdu and English interfaces, and shall function in offline mode with automatic synchronisation upon reconnection.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      {
+        "id": "R-028",
+        "text": "FT-13: The Platform shall be hosted in a data centre or cloud region located in Pakistan, shall enforce role-based access control with multi-factor authentication for administrative users, shall encrypt data in transit using TLS 1.2 or higher, and shall provide a complete audit trail of user actions.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      {
+        "id": "R-029",
+        "text": "FT-14: The Platform shall provide open, documented APIs sufficient for KMDS to extract its own data, and all tracking and operational data shall remain the property of KMDS and shall be handed over in a standard machine-readable format upon contract end.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      {
+        "id": "R-030",
+        "text": "FT-15: The Supplier shall migrate vehicle master data, driver records and approximately 6,500 customer delivery locations from existing spreadsheets and registers, with validation and sign-off by KMDS operations.",
+        "kind": "technical",
+        "category": "general",
+        "section": "5.3 Data Migration and Training"
+      },
+      {
+        "id": "R-031",
+        "text": "FT-16: The Supplier shall deliver role-based training for up to 12 dispatchers, 10 fleet supervisors, 8 workshop staff and 6 managers, together with bilingual quick reference guides and administrator documentation.",
+        "kind": "technical",
+        "category": "experience",
+        "section": "5.3 Data Migration and Training"
+      },
+      {
+        "id": "R-032",
+        "text": "The Supplier shall provide comprehensive support and maintenance for twenty-four (24) months from operational acceptance, including all software updates, device warranty with advance replacement from the spares pool, sensor recalibration, airtime management and helpdesk support from 08:00 to 20:00 PKT, seven days a week.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "6. SUPPORT, WARRANTY AND SERVICE LEVELS"
+      },
+      {
+        "id": "R-033",
+        "text": "The Platform shall achieve a monthly availability of at least 99.5 percent, excluding scheduled maintenance notified at least three (3) working days in advance.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "6. SUPPORT, WARRANTY AND SERVICE LEVELS"
+      },
+      {
+        "id": "R-034",
+        "text": "Critical faults (Platform unavailable or live tracking down fleet-wide) shall be responded to within 30 minutes and resolved within 6 hours; faulty in-vehicle devices shall be replaced within 2 working days in Karachi.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "6. SUPPORT, WARRANTY AND SERVICE LEVELS"
+      },
+      {
+        "id": "R-035",
+        "text": "The Supplier shall provide a quarterly service review report covering availability, fault statistics, device health and connectivity performance.",
+        "kind": "technical",
+        "category": "general",
+        "section": "6. SUPPORT, WARRANTY AND SERVICE LEVELS"
+      },
+      {
+        "id": "R-036",
+        "text": "Quotations shall be evaluated under a two-envelope quality and cost based method.",
+        "kind": "technical",
+        "category": "general",
+        "section": "7. EVALUATION CRITERIA"
+      },
+      {
+        "id": "R-037",
+        "text": "Technical proposals shall be scored against the criteria below; financial envelopes of bidders scoring at least 60 of the 80 technical points shall be opened and scored.",
+        "kind": "scored",
+        "category": "general",
+        "section": "7. EVALUATION CRITERIA"
+      },
+      {
+        "id": "R-038",
+        "text": "The contract shall be awarded to the bidder with the highest combined score:",
+        "kind": "scored",
+        "category": "general",
+        "section": "7. EVALUATION CRITERIA"
+      },
+      {
+        "id": "R-039",
+        "text": "The lowest evaluated financial quotation shall receive the full 20 financial points; other quotations shall be scored as 20 multiplied by the ratio of the lowest quoted price to the price under evaluation.",
+        "kind": "scored",
+        "category": "general",
+        "section": "7. EVALUATION CRITERIA"
+      },
+      {
+        "id": "R-040",
+        "text": "Quotations exceeding the approved budget shall be rejected.",
+        "kind": "technical",
+        "category": "general",
+        "section": "8. BUDGET AND FINANCIAL QUOTATION"
+      },
+      {
+        "id": "R-041",
+        "text": "Prices shall be quoted in Pakistani Rupees inclusive of all applicable taxes and duties, broken down into: hardware and installation; software licences or subscription; integration and data migration; training; and year-wise support and connectivity charges.",
+        "kind": "technical",
+        "category": "legal",
+        "section": "8. BUDGET AND FINANCIAL QUOTATION"
+      },
+      {
+        "id": "R-042",
+        "text": "Payment shall be made as follows: 20 percent on completion of milestone M2;",
+        "kind": "technical",
+        "category": "delivery",
+        "section": "8. BUDGET AND FINANCIAL QUOTATION"
+      },
+      {
+        "id": "R-043",
+        "text": "No advance payment shall be made.",
+        "kind": "technical",
+        "category": "general",
+        "section": "8. BUDGET AND FINANCIAL QUOTATION"
+      },
+      {
+        "id": "R-044",
+        "text": "Bidders shall answer the following questions in the technical envelope.",
+        "kind": "technical",
+        "category": "general",
+        "section": "9. TECHNICAL QUESTIONNAIRE"
+      },
+      {
+        "id": "R-045",
+        "text": "Each answer shall not exceed two (2) pages and shall be specific to KMDS operations:",
+        "kind": "technical",
+        "category": "general",
+        "section": "9. TECHNICAL QUESTIONNAIRE"
+      },
+      {
+        "id": "R-046",
+        "text": "The technical envelope shall contain the eligibility evidence for criteria EL-1 to EL-9, the technical compliance statement against requirements FT-01 to FT-16, the questionnaire responses, the implementation plan and CVs of key staff, and one USB drive with the complete technical quotation in searchable PDF format.",
+        "kind": "technical",
+        "category": "personnel",
+        "section": "10. SUBMISSION INSTRUCTIONS"
+      },
+      {
+        "id": "R-047",
+        "text": "The financial envelope shall contain the priced quotation form and the bid security instrument.",
+        "kind": "technical",
+        "category": "financial",
+        "section": "10. SUBMISSION INSTRUCTIONS"
+      },
+      {
+        "id": "R-048",
+        "text": "No financial figures shall appear in the technical envelope.",
+        "kind": "technical",
+        "category": "general",
+        "section": "10. SUBMISSION INSTRUCTIONS"
+      },
+      {
+        "id": "R-049",
+        "text": "If the Supplier fails to achieve operational acceptance (milestone M5) within twenty (20) weeks of purchase order for reasons attributable to the Supplier, KMDS shall deduct liquidated damages at the rate of 0.25 percent (zero point two five percent) of the total contract price per week of delay or part thereof, up to a maximum of eight percent (8%) of the total contract price, after which KMDS may cancel the purchase order, encash the bid security or performance security then held, and procure the platform from another supplier at the Supplier's risk and cost.",
+        "kind": "scored",
+        "category": "financial",
+        "section": "11. PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      {
+        "id": "R-050",
+        "text": "During the support period, service credits of 2 percent of the quarterly support fee shall apply for each 0.1 percentage point shortfall below the 99.5 percent monthly availability target, capped at 20 percent of the quarterly support fee.",
+        "kind": "scored",
+        "category": "general",
+        "section": "11. PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      {
+        "id": "R-051",
+        "text": "The successful bidder shall furnish a performance security of five percent (5%) of the contract value within ten (10) days of the purchase order, valid for the full contract term plus sixty (60) days.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "11. PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      {
+        "id": "R-052",
+        "text": "All communications shall quote reference KMDS/IT/2026/RFQ-031.",
+        "kind": "technical",
+        "category": "experience",
+        "section": "12. CONTACT INFORMATION"
+      }
+    ],
+    "entities": {
+      "deadlines": [
+        {
+          "label": "Date of issue",
+          "dateIso": "2026-06-12",
+          "raw": "Date of Issue: Friday, 12 June 2026"
+        },
+        {
+          "label": "Pre-bid meeting",
+          "dateIso": "2026-07-02",
+          "raw": "Pre-Bid Meeting (online) | Thursday, 2 July 2026 | 11:30"
+        },
+        {
+          "label": "Clarification questions",
+          "dateIso": "2026-07-24",
+          "raw": "Deadline for Clarification Questions | Friday, 24 July 2026 | 17:00"
+        },
+        {
+          "label": "Proposal submission",
+          "dateIso": "2026-08-11",
+          "raw": "Quotation Submission Deadline | Tuesday, 11 August 2026 | 14:00"
+        },
+        {
+          "label": "Bid validity",
+          "dateIso": "2026-11-09",
+          "raw": "Quotations shall remain valid for ninety (90) days from the submission deadline, that is, up to and including Monday, 9 November 2026."
+        },
+        {
+          "label": "Date mentioned",
+          "dateIso": "2026-06-12",
+          "raw": "Issuance of RFQ | Friday, 12 June 2026 | -"
+        },
+        {
+          "label": "Date mentioned",
+          "dateIso": "2026-08-11",
+          "raw": "Public Opening of Technical Envelopes | Tuesday, 11 August 2026 | 14:30"
+        }
+      ],
+      "budget": [
+        {
+          "raw": "EL-4: The bidder must have successfully delivered at least two (2) vehicle tracking, telematics or logistics management projects in the last five (5) years, each covering at least 150 vehicles or with a contract value of",
+          "currency": "PKR",
+          "amount": 25000000,
+          "amountUsd": 89286
+        },
+        {
+          "raw": "The approved budget for this procurement, covering devices, sensors, installation, software licences or subscription for the full term, integration, data migration, training and the complete two-year support and connecti",
+          "currency": "PKR",
+          "amount": 95000000,
+          "amountUsd": 339286
+        },
+        {
+          "raw": "The approved budget for this procurement, covering devices, sensors, installation, software licences or subscription for the full term, integration, data migration, training and the complete two-year support and connecti",
+          "currency": "USD",
+          "amount": 340000,
+          "amountUsd": 340000
+        }
+      ],
+      "evaluationWeights": [
+        {
+          "criterion": "Technical Solution and Platform Functionality",
+          "weightPct": 30,
+          "raw": "Technical Solution and Platform Functionality | 30"
+        },
+        {
+          "criterion": "Relevant Experience and References",
+          "weightPct": 20,
+          "raw": "Relevant Experience and References | 20"
+        },
+        {
+          "criterion": "Implementation Plan and Team",
+          "weightPct": 15,
+          "raw": "Implementation Plan and Team | 15"
+        },
+        {
+          "criterion": "Support Model and Local Presence",
+          "weightPct": 15,
+          "raw": "Support Model and Local Presence | 15"
+        },
+        {
+          "criterion": "Financial Quotation",
+          "weightPct": 20,
+          "raw": "Financial Quotation | 20"
+        }
+      ],
+      "bidSecurity": "EL-8: The bidder must furnish bid security equal to two percent (2%) of the quoted price, in the form of a pay order or bank guarantee from a scheduled bank in favour of Karachi Metropolitan Distribution Services.",
+      "contacts": [
+        "procurement@kmds.com.pk"
+      ]
+    },
+    "questions": [
+      {
+        "id": "Q-001",
+        "text": "Device Specification and Certification: Specify the make and model of the proposed tracking devices, fuel sensors and temperature sensors, their PTA type approval status, mounting and tamper protection approach, and your device failure rate experience from comparable deployments.",
+        "section": "9. TECHNICAL QUESTIONNAIRE"
+      },
+      {
+        "id": "Q-002",
+        "text": "Platform Architecture: Describe the Platform architecture, including the hosting arrangement in Pakistan, multi-tenancy model if any, data ingestion capacity, latency safeguards for live tracking of 450 vehicles, backup and disaster recovery arrangements, and the security controls applied at each layer.",
+        "section": "9. TECHNICAL QUESTIONNAIRE"
+      },
+      {
+        "id": "Q-003",
+        "text": "Route Optimisation Approach: Explain how your route optimisation engine builds and re-optimises multi-stop routes under vehicle capacity, time window and zone constraints, the typical computation time for a 300-order daily plan, and how dispatchers can manually adjust optimised routes.",
+        "section": "9. TECHNICAL QUESTIONNAIRE"
+      },
+      {
+        "id": "Q-004",
+        "text": "WMS Integration: Describe your proposed approach to integrating with the KMDS warehouse management system, including the API patterns, message formats, error handling and reconciliation arrangements, and a summary of two comparable integrations you have delivered.",
+        "section": "9. TECHNICAL QUESTIONNAIRE"
+      },
+      {
+        "id": "Q-005",
+        "text": "Driver Scoring Methodology: Describe the events, weightings and normalisation method used in your driver behaviour scoring, how scores remain fair across different routes and vehicle types, and how the scoring has measurably reduced incidents or fuel consumption in past deployments.",
+        "section": "9. TECHNICAL QUESTIONNAIRE"
+      },
+      {
+        "id": "Q-006",
+        "text": "Support and Spares Model: Describe your support organisation for this contract, including Karachi-based resources, escalation tiers, the spares pool and advance replacement process, sensor recalibration schedule, and the reporting you will provide against the service levels in Section 6.",
+        "section": "9. TECHNICAL QUESTIONNAIRE"
+      }
+    ],
+    "aiMode": "heuristic"
+  },
+  "compliance": [
+    {
+      "requirementId": "R-001",
+      "requirement": {
+        "id": "R-001",
+        "text": "The successful bidder (hereinafter \"the Supplier\") shall be responsible for:",
+        "kind": "technical",
+        "category": "general",
+        "section": "2.1 Summary of Scope"
+      },
+      "status": "pass",
+      "confidence": 0.656,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.256,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-036",
+          "title": "Federal e-Procurement System Enhancement & Rollout",
+          "score": 0.134,
+          "snippet": "National-scale follow-on to our provincial e-procurement build: enhanced the federal e-procurement platform with framework agreements, reverse auctions, supplier performance scoring and open-contracti"
+        }
+      ],
+      "note": "Strong evidence in capability library (top match: Provincial e-Procurement Platform (e-Tendering & Supplier Registration))."
+    },
+    {
+      "requirementId": "R-002",
+      "requirement": {
+        "id": "R-002",
+        "text": "The Platform shall reach operational acceptance within twenty (20) weeks of purchase order, in accordance with the following indicative schedule:",
+        "kind": "technical",
+        "category": "technical",
+        "section": "2.2 Implementation Timeline"
+      },
+      "status": "gap",
+      "confidence": 0.489,
+      "evidence": [
+        {
+          "recordId": "CAP-047",
+          "title": "Ambulance Fleet Tracking & Dispatch for Emergency Service",
+          "score": 0.089,
+          "snippet": "Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit"
+        },
+        {
+          "recordId": "CAP-013",
+          "title": "Cybersecurity Assessment, VAPT & SOC Establishment",
+          "score": 0.069,
+          "snippet": "Conducted enterprise-wide vulnerability assessment and penetration testing (external, internal, web and mobile) across 70 applications and 900 hosts, then designed and stood up a security operations c"
+        },
+        {
+          "recordId": "CAP-017",
+          "title": "Document Management & Workflow Automation for Energy Company",
+          "score": 0.063,
+          "snippet": "Deployed an enterprise document management system with records classification, retention schedules, full-text OCR search and workflow automation for correspondence, contracts and joint-venture approva"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-003",
+      "requirement": {
+        "id": "R-003",
+        "text": "A pre-bid meeting shall be held online via Microsoft Teams on Thursday, 2 July 2026 at 11:30 PKT; the joining link shall be shared with firms that register their interest by email.",
+        "kind": "technical",
+        "category": "general",
+        "section": "3. KEY DATES"
+      },
+      "status": "partial",
+      "confidence": 0.506,
+      "evidence": [
+        {
+          "recordId": "CAP-010",
+          "title": "ERP Implementation (Microsoft Dynamics 365 Finance & Operations)",
+          "score": 0.106,
+          "snippet": "Implemented Microsoft Dynamics 365 Finance & Operations across finance, supply chain, asset management and HR/payroll for a 9,000-employee utility, including chart-of-accounts redesign and data migrat"
+        },
+        {
+          "recordId": "CAP-039",
+          "title": "Dynamics 365 ERP Rollout for Textile Manufacturing Group",
+          "score": 0.09,
+          "snippet": "Leveraging our utility-sector ERP experience, implemented Microsoft Dynamics 365 Finance & Operations with production control, costing and export documentation for a vertically integrated textile grou"
+        },
+        {
+          "recordId": "CAP-017",
+          "title": "Document Management & Workflow Automation for Energy Company",
+          "score": 0.085,
+          "snippet": "Deployed an enterprise document management system with records classification, retention schedules, full-text OCR search and workflow automation for correspondence, contracts and joint-venture approva"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: ERP Implementation (Microsoft Dynamics 365 Finance & Operations))."
+    },
+    {
+      "requirementId": "R-004",
+      "requirement": {
+        "id": "R-004",
+        "text": "Technical envelopes shall be opened the same day at 14:30 PKT.",
+        "kind": "technical",
+        "category": "general",
+        "section": "3. KEY DATES"
+      },
+      "status": "gap",
+      "confidence": 0.491,
+      "evidence": [
+        {
+          "recordId": "CAP-029",
+          "title": "Route Optimization Engine for LPG Distribution",
+          "score": 0.091,
+          "snippet": "Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver "
+        },
+        {
+          "recordId": "CAP-026",
+          "title": "COVID-19 Vaccination Appointment & Certificate System",
+          "score": 0.063,
+          "snippet": "Delivered, under emergency timelines, a national vaccination appointment system with CNIC-based registration via web, SMS and call center, center capacity scheduling, dose tracking and QR-verifiable d"
+        },
+        {
+          "recordId": "CAP-012",
+          "title": "Core Banking Legacy Data Migration & Reconciliation",
+          "score": 0.05,
+          "snippet": "Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-005",
+      "requirement": {
+        "id": "R-005",
+        "text": "EL-1: The bidder must be a company registered in Pakistan with the Securities and Exchange Commission of Pakistan (SECP) and must hold valid NTN and STRN registrations with active taxpayer status.",
+        "kind": "mandatory",
+        "category": "legal",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "pass",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "recordId": "CAP-006",
+          "title": "Online Tax Filing & Revenue Collection Portal",
+          "score": 0.118,
+          "snippet": "Replaced manual sales-tax-on-services filing with an online portal for taxpayer registration, e-filing of monthly returns, e-payments via 1Link/ADC channels and risk-based audit case selection. Built "
+        },
+        {
+          "recordId": "CAP-030",
+          "title": "Port Container Tracking & Customs e-Clearance Integration",
+          "score": 0.074,
+          "snippet": "Developed a container tracking and gate-automation system for a port terminal, integrating OCR gate cameras, RFID truck tags and yard position updates with the terminal operating system. Built two-way"
+        },
+        {
+          "recordId": "CAP-038",
+          "title": "Inland Revenue e-Filing Portal — Azad Jammu & Kashmir",
+          "score": 0.073,
+          "snippet": "Deployed a tailored instance of our revenue-collection platform for the AJK Inland Revenue Department, covering taxpayer registration, sales-tax e-filing, e-payments and arrears management with a bili"
+        }
+      ],
+      "note": "Registered with SECP, FBR; certificates available."
+    },
+    {
+      "requirementId": "R-006",
+      "requirement": {
+        "id": "R-006",
+        "text": "EL-2: The bidder must have been in continuous operation in software development, telematics or systems integration for at least three (3) years as of the date of this RFQ.",
+        "kind": "mandatory",
+        "category": "technical",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "partial",
+      "confidence": 0.542,
+      "evidence": [
+        {
+          "recordId": "CAP-004",
+          "title": "Civil Registration & Vital Statistics (CRVS) System",
+          "score": 0.142,
+          "snippet": "Implemented a province-wide civil registration system for birth, death, marriage and divorce events with union-council level data entry, NADRA integration for CNIC-linked family records and an offline"
+        },
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.109,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.084,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Civil Registration & Vital Statistics (CRVS) System)."
+    },
+    {
+      "requirementId": "R-007",
+      "requirement": {
+        "id": "R-007",
+        "text": "EL-3: The bidder must hold a valid ISO 9001 quality management certification;",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "pass",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "recordId": "CAP-021",
+          "title": "Raast Instant Payments Integration for Commercial Bank",
+          "score": 0.072,
+          "snippet": "Integrated the bank's core and digital channels with Pakistan's Raast instant payment system covering P2P alias (RtP) payments, bulk disbursements and merchant P2M flows, with ISO 20022 message transf"
+        },
+        {
+          "recordId": "CAP-050",
+          "title": "Online Examination & Certification Platform for Banking Institute",
+          "score": 0.068,
+          "snippet": "Extended our LMS experience to a professional certification body: secure online examination platform with randomized question banks, browser lockdown and AI-assisted webcam proctoring flags, plus auto"
+        },
+        {
+          "recordId": "CAP-046",
+          "title": "Tele-Ophthalmology Network for NGO Eye Hospitals",
+          "score": 0.067,
+          "snippet": "Adapted our telemedicine platform for an NGO's eye-care network, connecting 22 community vision centers to hub hospitals for remote fundus-image screening, diabetic-retinopathy grading queues and surg"
+        }
+      ],
+      "note": "Held certifications cover this clause (ISO 9001)."
+    },
+    {
+      "requirementId": "R-008",
+      "requirement": {
+        "id": "R-008",
+        "text": "ISO/IEC 27001 certification is additionally required because the Platform will process commercially sensitive delivery and customer location data.",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "pass",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.212,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        },
+        {
+          "recordId": "CAP-013",
+          "title": "Cybersecurity Assessment, VAPT & SOC Establishment",
+          "score": 0.107,
+          "snippet": "Conducted enterprise-wide vulnerability assessment and penetration testing (external, internal, web and mobile) across 70 applications and 900 hosts, then designed and stood up a security operations c"
+        },
+        {
+          "recordId": "CAP-012",
+          "title": "Core Banking Legacy Data Migration & Reconciliation",
+          "score": 0.106,
+          "snippet": "Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip"
+        }
+      ],
+      "note": "Held certifications cover this clause (ISO 27001)."
+    },
+    {
+      "requirementId": "R-009",
+      "requirement": {
+        "id": "R-009",
+        "text": "Both certifications are mandatory.",
+        "kind": "mandatory",
+        "category": "certification",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "partial",
+      "confidence": 0.56,
+      "evidence": [
+        {
+          "recordId": "CAP-050",
+          "title": "Online Examination & Certification Platform for Banking Institute",
+          "score": 0.16,
+          "snippet": "Extended our LMS experience to a professional certification body: secure online examination platform with randomized question banks, browser lockdown and AI-assisted webcam proctoring flags, plus auto"
+        },
+        {
+          "recordId": "CAP-021",
+          "title": "Raast Instant Payments Integration for Commercial Bank",
+          "score": 0.159,
+          "snippet": "Integrated the bank's core and digital channels with Pakistan's Raast instant payment system covering P2P alias (RtP) payments, bulk disbursements and merchant P2M flows, with ISO 20022 message transf"
+        },
+        {
+          "recordId": "CAP-013",
+          "title": "Cybersecurity Assessment, VAPT & SOC Establishment",
+          "score": 0.15,
+          "snippet": "Conducted enterprise-wide vulnerability assessment and penetration testing (external, internal, web and mobile) across 70 applications and 900 hosts, then designed and stood up a security operations c"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Online Examination & Certification Platform for Banking Institute)."
+    },
+    {
+      "requirementId": "R-010",
+      "requirement": {
+        "id": "R-010",
+        "text": "EL-4: The bidder must have successfully delivered at least two (2) vehicle tracking, telematics or logistics management projects in the last five (5) years, each covering at least 150 vehicles or with a contract value of at least PKR 25 million.",
+        "kind": "mandatory",
+        "category": "experience",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "partial",
+      "confidence": 0.5860000000000001,
+      "evidence": [
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.186,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        },
+        {
+          "recordId": "CAP-047",
+          "title": "Ambulance Fleet Tracking & Dispatch for Emergency Service",
+          "score": 0.135,
+          "snippet": "Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit"
+        },
+        {
+          "recordId": "CAP-037",
+          "title": "Vehicle Registration & Excise Management System",
+          "score": 0.127,
+          "snippet": "Adapted our license-management platform for motor vehicle registration, transfer and token tax collection across 30 excise offices, with biometric owner verification, online tax calculators and doorst"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier)."
+    },
+    {
+      "requirementId": "R-011",
+      "requirement": {
+        "id": "R-011",
+        "text": "EL-5: The bidder must have an average annual turnover of at least PKR 80 million over the last three (3) audited financial years.",
+        "kind": "mandatory",
+        "category": "financial",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "pass",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.095,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-036",
+          "title": "Federal e-Procurement System Enhancement & Rollout",
+          "score": 0.074,
+          "snippet": "National-scale follow-on to our provincial e-procurement build: enhanced the federal e-procurement platform with framework agreements, reverse auctions, supplier performance scoring and open-contracti"
+        },
+        {
+          "recordId": "CAP-004",
+          "title": "Civil Registration & Vital Statistics (CRVS) System",
+          "score": 0.064,
+          "snippet": "Implemented a province-wide civil registration system for birth, death, marriage and divorce events with union-council level data entry, NADRA integration for CNIC-linked family records and an offline"
+        }
+      ],
+      "note": "Average annual turnover ≈ USD 1600k meets the ≈ USD 286k threshold."
+    },
+    {
+      "requirementId": "R-012",
+      "requirement": {
+        "id": "R-012",
+        "text": "EL-6: The bidder must maintain a support presence in Karachi, either an existing office or a written undertaking to designate Karachi-based support staff before operational acceptance, to meet the on-site response times in Section 6.",
+        "kind": "mandatory",
+        "category": "general",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "partial",
+      "confidence": 0.487,
+      "evidence": [
+        {
+          "recordId": "CAP-037",
+          "title": "Vehicle Registration & Excise Management System",
+          "score": 0.087,
+          "snippet": "Adapted our license-management platform for motor vehicle registration, transfer and token tax collection across 30 excise offices, with biometric owner verification, online tax calculators and doorst"
+        },
+        {
+          "recordId": "CAP-045",
+          "title": "HMIS Rollout to District Headquarters Hospitals — Phase II",
+          "score": 0.076,
+          "snippet": "Scaled our teaching-hospital HMIS to eight district headquarters hospitals as a centrally hosted multi-tenant deployment, standardizing OPD/IPD, laboratory, pharmacy and billing modules with hospital-"
+        },
+        {
+          "recordId": "CAP-005",
+          "title": "Driving License Issuance & Management System",
+          "score": 0.074,
+          "snippet": "Delivered a license management system covering learner permits, driving tests, license issuance, renewals and duplicates across 28 licensing centers, with biometric capture (fingerprint and facial pho"
+        }
+      ],
+      "note": "Forward commitment clause — can be covered by an undertaking in the bid letter."
+    },
+    {
+      "requirementId": "R-013",
+      "requirement": {
+        "id": "R-013",
+        "text": "EL-7: The bidder must submit an affidavit that it is not blacklisted by any federal, provincial or local government entity or public sector organisation in Pakistan.",
+        "kind": "mandatory",
+        "category": "legal",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "pass",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "recordId": "CAP-036",
+          "title": "Federal e-Procurement System Enhancement & Rollout",
+          "score": 0.127,
+          "snippet": "National-scale follow-on to our provincial e-procurement build: enhanced the federal e-procurement platform with framework agreements, reverse auctions, supplier performance scoring and open-contracti"
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.1,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-031",
+          "title": "University Management Information System (Campus MIS)",
+          "score": 0.081,
+          "snippet": "Implemented an integrated campus MIS covering online admissions, course registration, timetabling, examinations and transcripts, student fee management and HR/payroll for a university of 32,000 studen"
+        }
+      ],
+      "note": "Not blacklisted; affidavit can be furnished on stamp paper."
+    },
+    {
+      "requirementId": "R-014",
+      "requirement": {
+        "id": "R-014",
+        "text": "EL-8: The bidder must furnish bid security equal to two percent (2%) of the quoted price, in the form of a pay order or bank guarantee from a scheduled bank in favour of Karachi Metropolitan Distribution Services.",
+        "kind": "mandatory",
+        "category": "financial",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "pass",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.143,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-043",
+          "title": "E-Commerce Payment Gateway Integration for Retail Group",
+          "score": 0.096,
+          "snippet": "Repeat application of our payment-gateway middleware for a retail group's e-commerce platforms: card-not-present acquiring integration with two acquiring banks, wallet and BNPL payment options, 3-D Se"
+        },
+        {
+          "recordId": "CAP-029",
+          "title": "Route Optimization Engine for LPG Distribution",
+          "score": 0.088,
+          "snippet": "Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver "
+        }
+      ],
+      "note": "Bid security is a submission commitment — bank guarantee/pay order to be arranged before the deadline."
+    },
+    {
+      "requirementId": "R-015",
+      "requirement": {
+        "id": "R-015",
+        "text": "EL-9: All proposed GPS tracking devices must be type-approved by the Pakistan Telecommunication Authority (PTA).",
+        "kind": "mandatory",
+        "category": "technical",
+        "section": "4. MANDATORY ELIGIBILITY CRITERIA"
+      },
+      "status": "partial",
+      "confidence": 0.524,
+      "evidence": [
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.124,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        },
+        {
+          "recordId": "CAP-047",
+          "title": "Ambulance Fleet Tracking & Dispatch for Emergency Service",
+          "score": 0.092,
+          "snippet": "Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit"
+        },
+        {
+          "recordId": "CAP-021",
+          "title": "Raast Instant Payments Integration for Commercial Bank",
+          "score": 0.068,
+          "snippet": "Integrated the bank's core and digital channels with Pakistan's Raast instant payment system covering P2P alias (RtP) payments, bulk disbursements and merchant P2M flows, with ISO 20022 message transf"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier)."
+    },
+    {
+      "requirementId": "R-016",
+      "requirement": {
+        "id": "R-016",
+        "text": "FT-01: The Supplier shall provide GPS/IoT tracking devices supporting GPS and GLONASS positioning, 4G LTE connectivity with 2G fallback, an internal backup battery of at least 4 hours, ignition sensing, and a minimum ingress protection rating of IP65 for externally mounted components.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.1 Tracking Devices and Sensors"
+      },
+      "status": "partial",
+      "confidence": 0.508,
+      "evidence": [
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.108,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        },
+        {
+          "recordId": "CAP-044",
+          "title": "G2P Digital Disbursement Platform for Social Protection Program",
+          "score": 0.077,
+          "snippet": "Extended our branchless-banking platform experience to government-to-person payments: a disbursement management system pushing quarterly cash-transfer payments to 6 million beneficiaries through bank,"
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.07,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier)."
+    },
+    {
+      "requirementId": "R-017",
+      "requirement": {
+        "id": "R-017",
+        "text": "FT-02: Devices shall report position, speed, heading, ignition state and configured event data at intervals not exceeding 10 seconds while in motion and 5 minutes while stationary, with store-and-forward buffering of at least 5,000 records during connectivity loss.",
+        "kind": "technical",
+        "category": "general",
+        "section": "5.1 Tracking Devices and Sensors"
+      },
+      "status": "partial",
+      "confidence": 0.538,
+      "evidence": [
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.138,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        },
+        {
+          "recordId": "CAP-033",
+          "title": "School Information System & Education MIS (EMIS)",
+          "score": 0.071,
+          "snippet": "Built a province-wide education MIS capturing enrollment, attendance, teacher deployment and school facility data from 27,000 public schools through Android tablet collection by district monitoring te"
+        },
+        {
+          "recordId": "CAP-031",
+          "title": "University Management Information System (Campus MIS)",
+          "score": 0.07,
+          "snippet": "Implemented an integrated campus MIS covering online admissions, course registration, timetabling, examinations and transcripts, student fee management and HR/payroll for a university of 32,000 studen"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier)."
+    },
+    {
+      "requirementId": "R-018",
+      "requirement": {
+        "id": "R-018",
+        "text": "FT-03: Fuel level sensors shall achieve an accuracy of plus or minus 3 percent after per-vehicle calibration, and the Platform shall detect and alert refuelling and fuel drain events with timestamp, location and estimated volume.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.1 Tracking Devices and Sensors"
+      },
+      "status": "partial",
+      "confidence": 0.5860000000000001,
+      "evidence": [
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.186,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        },
+        {
+          "recordId": "CAP-044",
+          "title": "G2P Digital Disbursement Platform for Social Protection Program",
+          "score": 0.06,
+          "snippet": "Extended our branchless-banking platform experience to government-to-person payments: a disbursement management system pushing quarterly cash-transfer payments to 6 million beneficiaries through bank,"
+        },
+        {
+          "recordId": "CAP-013",
+          "title": "Cybersecurity Assessment, VAPT & SOC Establishment",
+          "score": 0.06,
+          "snippet": "Conducted enterprise-wide vulnerability assessment and penetration testing (external, internal, web and mobile) across 70 applications and 900 hosts, then designed and stood up a security operations c"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier)."
+    },
+    {
+      "requirementId": "R-019",
+      "requirement": {
+        "id": "R-019",
+        "text": "FT-04: Temperature sensors in refrigerated units shall report at intervals not exceeding 60 seconds, with configurable thresholds and breach alerts to dispatchers and in the driver application.",
+        "kind": "technical",
+        "category": "general",
+        "section": "5.1 Tracking Devices and Sensors"
+      },
+      "status": "partial",
+      "confidence": 0.513,
+      "evidence": [
+        {
+          "recordId": "CAP-029",
+          "title": "Route Optimization Engine for LPG Distribution",
+          "score": 0.113,
+          "snippet": "Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver "
+        },
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.085,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        },
+        {
+          "recordId": "CAP-017",
+          "title": "Document Management & Workflow Automation for Energy Company",
+          "score": 0.072,
+          "snippet": "Deployed an enterprise document management system with records classification, retention schedules, full-text OCR search and workflow automation for correspondence, contracts and joint-venture approva"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Route Optimization Engine for LPG Distribution)."
+    },
+    {
+      "requirementId": "R-020",
+      "requirement": {
+        "id": "R-020",
+        "text": "FT-05: The Supplier shall manage SIM provisioning and airtime for all devices for the full two-year support period, with monthly connectivity reporting.",
+        "kind": "technical",
+        "category": "general",
+        "section": "5.1 Tracking Devices and Sensors"
+      },
+      "status": "partial",
+      "confidence": 0.513,
+      "evidence": [
+        {
+          "recordId": "CAP-015",
+          "title": "Private Cloud & Data Center Virtualization Program",
+          "score": 0.113,
+          "snippet": "Consolidated 240 physical servers from 19 departments into a virtualized private-cloud platform with self-service provisioning, chargeback reporting and automated backup, hosted in the government's ex"
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.099,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-025",
+          "title": "District Health Dashboards on DHIS2",
+          "score": 0.096,
+          "snippet": "Customized and scaled the DHIS2 health information platform for province-wide reporting across 1,900 facilities, building district performance dashboards for immunization coverage, maternal health and"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Private Cloud & Data Center Virtualization Program)."
+    },
+    {
+      "requirementId": "R-021",
+      "requirement": {
+        "id": "R-021",
+        "text": "FT-06: The Platform shall provide live map tracking of all 450 vehicles with at most 15 seconds of latency, historical trip playback for a minimum of 12 months online, and geofencing with entry, exit and dwell-time alerts.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      "status": "partial",
+      "confidence": 0.6000000000000001,
+      "evidence": [
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.2,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        },
+        {
+          "recordId": "CAP-037",
+          "title": "Vehicle Registration & Excise Management System",
+          "score": 0.105,
+          "snippet": "Adapted our license-management platform for motor vehicle registration, transfer and token tax collection across 30 excise offices, with biometric owner verification, online tax calculators and doorst"
+        },
+        {
+          "recordId": "CAP-047",
+          "title": "Ambulance Fleet Tracking & Dispatch for Emergency Service",
+          "score": 0.098,
+          "snippet": "Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier)."
+    },
+    {
+      "requirementId": "R-022",
+      "requirement": {
+        "id": "R-022",
+        "text": "FT-07: The Platform shall provide route planning and optimisation that produces multi-stop delivery routes for at least 300 daily orders across the three distribution centres, accounting for vehicle capacity, delivery time windows and zone restrictions, and shall recalculate routes when orders change.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      "status": "pass",
+      "confidence": 0.636,
+      "evidence": [
+        {
+          "recordId": "CAP-029",
+          "title": "Route Optimization Engine for LPG Distribution",
+          "score": 0.236,
+          "snippet": "Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver "
+        },
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.2,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        },
+        {
+          "recordId": "CAP-028",
+          "title": "Warehouse Management System for FMCG Distributor",
+          "score": 0.097,
+          "snippet": "Implemented a warehouse management system across five distribution centers with barcode-driven receiving, putaway, wave picking, batch/expiry (FEFO) control and cycle counting on Android handheld term"
+        }
+      ],
+      "note": "Strong evidence in capability library (top match: Route Optimization Engine for LPG Distribution)."
+    },
+    {
+      "requirementId": "R-023",
+      "requirement": {
+        "id": "R-023",
+        "text": "FT-08: The Platform shall compute a driver behaviour score per driver per period, based at a minimum on harsh braking, harsh acceleration, over-speeding against configurable road-class limits, sharp cornering, excessive idling and unauthorised stops, and shall produce ranked driver league reports.",
+        "kind": "scored",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      "status": "partial",
+      "confidence": 0.522,
+      "evidence": [
+        {
+          "recordId": "CAP-029",
+          "title": "Route Optimization Engine for LPG Distribution",
+          "score": 0.122,
+          "snippet": "Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver "
+        },
+        {
+          "recordId": "CAP-025",
+          "title": "District Health Dashboards on DHIS2",
+          "score": 0.058,
+          "snippet": "Customized and scaled the DHIS2 health information platform for province-wide reporting across 1,900 facilities, building district performance dashboards for immunization coverage, maternal health and"
+        },
+        {
+          "recordId": "CAP-021",
+          "title": "Raast Instant Payments Integration for Commercial Bank",
+          "score": 0.053,
+          "snippet": "Integrated the bank's core and digital channels with Pakistan's Raast instant payment system covering P2P alias (RtP) payments, bulk disbursements and merchant P2M flows, with ISO 20022 message transf"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Route Optimization Engine for LPG Distribution)."
+    },
+    {
+      "requirementId": "R-024",
+      "requirement": {
+        "id": "R-024",
+        "text": "FT-09: The Platform shall integrate with the KMDS warehouse management system through documented REST APIs to receive dispatch orders and return delivery status and electronic proof-of-delivery records, including recipient name, signature image, photo and geo-stamp.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      "status": "partial",
+      "confidence": 0.507,
+      "evidence": [
+        {
+          "recordId": "CAP-028",
+          "title": "Warehouse Management System for FMCG Distributor",
+          "score": 0.107,
+          "snippet": "Implemented a warehouse management system across five distribution centers with barcode-driven receiving, putaway, wave picking, batch/expiry (FEFO) control and cycle counting on Android handheld term"
+        },
+        {
+          "recordId": "CAP-029",
+          "title": "Route Optimization Engine for LPG Distribution",
+          "score": 0.102,
+          "snippet": "Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver "
+        },
+        {
+          "recordId": "CAP-005",
+          "title": "Driving License Issuance & Management System",
+          "score": 0.1,
+          "snippet": "Delivered a license management system covering learner permits, driving tests, license issuance, renewals and duplicates across 28 licensing centers, with biometric capture (fingerprint and facial pho"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Warehouse Management System for FMCG Distributor)."
+    },
+    {
+      "requirementId": "R-025",
+      "requirement": {
+        "id": "R-025",
+        "text": "FT-10: The Platform shall provide role-based dashboards for dispatchers, fleet supervisors and management, including fleet utilisation, on-time delivery percentage, kilometres run, fuel consumption versus benchmark, maintenance due lists and exception summaries, with scheduled email reports and export to Excel and CSV.",
+        "kind": "scored",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      "status": "partial",
+      "confidence": 0.5900000000000001,
+      "evidence": [
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.19,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        },
+        {
+          "recordId": "CAP-047",
+          "title": "Ambulance Fleet Tracking & Dispatch for Emergency Service",
+          "score": 0.142,
+          "snippet": "Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit"
+        },
+        {
+          "recordId": "CAP-029",
+          "title": "Route Optimization Engine for LPG Distribution",
+          "score": 0.078,
+          "snippet": "Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver "
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier)."
+    },
+    {
+      "requirementId": "R-026",
+      "requirement": {
+        "id": "R-026",
+        "text": "FT-11: The Platform shall maintain a vehicle maintenance module covering service schedules by kilometres and calendar, defect reporting from the driver application, and workshop job records.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      "status": "partial",
+      "confidence": 0.573,
+      "evidence": [
+        {
+          "recordId": "CAP-047",
+          "title": "Ambulance Fleet Tracking & Dispatch for Emergency Service",
+          "score": 0.173,
+          "snippet": "Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit"
+        },
+        {
+          "recordId": "CAP-029",
+          "title": "Route Optimization Engine for LPG Distribution",
+          "score": 0.114,
+          "snippet": "Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver "
+        },
+        {
+          "recordId": "CAP-015",
+          "title": "Private Cloud & Data Center Virtualization Program",
+          "score": 0.113,
+          "snippet": "Consolidated 240 physical servers from 19 departments into a virtualized private-cloud platform with self-service provisioning, chargeback reporting and automated backup, hosted in the government's ex"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Ambulance Fleet Tracking & Dispatch for Emergency Service)."
+    },
+    {
+      "requirementId": "R-027",
+      "requirement": {
+        "id": "R-027",
+        "text": "FT-12: The driver mobile application shall operate on Android 10 or later, shall support Urdu and English interfaces, and shall function in offline mode with automatic synchronisation upon reconnection.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      "status": "partial",
+      "confidence": 0.524,
+      "evidence": [
+        {
+          "recordId": "CAP-024",
+          "title": "Telemedicine Platform for Rural Primary Care",
+          "score": 0.124,
+          "snippet": "Built a telemedicine platform linking 85 rural basic health units to specialist physicians in tertiary hospitals, with low-bandwidth-optimized video consultations, an offline-first EMR that syncs over"
+        },
+        {
+          "recordId": "CAP-029",
+          "title": "Route Optimization Engine for LPG Distribution",
+          "score": 0.091,
+          "snippet": "Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver "
+        },
+        {
+          "recordId": "CAP-032",
+          "title": "Provincial Learning Management System & Teacher Training",
+          "score": 0.078,
+          "snippet": "Rolled out a Moodle-based learning management system serving 600,000 students with curriculum-aligned digital content in Urdu and English, low-bandwidth streaming profiles and SMS-based parent notific"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Telemedicine Platform for Rural Primary Care)."
+    },
+    {
+      "requirementId": "R-028",
+      "requirement": {
+        "id": "R-028",
+        "text": "FT-13: The Platform shall be hosted in a data centre or cloud region located in Pakistan, shall enforce role-based access control with multi-factor authentication for administrative users, shall encrypt data in transit using TLS 1.2 or higher, and shall provide a complete audit trail of user actions.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      "status": "partial",
+      "confidence": 0.554,
+      "evidence": [
+        {
+          "recordId": "CAP-002",
+          "title": "Land Records Digitization & Management Information System",
+          "score": 0.154,
+          "snippet": "Digitized 14.6 million rural land record documents (registers haqdaran-e-zameen, mutations, fard) using high-speed scanning, Urdu OCR and double-blind data entry, then built the land records MIS with "
+        },
+        {
+          "recordId": "CAP-015",
+          "title": "Private Cloud & Data Center Virtualization Program",
+          "score": 0.109,
+          "snippet": "Consolidated 240 physical servers from 19 departments into a virtualized private-cloud platform with self-service provisioning, chargeback reporting and automated backup, hosted in the government's ex"
+        },
+        {
+          "recordId": "CAP-023",
+          "title": "Hospital Management Information System (HMIS) for Teaching Hospital",
+          "score": 0.095,
+          "snippet": "Implemented an integrated HMIS covering OPD/IPD registration, electronic medical records, laboratory (LIS) and radiology (RIS/PACS integration), pharmacy stock, billing and blood bank for a 600-bed te"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Land Records Digitization & Management Information System)."
+    },
+    {
+      "requirementId": "R-029",
+      "requirement": {
+        "id": "R-029",
+        "text": "FT-14: The Platform shall provide open, documented APIs sufficient for KMDS to extract its own data, and all tracking and operational data shall remain the property of KMDS and shall be handed over in a standard machine-readable format upon contract end.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "5.2 Platform Functionality"
+      },
+      "status": "gap",
+      "confidence": 0.48500000000000004,
+      "evidence": [
+        {
+          "recordId": "CAP-035",
+          "title": "Urban Land Records Service Centers & Mutation Workflow — Phase II",
+          "score": 0.085,
+          "snippet": "Second-generation land records program extending our digitization experience to urban property records: 9.8 million registry documents scanned and indexed, e-registration deeds workflow with biometric"
+        },
+        {
+          "recordId": "CAP-033",
+          "title": "School Information System & Education MIS (EMIS)",
+          "score": 0.081,
+          "snippet": "Built a province-wide education MIS capturing enrollment, attendance, teacher deployment and school facility data from 27,000 public schools through Android tablet collection by district monitoring te"
+        },
+        {
+          "recordId": "CAP-015",
+          "title": "Private Cloud & Data Center Virtualization Program",
+          "score": 0.073,
+          "snippet": "Consolidated 240 physical servers from 19 departments into a virtualized private-cloud platform with self-service provisioning, chargeback reporting and automated backup, hosted in the government's ex"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-030",
+      "requirement": {
+        "id": "R-030",
+        "text": "FT-15: The Supplier shall migrate vehicle master data, driver records and approximately 6,500 customer delivery locations from existing spreadsheets and registers, with validation and sign-off by KMDS operations.",
+        "kind": "technical",
+        "category": "general",
+        "section": "5.3 Data Migration and Training"
+      },
+      "status": "partial",
+      "confidence": 0.577,
+      "evidence": [
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.177,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        },
+        {
+          "recordId": "CAP-029",
+          "title": "Route Optimization Engine for LPG Distribution",
+          "score": 0.125,
+          "snippet": "Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver "
+        },
+        {
+          "recordId": "CAP-012",
+          "title": "Core Banking Legacy Data Migration & Reconciliation",
+          "score": 0.082,
+          "snippet": "Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier)."
+    },
+    {
+      "requirementId": "R-031",
+      "requirement": {
+        "id": "R-031",
+        "text": "FT-16: The Supplier shall deliver role-based training for up to 12 dispatchers, 10 fleet supervisors, 8 workshop staff and 6 managers, together with bilingual quick reference guides and administrator documentation.",
+        "kind": "technical",
+        "category": "experience",
+        "section": "5.3 Data Migration and Training"
+      },
+      "status": "partial",
+      "confidence": 0.537,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.137,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-047",
+          "title": "Ambulance Fleet Tracking & Dispatch for Emergency Service",
+          "score": 0.103,
+          "snippet": "Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit"
+        },
+        {
+          "recordId": "CAP-036",
+          "title": "Federal e-Procurement System Enhancement & Rollout",
+          "score": 0.103,
+          "snippet": "National-scale follow-on to our provincial e-procurement build: enhanced the federal e-procurement platform with framework agreements, reverse auctions, supplier performance scoring and open-contracti"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration))."
+    },
+    {
+      "requirementId": "R-032",
+      "requirement": {
+        "id": "R-032",
+        "text": "The Supplier shall provide comprehensive support and maintenance for twenty-four (24) months from operational acceptance, including all software updates, device warranty with advance replacement from the spares pool, sensor recalibration, airtime management and helpdesk support from 08:00 to 20:00 PKT, seven days a week.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "6. SUPPORT, WARRANTY AND SERVICE LEVELS"
+      },
+      "status": "partial",
+      "confidence": 0.515,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.115,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-047",
+          "title": "Ambulance Fleet Tracking & Dispatch for Emergency Service",
+          "score": 0.09,
+          "snippet": "Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit"
+        },
+        {
+          "recordId": "CAP-036",
+          "title": "Federal e-Procurement System Enhancement & Rollout",
+          "score": 0.087,
+          "snippet": "National-scale follow-on to our provincial e-procurement build: enhanced the federal e-procurement platform with framework agreements, reverse auctions, supplier performance scoring and open-contracti"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration))."
+    },
+    {
+      "requirementId": "R-033",
+      "requirement": {
+        "id": "R-033",
+        "text": "The Platform shall achieve a monthly availability of at least 99.5 percent, excluding scheduled maintenance notified at least three (3) working days in advance.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "6. SUPPORT, WARRANTY AND SERVICE LEVELS"
+      },
+      "status": "partial",
+      "confidence": 0.52,
+      "evidence": [
+        {
+          "recordId": "CAP-047",
+          "title": "Ambulance Fleet Tracking & Dispatch for Emergency Service",
+          "score": 0.12,
+          "snippet": "Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit"
+        },
+        {
+          "recordId": "CAP-037",
+          "title": "Vehicle Registration & Excise Management System",
+          "score": 0.108,
+          "snippet": "Adapted our license-management platform for motor vehicle registration, transfer and token tax collection across 30 excise offices, with biometric owner verification, online tax calculators and doorst"
+        },
+        {
+          "recordId": "CAP-005",
+          "title": "Driving License Issuance & Management System",
+          "score": 0.096,
+          "snippet": "Delivered a license management system covering learner permits, driving tests, license issuance, renewals and duplicates across 28 licensing centers, with biometric capture (fingerprint and facial pho"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Ambulance Fleet Tracking & Dispatch for Emergency Service)."
+    },
+    {
+      "requirementId": "R-034",
+      "requirement": {
+        "id": "R-034",
+        "text": "Critical faults (Platform unavailable or live tracking down fleet-wide) shall be responded to within 30 minutes and resolved within 6 hours; faulty in-vehicle devices shall be replaced within 2 working days in Karachi.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "6. SUPPORT, WARRANTY AND SERVICE LEVELS"
+      },
+      "status": "partial",
+      "confidence": 0.506,
+      "evidence": [
+        {
+          "recordId": "CAP-047",
+          "title": "Ambulance Fleet Tracking & Dispatch for Emergency Service",
+          "score": 0.106,
+          "snippet": "Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit"
+        },
+        {
+          "recordId": "CAP-008",
+          "title": "Citizen Complaint & Grievance Redressal Portal",
+          "score": 0.094,
+          "snippet": "Launched a multi-channel grievance redressal platform (web portal, mobile app, SMS and call-center integration) routing citizen complaints to 38 departments with escalation matrices, geo-tagging and S"
+        },
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.087,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Ambulance Fleet Tracking & Dispatch for Emergency Service)."
+    },
+    {
+      "requirementId": "R-035",
+      "requirement": {
+        "id": "R-035",
+        "text": "The Supplier shall provide a quarterly service review report covering availability, fault statistics, device health and connectivity performance.",
+        "kind": "technical",
+        "category": "general",
+        "section": "6. SUPPORT, WARRANTY AND SERVICE LEVELS"
+      },
+      "status": "partial",
+      "confidence": 0.519,
+      "evidence": [
+        {
+          "recordId": "CAP-036",
+          "title": "Federal e-Procurement System Enhancement & Rollout",
+          "score": 0.119,
+          "snippet": "National-scale follow-on to our provincial e-procurement build: enhanced the federal e-procurement platform with framework agreements, reverse auctions, supplier performance scoring and open-contracti"
+        },
+        {
+          "recordId": "CAP-025",
+          "title": "District Health Dashboards on DHIS2",
+          "score": 0.11,
+          "snippet": "Customized and scaled the DHIS2 health information platform for province-wide reporting across 1,900 facilities, building district performance dashboards for immunization coverage, maternal health and"
+        },
+        {
+          "recordId": "CAP-023",
+          "title": "Hospital Management Information System (HMIS) for Teaching Hospital",
+          "score": 0.097,
+          "snippet": "Implemented an integrated HMIS covering OPD/IPD registration, electronic medical records, laboratory (LIS) and radiology (RIS/PACS integration), pharmacy stock, billing and blood bank for a 600-bed te"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Federal e-Procurement System Enhancement & Rollout)."
+    },
+    {
+      "requirementId": "R-036",
+      "requirement": {
+        "id": "R-036",
+        "text": "Quotations shall be evaluated under a two-envelope quality and cost based method.",
+        "kind": "technical",
+        "category": "general",
+        "section": "7. EVALUATION CRITERIA"
+      },
+      "status": "gap",
+      "confidence": 0.47400000000000003,
+      "evidence": [
+        {
+          "recordId": "CAP-046",
+          "title": "Tele-Ophthalmology Network for NGO Eye Hospitals",
+          "score": 0.074,
+          "snippet": "Adapted our telemedicine platform for an NGO's eye-care network, connecting 22 community vision centers to hub hospitals for remote fundus-image screening, diabetic-retinopathy grading queues and surg"
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.074,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-017",
+          "title": "Document Management & Workflow Automation for Energy Company",
+          "score": 0.042,
+          "snippet": "Deployed an enterprise document management system with records classification, retention schedules, full-text OCR search and workflow automation for correspondence, contracts and joint-venture approva"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-037",
+      "requirement": {
+        "id": "R-037",
+        "text": "Technical proposals shall be scored against the criteria below; financial envelopes of bidders scoring at least 60 of the 80 technical points shall be opened and scored.",
+        "kind": "scored",
+        "category": "general",
+        "section": "7. EVALUATION CRITERIA"
+      },
+      "status": "gap",
+      "confidence": 0.47400000000000003,
+      "evidence": [
+        {
+          "recordId": "CAP-026",
+          "title": "COVID-19 Vaccination Appointment & Certificate System",
+          "score": 0.074,
+          "snippet": "Delivered, under emergency timelines, a national vaccination appointment system with CNIC-based registration via web, SMS and call center, center capacity scheduling, dose tracking and QR-verifiable d"
+        },
+        {
+          "recordId": "CAP-027",
+          "title": "GPS Fleet Tracking & Telematics Platform for National Courier",
+          "score": 0.059,
+          "snippet": "Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C"
+        },
+        {
+          "recordId": "CAP-021",
+          "title": "Raast Instant Payments Integration for Commercial Bank",
+          "score": 0.045,
+          "snippet": "Integrated the bank's core and digital channels with Pakistan's Raast instant payment system covering P2P alias (RtP) payments, bulk disbursements and merchant P2M flows, with ISO 20022 message transf"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-038",
+      "requirement": {
+        "id": "R-038",
+        "text": "The contract shall be awarded to the bidder with the highest combined score:",
+        "kind": "scored",
+        "category": "general",
+        "section": "7. EVALUATION CRITERIA"
+      },
+      "status": "partial",
+      "confidence": 0.525,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.125,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-025",
+          "title": "District Health Dashboards on DHIS2",
+          "score": 0.071,
+          "snippet": "Customized and scaled the DHIS2 health information platform for province-wide reporting across 1,900 facilities, building district performance dashboards for immunization coverage, maternal health and"
+        },
+        {
+          "recordId": "CAP-008",
+          "title": "Citizen Complaint & Grievance Redressal Portal",
+          "score": 0.066,
+          "snippet": "Launched a multi-channel grievance redressal platform (web portal, mobile app, SMS and call-center integration) routing citizen complaints to 38 departments with escalation matrices, geo-tagging and S"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration))."
+    },
+    {
+      "requirementId": "R-039",
+      "requirement": {
+        "id": "R-039",
+        "text": "The lowest evaluated financial quotation shall receive the full 20 financial points; other quotations shall be scored as 20 multiplied by the ratio of the lowest quoted price to the price under evaluation.",
+        "kind": "scored",
+        "category": "general",
+        "section": "7. EVALUATION CRITERIA"
+      },
+      "status": "gap",
+      "confidence": 0.468,
+      "evidence": [
+        {
+          "recordId": "CAP-013",
+          "title": "Cybersecurity Assessment, VAPT & SOC Establishment",
+          "score": 0.068,
+          "snippet": "Conducted enterprise-wide vulnerability assessment and penetration testing (external, internal, web and mobile) across 70 applications and 900 hosts, then designed and stood up a security operations c"
+        },
+        {
+          "recordId": "CAP-010",
+          "title": "ERP Implementation (Microsoft Dynamics 365 Finance & Operations)",
+          "score": 0.067,
+          "snippet": "Implemented Microsoft Dynamics 365 Finance & Operations across finance, supply chain, asset management and HR/payroll for a 9,000-employee utility, including chart-of-accounts redesign and data migrat"
+        },
+        {
+          "recordId": "CAP-034",
+          "title": "Citizen e-Services Portal Phase II — Khyber Pakhtunkhwa",
+          "score": 0.042,
+          "snippet": "Follow-on engagement replicating and extending our citizen facilitation portal for a second province, expanding the catalogue to 120 bilingual Urdu/English e-services with a unified citizen wallet for"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-040",
+      "requirement": {
+        "id": "R-040",
+        "text": "Quotations exceeding the approved budget shall be rejected.",
+        "kind": "technical",
+        "category": "general",
+        "section": "8. BUDGET AND FINANCIAL QUOTATION"
+      },
+      "status": "gap",
+      "confidence": 0.4,
+      "evidence": [],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-041",
+      "requirement": {
+        "id": "R-041",
+        "text": "Prices shall be quoted in Pakistani Rupees inclusive of all applicable taxes and duties, broken down into: hardware and installation; software licences or subscription; integration and data migration; training; and year-wise support and connectivity charges.",
+        "kind": "technical",
+        "category": "legal",
+        "section": "8. BUDGET AND FINANCIAL QUOTATION"
+      },
+      "status": "partial",
+      "confidence": 0.554,
+      "evidence": [
+        {
+          "recordId": "CAP-010",
+          "title": "ERP Implementation (Microsoft Dynamics 365 Finance & Operations)",
+          "score": 0.154,
+          "snippet": "Implemented Microsoft Dynamics 365 Finance & Operations across finance, supply chain, asset management and HR/payroll for a 9,000-employee utility, including chart-of-accounts redesign and data migrat"
+        },
+        {
+          "recordId": "CAP-045",
+          "title": "HMIS Rollout to District Headquarters Hospitals — Phase II",
+          "score": 0.11,
+          "snippet": "Scaled our teaching-hospital HMIS to eight district headquarters hospitals as a centrally hosted multi-tenant deployment, standardizing OPD/IPD, laboratory, pharmacy and billing modules with hospital-"
+        },
+        {
+          "recordId": "CAP-012",
+          "title": "Core Banking Legacy Data Migration & Reconciliation",
+          "score": 0.102,
+          "snippet": "Executed the data migration workstream of a core banking replacement, moving 6.8 million customer, account and transaction records from a legacy COBOL/flat-file system to Temenos T24 with full ETL pip"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: ERP Implementation (Microsoft Dynamics 365 Finance & Operations))."
+    },
+    {
+      "requirementId": "R-042",
+      "requirement": {
+        "id": "R-042",
+        "text": "Payment shall be made as follows: 20 percent on completion of milestone M2;",
+        "kind": "technical",
+        "category": "delivery",
+        "section": "8. BUDGET AND FINANCIAL QUOTATION"
+      },
+      "status": "partial",
+      "confidence": 0.509,
+      "evidence": [
+        {
+          "recordId": "CAP-020",
+          "title": "Mobile Wallet Application for Electronic Money Institution",
+          "score": 0.109,
+          "snippet": "Designed and built a consumer mobile wallet app (Android/iOS) with digital onboarding via NADRA e-KYC and liveness detection, P2P transfers, QR merchant payments (RAAST P2M ready), mobile top-ups, bil"
+        },
+        {
+          "recordId": "CAP-013",
+          "title": "Cybersecurity Assessment, VAPT & SOC Establishment",
+          "score": 0.082,
+          "snippet": "Conducted enterprise-wide vulnerability assessment and penetration testing (external, internal, web and mobile) across 70 applications and 900 hosts, then designed and stood up a security operations c"
+        },
+        {
+          "recordId": "CAP-044",
+          "title": "G2P Digital Disbursement Platform for Social Protection Program",
+          "score": 0.078,
+          "snippet": "Extended our branchless-banking platform experience to government-to-person payments: a disbursement management system pushing quarterly cash-transfer payments to 6 million beneficiaries through bank,"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Mobile Wallet Application for Electronic Money Institution)."
+    },
+    {
+      "requirementId": "R-043",
+      "requirement": {
+        "id": "R-043",
+        "text": "No advance payment shall be made.",
+        "kind": "technical",
+        "category": "general",
+        "section": "8. BUDGET AND FINANCIAL QUOTATION"
+      },
+      "status": "partial",
+      "confidence": 0.599,
+      "evidence": [
+        {
+          "recordId": "CAP-044",
+          "title": "G2P Digital Disbursement Platform for Social Protection Program",
+          "score": 0.199,
+          "snippet": "Extended our branchless-banking platform experience to government-to-person payments: a disbursement management system pushing quarterly cash-transfer payments to 6 million beneficiaries through bank,"
+        },
+        {
+          "recordId": "CAP-018",
+          "title": "Payment Gateway Integration & Switching Middleware",
+          "score": 0.178,
+          "snippet": "Built ISO 8583 switching middleware connecting the bank's core banking system to 1Link and interbank payment rails, enabling ATM acquiring, IBFT, utility bill payments and card-not-present e-commerce "
+        },
+        {
+          "recordId": "CAP-043",
+          "title": "E-Commerce Payment Gateway Integration for Retail Group",
+          "score": 0.171,
+          "snippet": "Repeat application of our payment-gateway middleware for a retail group's e-commerce platforms: card-not-present acquiring integration with two acquiring banks, wallet and BNPL payment options, 3-D Se"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: G2P Digital Disbursement Platform for Social Protection Program)."
+    },
+    {
+      "requirementId": "R-044",
+      "requirement": {
+        "id": "R-044",
+        "text": "Bidders shall answer the following questions in the technical envelope.",
+        "kind": "technical",
+        "category": "general",
+        "section": "9. TECHNICAL QUESTIONNAIRE"
+      },
+      "status": "partial",
+      "confidence": 0.525,
+      "evidence": [
+        {
+          "recordId": "CAP-050",
+          "title": "Online Examination & Certification Platform for Banking Institute",
+          "score": 0.125,
+          "snippet": "Extended our LMS experience to a professional certification body: secure online examination platform with randomized question banks, browser lockdown and AI-assisted webcam proctoring flags, plus auto"
+        },
+        {
+          "recordId": "CAP-026",
+          "title": "COVID-19 Vaccination Appointment & Certificate System",
+          "score": 0.071,
+          "snippet": "Delivered, under emergency timelines, a national vaccination appointment system with CNIC-based registration via web, SMS and call center, center capacity scheduling, dose tracking and QR-verifiable d"
+        },
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.068,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: Online Examination & Certification Platform for Banking Institute)."
+    },
+    {
+      "requirementId": "R-045",
+      "requirement": {
+        "id": "R-045",
+        "text": "Each answer shall not exceed two (2) pages and shall be specific to KMDS operations:",
+        "kind": "technical",
+        "category": "general",
+        "section": "9. TECHNICAL QUESTIONNAIRE"
+      },
+      "status": "partial",
+      "confidence": 0.508,
+      "evidence": [
+        {
+          "recordId": "CAP-040",
+          "title": "24/7 Managed NOC & Service Desk for Commercial Bank",
+          "score": 0.108,
+          "snippet": "Multi-year managed services contract building on our federal service-desk operation: 24/7 NOC and service desk for a bank's 280-branch network, ATM estate monitoring and core-banking batch oversight, "
+        },
+        {
+          "recordId": "CAP-016",
+          "title": "HR Management Information System for Federal Workforce",
+          "score": 0.081,
+          "snippet": "Built a centralized HRMIS managing service records, postings/transfers, promotions, leave and seniority lists for 28,000 federal civil servants, digitizing 1.4 million pages of legacy service books wi"
+        },
+        {
+          "recordId": "CAP-018",
+          "title": "Payment Gateway Integration & Switching Middleware",
+          "score": 0.066,
+          "snippet": "Built ISO 8583 switching middleware connecting the bank's core banking system to 1Link and interbank payment rails, enabling ATM acquiring, IBFT, utility bill payments and card-not-present e-commerce "
+        }
+      ],
+      "note": "Related but not exact evidence — strengthen the narrative or add a reference (closest: 24/7 Managed NOC & Service Desk for Commercial Bank)."
+    },
+    {
+      "requirementId": "R-046",
+      "requirement": {
+        "id": "R-046",
+        "text": "The technical envelope shall contain the eligibility evidence for criteria EL-1 to EL-9, the technical compliance statement against requirements FT-01 to FT-16, the questionnaire responses, the implementation plan and CVs of key staff, and one USB drive with the complete technical quotation in searchable PDF format.",
+        "kind": "technical",
+        "category": "personnel",
+        "section": "10. SUBMISSION INSTRUCTIONS"
+      },
+      "status": "gap",
+      "confidence": 0.47200000000000003,
+      "evidence": [
+        {
+          "recordId": "CAP-020",
+          "title": "Mobile Wallet Application for Electronic Money Institution",
+          "score": 0.072,
+          "snippet": "Designed and built a consumer mobile wallet app (Android/iOS) with digital onboarding via NADRA e-KYC and liveness detection, P2P transfers, QR merchant payments (RAAST P2M ready), mobile top-ups, bil"
+        },
+        {
+          "recordId": "CAP-026",
+          "title": "COVID-19 Vaccination Appointment & Certificate System",
+          "score": 0.069,
+          "snippet": "Delivered, under emergency timelines, a national vaccination appointment system with CNIC-based registration via web, SMS and call center, center capacity scheduling, dose tracking and QR-verifiable d"
+        },
+        {
+          "recordId": "CAP-011",
+          "title": "24/7 IT Service Desk & SLA Operations for Federal Ministry",
+          "score": 0.063,
+          "snippet": "Operated an ITIL v4-aligned 24/7 service desk and network operations center supporting 4,500 users across 60 sites, covering incident, problem, change and asset management with a CMDB and self-service"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-047",
+      "requirement": {
+        "id": "R-047",
+        "text": "The financial envelope shall contain the priced quotation form and the bid security instrument.",
+        "kind": "technical",
+        "category": "financial",
+        "section": "10. SUBMISSION INSTRUCTIONS"
+      },
+      "status": "pass",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.121,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-013",
+          "title": "Cybersecurity Assessment, VAPT & SOC Establishment",
+          "score": 0.107,
+          "snippet": "Conducted enterprise-wide vulnerability assessment and penetration testing (external, internal, web and mobile) across 70 applications and 900 hosts, then designed and stood up a security operations c"
+        },
+        {
+          "recordId": "CAP-010",
+          "title": "ERP Implementation (Microsoft Dynamics 365 Finance & Operations)",
+          "score": 0.073,
+          "snippet": "Implemented Microsoft Dynamics 365 Finance & Operations across finance, supply chain, asset management and HR/payroll for a 9,000-employee utility, including chart-of-accounts redesign and data migrat"
+        }
+      ],
+      "note": "Bid security is a submission commitment — bank guarantee/pay order to be arranged before the deadline."
+    },
+    {
+      "requirementId": "R-048",
+      "requirement": {
+        "id": "R-048",
+        "text": "No financial figures shall appear in the technical envelope.",
+        "kind": "technical",
+        "category": "general",
+        "section": "10. SUBMISSION INSTRUCTIONS"
+      },
+      "status": "gap",
+      "confidence": 0.487,
+      "evidence": [
+        {
+          "recordId": "CAP-026",
+          "title": "COVID-19 Vaccination Appointment & Certificate System",
+          "score": 0.087,
+          "snippet": "Delivered, under emergency timelines, a national vaccination appointment system with CNIC-based registration via web, SMS and call center, center capacity scheduling, dose tracking and QR-verifiable d"
+        },
+        {
+          "recordId": "CAP-010",
+          "title": "ERP Implementation (Microsoft Dynamics 365 Finance & Operations)",
+          "score": 0.084,
+          "snippet": "Implemented Microsoft Dynamics 365 Finance & Operations across finance, supply chain, asset management and HR/payroll for a 9,000-employee utility, including chart-of-accounts redesign and data migrat"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-049",
+      "requirement": {
+        "id": "R-049",
+        "text": "If the Supplier fails to achieve operational acceptance (milestone M5) within twenty (20) weeks of purchase order for reasons attributable to the Supplier, KMDS shall deduct liquidated damages at the rate of 0.25 percent (zero point two five percent) of the total contract price per week of delay or part thereof, up to a maximum of eight percent (8%) of the total contract price, after which KMDS may cancel the purchase order, encash the bid security or performance security then held, and procure the platform from another supplier at the Supplier's risk and cost.",
+        "kind": "scored",
+        "category": "financial",
+        "section": "11. PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      "status": "pass",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.224,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-036",
+          "title": "Federal e-Procurement System Enhancement & Rollout",
+          "score": 0.148,
+          "snippet": "National-scale follow-on to our provincial e-procurement build: enhanced the federal e-procurement platform with framework agreements, reverse auctions, supplier performance scoring and open-contracti"
+        },
+        {
+          "recordId": "CAP-013",
+          "title": "Cybersecurity Assessment, VAPT & SOC Establishment",
+          "score": 0.141,
+          "snippet": "Conducted enterprise-wide vulnerability assessment and penetration testing (external, internal, web and mobile) across 70 applications and 900 hosts, then designed and stood up a security operations c"
+        }
+      ],
+      "note": "Bid security is a submission commitment — bank guarantee/pay order to be arranged before the deadline."
+    },
+    {
+      "requirementId": "R-050",
+      "requirement": {
+        "id": "R-050",
+        "text": "During the support period, service credits of 2 percent of the quarterly support fee shall apply for each 0.1 percentage point shortfall below the 99.5 percent monthly availability target, capped at 20 percent of the quarterly support fee.",
+        "kind": "scored",
+        "category": "general",
+        "section": "11. PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      "status": "gap",
+      "confidence": 0.499,
+      "evidence": [
+        {
+          "recordId": "CAP-040",
+          "title": "24/7 Managed NOC & Service Desk for Commercial Bank",
+          "score": 0.099,
+          "snippet": "Multi-year managed services contract building on our federal service-desk operation: 24/7 NOC and service desk for a bank's 280-branch network, ATM estate monitoring and core-banking batch oversight, "
+        },
+        {
+          "recordId": "CAP-037",
+          "title": "Vehicle Registration & Excise Management System",
+          "score": 0.083,
+          "snippet": "Adapted our license-management platform for motor vehicle registration, transfer and token tax collection across 30 excise offices, with biometric owner verification, online tax calculators and doorst"
+        },
+        {
+          "recordId": "CAP-005",
+          "title": "Driving License Issuance & Management System",
+          "score": 0.076,
+          "snippet": "Delivered a license management system covering learner permits, driving tests, license issuance, renewals and duplicates across 28 licensing centers, with biometric capture (fingerprint and facial pho"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-051",
+      "requirement": {
+        "id": "R-051",
+        "text": "The successful bidder shall furnish a performance security of five percent (5%) of the contract value within ten (10) days of the purchase order, valid for the full contract term plus sixty (60) days.",
+        "kind": "technical",
+        "category": "technical",
+        "section": "11. PENALTIES AND LIQUIDATED DAMAGES"
+      },
+      "status": "gap",
+      "confidence": 0.48400000000000004,
+      "evidence": [
+        {
+          "recordId": "CAP-003",
+          "title": "Provincial e-Procurement Platform (e-Tendering & Supplier Registration)",
+          "score": 0.084,
+          "snippet": "Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor"
+        },
+        {
+          "recordId": "CAP-017",
+          "title": "Document Management & Workflow Automation for Energy Company",
+          "score": 0.082,
+          "snippet": "Deployed an enterprise document management system with records classification, retention schedules, full-text OCR search and workflow automation for correspondence, contracts and joint-venture approva"
+        },
+        {
+          "recordId": "CAP-025",
+          "title": "District Health Dashboards on DHIS2",
+          "score": 0.076,
+          "snippet": "Customized and scaled the DHIS2 health information platform for province-wide reporting across 1,900 facilities, building district performance dashboards for immunization coverage, maternal health and"
+        }
+      ],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    },
+    {
+      "requirementId": "R-052",
+      "requirement": {
+        "id": "R-052",
+        "text": "All communications shall quote reference KMDS/IT/2026/RFQ-031.",
+        "kind": "technical",
+        "category": "experience",
+        "section": "12. CONTACT INFORMATION"
+      },
+      "status": "gap",
+      "confidence": 0.4,
+      "evidence": [],
+      "note": "No matching evidence in the capability library — flag for bid/no-bid review."
+    }
+  ],
+  "win": {
+    "probability": 60,
+    "decision": "GO",
+    "factors": [
+      {
+        "key": "budgetAlignment",
+        "label": "Budget alignment",
+        "score": 95,
+        "weight": 0.2,
+        "detail": "RFP ≈ USD 340k vs winning sweet spot USD 310k–1085k."
+      },
+      {
+        "key": "domainWinRate",
+        "label": "Past win rate in domain",
+        "score": 46,
+        "weight": 0.25,
+        "detail": "Won 6 of 13 past Logistics bids."
+      },
+      {
+        "key": "complianceCoverage",
+        "label": "Compliance coverage",
+        "score": 48,
+        "weight": 0.3,
+        "detail": "10 pass / 30 partial / 12 gap across 52 requirements; 0 mandatory gap(s)."
+      },
+      {
+        "key": "competitivePressure",
+        "label": "Competitive pressure",
+        "score": 53,
+        "weight": 0.1,
+        "detail": "Avg 5.1 competitors per comparable bid; incumbent present in 23% of them."
+      },
+      {
+        "key": "capabilityDepth",
+        "label": "Capability evidence depth",
+        "score": 65,
+        "weight": 0.15,
+        "detail": "37 of 52 requirements have library evidence (sector: Logistics)."
+      }
+    ],
+    "rationale": "Estimated win probability 60%. Strongest factor: budget alignment (95). Weakest factor: past win rate in domain (46)."
+  },
+  "draft": [
+    {
+      "id": "S-001",
+      "title": "Executive Summary",
+      "content": "Axiom Digital Systems (Pvt) Ltd is pleased to submit this proposal for **Supply and Implementation of a Fleet Tracking and Logistics Management Platform (450 Vehicles)**. With 14+ years of delivery, 180 professionals and certifications including ISO 9001:2015, ISO/IEC 27001:2022, CMMI-DEV Level 3, Microsoft Gold Partner, AWS Select Partner, we meet 10 of 52 extracted requirements outright, with mitigation plans for the remainder.",
+      "status": "draft",
+      "requirementIds": [],
+      "evidenceIds": []
+    },
+    {
+      "id": "S-002",
+      "title": "Company Profile & Eligibility",
+      "content": "**Axiom Digital Systems (Pvt) Ltd** (Private Limited Company incorporated under the Companies Act with SECP, est. 2012) — HQ Islamabad; offices: Islamabad (HQ), Lahore, Karachi.\n\n- Registrations: SECP Certificate of Incorporation, PSEB Registered IT/ITeS Company, FBR National Tax Number (NTN), FBR Sales Tax Registration (STRN), Punjab Procurement Regulatory Authority (PPRA) supplier registration, Sindh Public Procurement Regulatory Authority (SPPRA) supplier registration, Khyber Pakhtunkhwa Public Procurement Regulatory Authority (KPPRA) supplier registration\n- Certifications: ISO 9001:2015, ISO/IEC 27001:2022, CMMI-DEV Level 3, Microsoft Gold Partner, AWS Select Partner\n- Average annual turnover: ≈ USD 1.6M\n- Sectors served: IT Services, E-Government, Fintech, Health IT, Logistics, Education\n\nOf 11 mandatory eligibility clauses extracted from the RFP, 6 are met with documentary evidence (see Compliance Matrix).",
+      "status": "draft",
+      "requirementIds": [
+        "R-005",
+        "R-006",
+        "R-007",
+        "R-008",
+        "R-009",
+        "R-010",
+        "R-011",
+        "R-012",
+        "R-013",
+        "R-014",
+        "R-015"
+      ],
+      "evidenceIds": []
+    },
+    {
+      "id": "S-003",
+      "title": "Understanding of Requirements & Proposed Approach",
+      "content": "REQUEST FOR QUOTATIONS Supply and Implementation of a Fleet Tracking and Logistics Management Platform (450 Vehicles) Reference No: KMDS/IT/2026/RFQ-031 Issued by: Karachi Metropolitan Distribution Services (KMDS) Date of Issue: Friday, 12 June 2026 Procurement Method: Single Stage - Two Envelope Procedure Contact Email: procurement@kmds.com.pk\n\nOur approach addresses the 34 technical requirements through proven delivery patterns:\n\n- **Provincial e-Procurement Platform (e-Tendering & Supplier Registration)** [CAP-003]: Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor\n- **Federal e-Procurement System Enhancement & Rollout** [CAP-036]: National-scale follow-on to our provincial e-procurement build: enhanced the federal e-procurement platform with framework agreements, reverse auctions, supplier performance scoring and open-contracti\n- **Ambulance Fleet Tracking & Dispatch for Emergency Service** [CAP-047]: Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit\n- **ERP Implementation (Microsoft Dynamics 365 Finance & Operations)** [CAP-010]: Implemented Microsoft Dynamics 365 Finance & Operations across finance, supply chain, asset management and HR/payroll for a 9,000-employee utility, including chart-of-accounts redesign and data migrat\n- **Dynamics 365 ERP Rollout for Textile Manufacturing Group** [CAP-039]: Leveraging our utility-sector ERP experience, implemented Microsoft Dynamics 365 Finance & Operations with production control, costing and export documentation for a vertically integrated textile grou",
+      "status": "draft",
+      "requirementIds": [
+        "R-001",
+        "R-002",
+        "R-003",
+        "R-004",
+        "R-016",
+        "R-017",
+        "R-018",
+        "R-019",
+        "R-020",
+        "R-021",
+        "R-022",
+        "R-024",
+        "R-026",
+        "R-027",
+        "R-028",
+        "R-029",
+        "R-030",
+        "R-031",
+        "R-032",
+        "R-033",
+        "R-034",
+        "R-035",
+        "R-036",
+        "R-040",
+        "R-041",
+        "R-042",
+        "R-043",
+        "R-044",
+        "R-045",
+        "R-046",
+        "R-047",
+        "R-048",
+        "R-051",
+        "R-052"
+      ],
+      "evidenceIds": []
+    },
+    {
+      "id": "S-004",
+      "title": "Response: Device Specification and Certification: Specify the make and model of the proposed trackin…",
+      "content": "Axiom Digital Systems (Pvt) Ltd will address this requirement drawing on directly relevant delivery experience:\n\n- **GPS Fleet Tracking & Telematics Platform for National Courier** [CAP-027]: Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C\n- **Ambulance Fleet Tracking & Dispatch for Emergency Service** [CAP-047]: Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit\n- **Route Optimization Engine for LPG Distribution** [CAP-029]: Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver \n\nOur response approach: we map the stated requirement to a proven delivery pattern, assign accountable owners from our PMO, and verify acceptance criteria with the client at each milestone.\n\n_Device Specification and Certification: Specify the make and model of the proposed tracking devices, fuel sensors and temperature sensors, their PTA type approv_",
+      "status": "draft",
+      "requirementIds": [
+        "R-015",
+        "R-016",
+        "R-019"
+      ],
+      "evidenceIds": [
+        "CAP-027",
+        "CAP-047",
+        "CAP-027",
+        "CAP-044",
+        "CAP-029",
+        "CAP-027"
+      ]
+    },
+    {
+      "id": "S-005",
+      "title": "Response: Platform Architecture: Describe the Platform architecture, including the hosting arrangeme…",
+      "content": "Axiom Digital Systems (Pvt) Ltd will address this requirement drawing on directly relevant delivery experience:\n\n- **GPS Fleet Tracking & Telematics Platform for National Courier** [CAP-027]: Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C\n- **Vehicle Registration & Excise Management System** [CAP-037]: Adapted our license-management platform for motor vehicle registration, transfer and token tax collection across 30 excise offices, with biometric owner verification, online tax calculators and doorst\n- **Ambulance Fleet Tracking & Dispatch for Emergency Service** [CAP-047]: Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit\n\nOur response approach: we map the stated requirement to a proven delivery pattern, assign accountable owners from our PMO, and verify acceptance criteria with the client at each milestone.\n\n_Platform Architecture: Describe the Platform architecture, including the hosting arrangement in Pakistan, multi-tenancy model if any, data ingestion capacity, l_",
+      "status": "draft",
+      "requirementIds": [
+        "R-021",
+        "R-022",
+        "R-028"
+      ],
+      "evidenceIds": [
+        "CAP-027",
+        "CAP-037",
+        "CAP-029",
+        "CAP-027",
+        "CAP-002",
+        "CAP-015"
+      ]
+    },
+    {
+      "id": "S-006",
+      "title": "Response: Route Optimisation Approach: Explain how your route optimisation engine builds and re-opti…",
+      "content": "Axiom Digital Systems (Pvt) Ltd will address this requirement drawing on directly relevant delivery experience:\n\n- **Route Optimization Engine for LPG Distribution** [CAP-029]: Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver \n- **GPS Fleet Tracking & Telematics Platform for National Courier** [CAP-027]: Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C\n- **Warehouse Management System for FMCG Distributor** [CAP-028]: Implemented a warehouse management system across five distribution centers with barcode-driven receiving, putaway, wave picking, batch/expiry (FEFO) control and cycle counting on Android handheld term\n\nOur response approach: we map the stated requirement to a proven delivery pattern, assign accountable owners from our PMO, and verify acceptance criteria with the client at each milestone.\n\n_Route Optimisation Approach: Explain how your route optimisation engine builds and re-optimises multi-stop routes under vehicle capacity, time window and zone c_",
+      "status": "draft",
+      "requirementIds": [
+        "R-022",
+        "R-049",
+        "R-002"
+      ],
+      "evidenceIds": [
+        "CAP-029",
+        "CAP-027",
+        "CAP-003",
+        "CAP-036",
+        "CAP-047",
+        "CAP-013"
+      ]
+    },
+    {
+      "id": "S-007",
+      "title": "Response: WMS Integration: Describe your proposed approach to integrating with the KMDS warehouse ma…",
+      "content": "Axiom Digital Systems (Pvt) Ltd will address this requirement drawing on directly relevant delivery experience:\n\n- **Warehouse Management System for FMCG Distributor** [CAP-028]: Implemented a warehouse management system across five distribution centers with barcode-driven receiving, putaway, wave picking, batch/expiry (FEFO) control and cycle counting on Android handheld term\n- **Route Optimization Engine for LPG Distribution** [CAP-029]: Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver \n- **Driving License Issuance & Management System** [CAP-005]: Delivered a license management system covering learner permits, driving tests, license issuance, renewals and duplicates across 28 licensing centers, with biometric capture (fingerprint and facial pho\n\nOur response approach: we map the stated requirement to a proven delivery pattern, assign accountable owners from our PMO, and verify acceptance criteria with the client at each milestone.\n\n_WMS Integration: Describe your proposed approach to integrating with the KMDS warehouse management system, including the API patterns, message formats, error ha_",
+      "status": "draft",
+      "requirementIds": [
+        "R-024",
+        "R-010",
+        "R-025"
+      ],
+      "evidenceIds": [
+        "CAP-028",
+        "CAP-029",
+        "CAP-027",
+        "CAP-047",
+        "CAP-027",
+        "CAP-047"
+      ]
+    },
+    {
+      "id": "S-008",
+      "title": "Response: Driver Scoring Methodology: Describe the events, weightings and normalisation method used …",
+      "content": "Axiom Digital Systems (Pvt) Ltd will address this requirement drawing on directly relevant delivery experience:\n\n- **Route Optimization Engine for LPG Distribution** [CAP-029]: Built a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver \n- **GPS Fleet Tracking & Telematics Platform for National Courier** [CAP-027]: Deployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. C\n- **Warehouse Management System for FMCG Distributor** [CAP-028]: Implemented a warehouse management system across five distribution centers with barcode-driven receiving, putaway, wave picking, batch/expiry (FEFO) control and cycle counting on Android handheld term\n\nOur response approach: we map the stated requirement to a proven delivery pattern, assign accountable owners from our PMO, and verify acceptance criteria with the client at each milestone.\n\n_Driver Scoring Methodology: Describe the events, weightings and normalisation method used in your driver behaviour scoring, how scores remain fair across differ_",
+      "status": "draft",
+      "requirementIds": [
+        "R-022",
+        "R-023",
+        "R-018"
+      ],
+      "evidenceIds": [
+        "CAP-029",
+        "CAP-027",
+        "CAP-029",
+        "CAP-025",
+        "CAP-027",
+        "CAP-044"
+      ]
+    },
+    {
+      "id": "S-009",
+      "title": "Response: Support and Spares Model: Describe your support organisation for this contract, including …",
+      "content": "Axiom Digital Systems (Pvt) Ltd will address this requirement drawing on directly relevant delivery experience:\n\n- **Provincial e-Procurement Platform (e-Tendering & Supplier Registration)** [CAP-003]: Built and rolled out an end-to-end e-procurement platform covering supplier registration, e-tendering, online bid submission with PKI digital signatures and encryption, two-envelope bid evaluation wor\n- **Ambulance Fleet Tracking & Dispatch for Emergency Service** [CAP-047]: Built on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated wit\n- **Federal e-Procurement System Enhancement & Rollout** [CAP-036]: National-scale follow-on to our provincial e-procurement build: enhanced the federal e-procurement platform with framework agreements, reverse auctions, supplier performance scoring and open-contracti\n\nOur response approach: we map the stated requirement to a proven delivery pattern, assign accountable owners from our PMO, and verify acceptance criteria with the client at each milestone.\n\n_Support and Spares Model: Describe your support organisation for this contract, including Karachi-based resources, escalation tiers, the spares pool and advance_",
+      "status": "draft",
+      "requirementIds": [
+        "R-032",
+        "R-012",
+        "R-050"
+      ],
+      "evidenceIds": [
+        "CAP-003",
+        "CAP-047",
+        "CAP-037",
+        "CAP-045",
+        "CAP-040",
+        "CAP-037"
+      ]
+    },
+    {
+      "id": "S-010",
+      "title": "Relevant Experience & Past Performance",
+      "content": "**Integrated WMS & Transport Management for 3PL Provider** [CAP-048] — Third-Party Logistics (3PL) Company (Private Enterprise), 2025, USD 530k, 16 months.\nSecond-generation deployment combining our WMS with a transport management module for a 3PL operating nine warehouses and contracted line-haul fleets: multi-client inventory segregation with client billing engines, load planning and carrier assignment, and milestone-based shipment tracking exposed through a customer portal and APIs. Route optimization reduced empty backhaul through load consolidation suggestions. Delivered with phased go-lives to avoid client disruption and training for 420 operations staff. _Outcome: Billing leakage recovered 7% of revenue via automated client invoicing; truck utilization up 21%; new 3PL client onboarding time cut from 8 weeks to 12 days._\n\n**Ambulance Fleet Tracking & Dispatch for Emergency Service** [CAP-047] — Provincial Emergency Rescue Service (Government), 2023, USD 490k, 14 months.\nBuilt on our courier telematics platform to deliver computer-aided dispatch and GPS tracking for 1,400 ambulances: nearest-unit recommendation with live traffic ETAs, call-taker console integrated with the 1122 control rooms, and hospital-arrival notifications to emergency departments. Vehicle health telemetry schedules preventive maintenance to keep fleet readiness high. Included control-room operator training across 36 districts and 24/7 platform support under SLA. _Outcome: Average emergency response time improved 2.6 minutes province-wide; fleet out-of-service rate halved through telemetry-driven maintenance; 1.8 million emergencies dispatched on the platform._\n\n**Route Optimization Engine for LPG Distribution** [CAP-029] — LPG Marketing & Distribution Company (Private Enterprise), 2022, USD 380k, 12 months.\nBuilt a vehicle routing and scheduling engine for daily LPG cylinder distribution to 11,000 retail points, solving capacity- and time-window-constrained VRP with traffic-aware travel times and driver shift rules. Dispatchers get suggested route plans with manual override, and an Android driver app handles proof-of-delivery, cylinder reconciliation and cash collection. The optimizer integrates with the company's SAP order pipeline through nightly and intraday syncs. _Outcome: Fleet kilometers reduced 17% for the same delivery volume; deliveries per vehicle per day up 22%; cash reconciliation discrepancies down 88% via digital POD._\n\n**Warehouse Management System for FMCG Distributor** [CAP-028] — FMCG Distribution Group (Private Enterprise), 2020, USD 470k, 15 months.\nImplemented a warehouse management system across five distribution centers with barcode-driven receiving, putaway, wave picking, batch/expiry (FEFO) control and cycle counting on Android handheld terminals. Integrated with the distributor's ERP for orders and inventory sync, and added a yard/dock scheduling module to smooth inbound congestion. Provided floor-level training and capacity building for 350 warehouse staff with bilingual Urdu/English work instructions. _Outcome: Picking accuracy rose to 99.7%; order-to-dispatch lead time cut 46%; inventory shrinkage reduced 63% in the first year._\n\n**GPS Fleet Tracking & Telematics Platform for National Courier** [CAP-027] — National Courier & Express Company (Private Enterprise), 2019, USD 560k, 18 months.\nDeployed a GPS fleet tracking and telematics platform for 8,000 vehicles and riders, ingesting live location, ignition, speed and harsh-driving events with geofencing around hubs and delivery zones. Control-tower dashboards give route replay, ETA prediction and SLA breach alerts to regional operations teams, while driver-behavior scoring feeds safety coaching. Integrated with the courier's shipment system so customer service sees parcel-level vehicle locations in real time. _Outcome: On-time delivery improved 14 percentage points; fuel cost per route down 11% through idling and route-deviation control; vehicle utilization up 19%._\n\n**Port Container Tracking & Customs e-Clearance Integration** [CAP-030] — Private Container Terminal Operator (Private Enterprise), 2016, USD 410k, 16 months.\nDeveloped a container tracking and gate-automation system for a port terminal, integrating OCR gate cameras, RFID truck tags and yard position updates with the terminal operating system. Built two-way EDI/API integration with the national customs clearance system (WeBOC) for examination holds and release messages, plus a shipper portal for real-time container status and e-DO workflows. Reduced manual paperwork at gates through digital job orders. _Outcome: Average truck gate turnaround cut from 41 to 13 minutes; customs release-to-gate-out time reduced 35%; portal adoption by 1,900 freight forwarders._",
+      "status": "draft",
+      "requirementIds": [],
+      "evidenceIds": [
+        "CAP-048",
+        "CAP-047",
+        "CAP-029",
+        "CAP-028",
+        "CAP-027",
+        "CAP-030"
+      ]
+    },
+    {
+      "id": "S-011",
+      "title": "Compliance Matrix",
+      "content": "| # | Requirement | Type | Status | Evidence / Note |\n|---|---|---|---|---|\n| R-001 | The successful bidder (hereinafter \"the Supplier\") shall be responsible for: | technical | ✅ Pass | [CAP-003] Strong evidence in capability library (top match: Provincial e-Procurement Platf |\n| R-002 | The Platform shall reach operational acceptance within twenty (20) weeks of purchase order… | technical | ❌ Gap | [CAP-047] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-003 | A pre-bid meeting shall be held online via Microsoft Teams on Thursday, 2 July 2026 at 11:… | technical | ⚠️ Partial | [CAP-010] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-004 | Technical envelopes shall be opened the same day at 14:30 PKT. | technical | ❌ Gap | [CAP-029] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-005 | EL-1: The bidder must be a company registered in Pakistan with the Securities and Exchange… | mandatory | ✅ Pass | [CAP-006] Registered with SECP, FBR; certificates available. |\n| R-006 | EL-2: The bidder must have been in continuous operation in software development, telematic… | mandatory | ⚠️ Partial | [CAP-004] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-007 | EL-3: The bidder must hold a valid ISO 9001 quality management certification; | mandatory | ✅ Pass | [CAP-021] Held certifications cover this clause (ISO 9001). |\n| R-008 | ISO/IEC 27001 certification is additionally required because the Platform will process com… | mandatory | ✅ Pass | [CAP-027] Held certifications cover this clause (ISO 27001). |\n| R-009 | Both certifications are mandatory. | mandatory | ⚠️ Partial | [CAP-050] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-010 | EL-4: The bidder must have successfully delivered at least two (2) vehicle tracking, telem… | mandatory | ⚠️ Partial | [CAP-027] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-011 | EL-5: The bidder must have an average annual turnover of at least PKR 80 million over the … | mandatory | ✅ Pass | [CAP-003] Average annual turnover ≈ USD 1600k meets the ≈ USD 286k threshold. |\n| R-012 | EL-6: The bidder must maintain a support presence in Karachi, either an existing office or… | mandatory | ⚠️ Partial | [CAP-037] Forward commitment clause — can be covered by an undertaking in the bid letter. |\n| R-013 | EL-7: The bidder must submit an affidavit that it is not blacklisted by any federal, provi… | mandatory | ✅ Pass | [CAP-036] Not blacklisted; affidavit can be furnished on stamp paper. |\n| R-014 | EL-8: The bidder must furnish bid security equal to two percent (2%) of the quoted price, … | mandatory | ✅ Pass | [CAP-003] Bid security is a submission commitment — bank guarantee/pay order to be arrange |\n| R-015 | EL-9: All proposed GPS tracking devices must be type-approved by the Pakistan Telecommunic… | mandatory | ⚠️ Partial | [CAP-027] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-016 | FT-01: The Supplier shall provide GPS/IoT tracking devices supporting GPS and GLONASS posi… | technical | ⚠️ Partial | [CAP-027] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-017 | FT-02: Devices shall report position, speed, heading, ignition state and configured event … | technical | ⚠️ Partial | [CAP-027] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-018 | FT-03: Fuel level sensors shall achieve an accuracy of plus or minus 3 percent after per-v… | technical | ⚠️ Partial | [CAP-027] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-019 | FT-04: Temperature sensors in refrigerated units shall report at intervals not exceeding 6… | technical | ⚠️ Partial | [CAP-029] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-020 | FT-05: The Supplier shall manage SIM provisioning and airtime for all devices for the full… | technical | ⚠️ Partial | [CAP-015] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-021 | FT-06: The Platform shall provide live map tracking of all 450 vehicles with at most 15 se… | technical | ⚠️ Partial | [CAP-027] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-022 | FT-07: The Platform shall provide route planning and optimisation that produces multi-stop… | technical | ✅ Pass | [CAP-029] Strong evidence in capability library (top match: Route Optimization Engine for  |\n| R-023 | FT-08: The Platform shall compute a driver behaviour score per driver per period, based at… | scored | ⚠️ Partial | [CAP-029] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-024 | FT-09: The Platform shall integrate with the KMDS warehouse management system through docu… | technical | ⚠️ Partial | [CAP-028] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-025 | FT-10: The Platform shall provide role-based dashboards for dispatchers, fleet supervisors… | scored | ⚠️ Partial | [CAP-027] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-026 | FT-11: The Platform shall maintain a vehicle maintenance module covering service schedules… | technical | ⚠️ Partial | [CAP-047] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-027 | FT-12: The driver mobile application shall operate on Android 10 or later, shall support U… | technical | ⚠️ Partial | [CAP-024] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-028 | FT-13: The Platform shall be hosted in a data centre or cloud region located in Pakistan, … | technical | ⚠️ Partial | [CAP-002] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-029 | FT-14: The Platform shall provide open, documented APIs sufficient for KMDS to extract its… | technical | ❌ Gap | [CAP-035] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-030 | FT-15: The Supplier shall migrate vehicle master data, driver records and approximately 6,… | technical | ⚠️ Partial | [CAP-027] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-031 | FT-16: The Supplier shall deliver role-based training for up to 12 dispatchers, 10 fleet s… | technical | ⚠️ Partial | [CAP-003] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-032 | The Supplier shall provide comprehensive support and maintenance for twenty-four (24) mont… | technical | ⚠️ Partial | [CAP-003] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-033 | The Platform shall achieve a monthly availability of at least 99.5 percent, excluding sche… | technical | ⚠️ Partial | [CAP-047] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-034 | Critical faults (Platform unavailable or live tracking down fleet-wide) shall be responded… | technical | ⚠️ Partial | [CAP-047] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-035 | The Supplier shall provide a quarterly service review report covering availability, fault … | technical | ⚠️ Partial | [CAP-036] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-036 | Quotations shall be evaluated under a two-envelope quality and cost based method. | technical | ❌ Gap | [CAP-046] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-037 | Technical proposals shall be scored against the criteria below; financial envelopes of bid… | scored | ❌ Gap | [CAP-026] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-038 | The contract shall be awarded to the bidder with the highest combined score: | scored | ⚠️ Partial | [CAP-003] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-039 | The lowest evaluated financial quotation shall receive the full 20 financial points; other… | scored | ❌ Gap | [CAP-013] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-040 | Quotations exceeding the approved budget shall be rejected. | technical | ❌ Gap | No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-041 | Prices shall be quoted in Pakistani Rupees inclusive of all applicable taxes and duties, b… | technical | ⚠️ Partial | [CAP-010] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-042 | Payment shall be made as follows: 20 percent on completion of milestone M2; | technical | ⚠️ Partial | [CAP-020] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-043 | No advance payment shall be made. | technical | ⚠️ Partial | [CAP-044] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-044 | Bidders shall answer the following questions in the technical envelope. | technical | ⚠️ Partial | [CAP-050] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-045 | Each answer shall not exceed two (2) pages and shall be specific to KMDS operations: | technical | ⚠️ Partial | [CAP-040] Related but not exact evidence — strengthen the narrative or add a reference (cl |\n| R-046 | The technical envelope shall contain the eligibility evidence for criteria EL-1 to EL-9, t… | technical | ❌ Gap | [CAP-020] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-047 | The financial envelope shall contain the priced quotation form and the bid security instru… | technical | ✅ Pass | [CAP-003] Bid security is a submission commitment — bank guarantee/pay order to be arrange |\n| R-048 | No financial figures shall appear in the technical envelope. | technical | ❌ Gap | [CAP-026] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-049 | If the Supplier fails to achieve operational acceptance (milestone M5) within twenty (20) … | scored | ✅ Pass | [CAP-003] Bid security is a submission commitment — bank guarantee/pay order to be arrange |\n| R-050 | During the support period, service credits of 2 percent of the quarterly support fee shall… | scored | ❌ Gap | [CAP-040] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-051 | The successful bidder shall furnish a performance security of five percent (5%) of the con… | technical | ❌ Gap | [CAP-003] No matching evidence in the capability library — flag for bid/no-bid review. |\n| R-052 | All communications shall quote reference KMDS/IT/2026/RFQ-031. | technical | ❌ Gap | No matching evidence in the capability library — flag for bid/no-bid review. |",
+      "status": "draft",
+      "requirementIds": [
+        "R-001",
+        "R-002",
+        "R-003",
+        "R-004",
+        "R-005",
+        "R-006",
+        "R-007",
+        "R-008",
+        "R-009",
+        "R-010",
+        "R-011",
+        "R-012",
+        "R-013",
+        "R-014",
+        "R-015",
+        "R-016",
+        "R-017",
+        "R-018",
+        "R-019",
+        "R-020",
+        "R-021",
+        "R-022",
+        "R-023",
+        "R-024",
+        "R-025",
+        "R-026",
+        "R-027",
+        "R-028",
+        "R-029",
+        "R-030",
+        "R-031",
+        "R-032",
+        "R-033",
+        "R-034",
+        "R-035",
+        "R-036",
+        "R-037",
+        "R-038",
+        "R-039",
+        "R-040",
+        "R-041",
+        "R-042",
+        "R-043",
+        "R-044",
+        "R-045",
+        "R-046",
+        "R-047",
+        "R-048",
+        "R-049",
+        "R-050",
+        "R-051",
+        "R-052"
+      ],
+      "evidenceIds": []
+    },
+    {
+      "id": "S-012",
+      "title": "Gap Mitigation Plan",
+      "content": "- **R-002** (technical, gap): The Platform shall reach operational acceptance within twenty (20) weeks of purchase order, in accordance with the follo\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-003** (general, partial): A pre-bid meeting shall be held online via Microsoft Teams on Thursday, 2 July 2026 at 11:30 PKT; the joining link shall\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: ERP Implementation (Microsoft Dynamics 365 Finance & Operations)).\n- **R-004** (general, gap): Technical envelopes shall be opened the same day at 14:30 PKT.\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-006** (technical, partial): EL-2: The bidder must have been in continuous operation in software development, telematics or systems integration for a\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Civil Registration & Vital Statistics (CRVS) System).\n- **R-009** (certification, partial): Both certifications are mandatory.\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Online Examination & Certification Platform for Banking Institute).\n- **R-010** (experience, partial): EL-4: The bidder must have successfully delivered at least two (2) vehicle tracking, telematics or logistics management \n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier).\n- **R-012** (general, partial): EL-6: The bidder must maintain a support presence in Karachi, either an existing office or a written undertaking to desi\n  - _Mitigation_: Forward commitment clause — can be covered by an undertaking in the bid letter.\n- **R-015** (technical, partial): EL-9: All proposed GPS tracking devices must be type-approved by the Pakistan Telecommunication Authority (PTA).\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier).\n- **R-016** (technical, partial): FT-01: The Supplier shall provide GPS/IoT tracking devices supporting GPS and GLONASS positioning, 4G LTE connectivity w\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier).\n- **R-017** (general, partial): FT-02: Devices shall report position, speed, heading, ignition state and configured event data at intervals not exceedin\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier).\n- **R-018** (technical, partial): FT-03: Fuel level sensors shall achieve an accuracy of plus or minus 3 percent after per-vehicle calibration, and the Pl\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier).\n- **R-019** (general, partial): FT-04: Temperature sensors in refrigerated units shall report at intervals not exceeding 60 seconds, with configurable t\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Route Optimization Engine for LPG Distribution).\n- **R-020** (general, partial): FT-05: The Supplier shall manage SIM provisioning and airtime for all devices for the full two-year support period, with\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Private Cloud & Data Center Virtualization Program).\n- **R-021** (technical, partial): FT-06: The Platform shall provide live map tracking of all 450 vehicles with at most 15 seconds of latency, historical t\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier).\n- **R-023** (technical, partial): FT-08: The Platform shall compute a driver behaviour score per driver per period, based at a minimum on harsh braking, h\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Route Optimization Engine for LPG Distribution).\n- **R-024** (technical, partial): FT-09: The Platform shall integrate with the KMDS warehouse management system through documented REST APIs to receive di\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Warehouse Management System for FMCG Distributor).\n- **R-025** (technical, partial): FT-10: The Platform shall provide role-based dashboards for dispatchers, fleet supervisors and management, including fle\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier).\n- **R-026** (technical, partial): FT-11: The Platform shall maintain a vehicle maintenance module covering service schedules by kilometres and calendar, d\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Ambulance Fleet Tracking & Dispatch for Emergency Service).\n- **R-027** (technical, partial): FT-12: The driver mobile application shall operate on Android 10 or later, shall support Urdu and English interfaces, an\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Telemedicine Platform for Rural Primary Care).\n- **R-028** (technical, partial): FT-13: The Platform shall be hosted in a data centre or cloud region located in Pakistan, shall enforce role-based acces\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Land Records Digitization & Management Information System).\n- **R-029** (technical, gap): FT-14: The Platform shall provide open, documented APIs sufficient for KMDS to extract its own data, and all tracking an\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-030** (general, partial): FT-15: The Supplier shall migrate vehicle master data, driver records and approximately 6,500 customer delivery location\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: GPS Fleet Tracking & Telematics Platform for National Courier).\n- **R-031** (experience, partial): FT-16: The Supplier shall deliver role-based training for up to 12 dispatchers, 10 fleet supervisors, 8 workshop staff a\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration)).\n- **R-032** (technical, partial): The Supplier shall provide comprehensive support and maintenance for twenty-four (24) months from operational acceptance\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration)).\n- **R-033** (technical, partial): The Platform shall achieve a monthly availability of at least 99.5 percent, excluding scheduled maintenance notified at \n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Ambulance Fleet Tracking & Dispatch for Emergency Service).\n- **R-034** (technical, partial): Critical faults (Platform unavailable or live tracking down fleet-wide) shall be responded to within 30 minutes and reso\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Ambulance Fleet Tracking & Dispatch for Emergency Service).\n- **R-035** (general, partial): The Supplier shall provide a quarterly service review report covering availability, fault statistics, device health and \n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Federal e-Procurement System Enhancement & Rollout).\n- **R-036** (general, gap): Quotations shall be evaluated under a two-envelope quality and cost based method.\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-037** (general, gap): Technical proposals shall be scored against the criteria below; financial envelopes of bidders scoring at least 60 of th\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-038** (general, partial): The contract shall be awarded to the bidder with the highest combined score:\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Provincial e-Procurement Platform (e-Tendering & Supplier Registration)).\n- **R-039** (general, gap): The lowest evaluated financial quotation shall receive the full 20 financial points; other quotations shall be scored as\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-040** (general, gap): Quotations exceeding the approved budget shall be rejected.\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-041** (legal, partial): Prices shall be quoted in Pakistani Rupees inclusive of all applicable taxes and duties, broken down into: hardware and \n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: ERP Implementation (Microsoft Dynamics 365 Finance & Operations)).\n- **R-042** (delivery, partial): Payment shall be made as follows: 20 percent on completion of milestone M2;\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Mobile Wallet Application for Electronic Money Institution).\n- **R-043** (general, partial): No advance payment shall be made.\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: G2P Digital Disbursement Platform for Social Protection Program).\n- **R-044** (general, partial): Bidders shall answer the following questions in the technical envelope.\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: Online Examination & Certification Platform for Banking Institute).\n- **R-045** (general, partial): Each answer shall not exceed two (2) pages and shall be specific to KMDS operations:\n  - _Mitigation_: Related but not exact evidence — strengthen the narrative or add a reference (closest: 24/7 Managed NOC & Service Desk for Commercial Bank).\n- **R-046** (personnel, gap): The technical envelope shall contain the eligibility evidence for criteria EL-1 to EL-9, the technical compliance statem\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-048** (general, gap): No financial figures shall appear in the technical envelope.\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-050** (general, gap): During the support period, service credits of 2 percent of the quarterly support fee shall apply for each 0.1 percentage\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-051** (technical, gap): The successful bidder shall furnish a performance security of five percent (5%) of the contract value within ten (10) da\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.\n- **R-052** (experience, gap): All communications shall quote reference KMDS/IT/2026/RFQ-031.\n  - _Mitigation_: No matching evidence in the capability library — flag for bid/no-bid review.",
+      "status": "draft",
+      "requirementIds": [
+        "R-002",
+        "R-003",
+        "R-004",
+        "R-006",
+        "R-009",
+        "R-010",
+        "R-012",
+        "R-015",
+        "R-016",
+        "R-017",
+        "R-018",
+        "R-019",
+        "R-020",
+        "R-021",
+        "R-023",
+        "R-024",
+        "R-025",
+        "R-026",
+        "R-027",
+        "R-028",
+        "R-029",
+        "R-030",
+        "R-031",
+        "R-032",
+        "R-033",
+        "R-034",
+        "R-035",
+        "R-036",
+        "R-037",
+        "R-038",
+        "R-039",
+        "R-040",
+        "R-041",
+        "R-042",
+        "R-043",
+        "R-044",
+        "R-045",
+        "R-046",
+        "R-048",
+        "R-050",
+        "R-051",
+        "R-052"
+      ],
+      "evidenceIds": []
+    }
+  ]
+}

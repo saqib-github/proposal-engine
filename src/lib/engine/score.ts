@@ -172,7 +172,7 @@ export function assessWin(input: ScoreInput): WinAssessment {
   const mandatoryGaps = complianceStats(input.compliance).mandatoryGaps;
 
   let decision: WinAssessment["decision"];
-  if (probability < 40 || mandatoryGaps.length > 2) {
+  if (probability < 40 || mandatoryGaps.length > 3) {
     decision = "NO-GO";
   } else if (mandatoryGaps.length > 0 || probability < 60) {
     decision = "CONDITIONAL GO";

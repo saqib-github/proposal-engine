@@ -74,15 +74,60 @@ export function splitSections(text: string): Section[] {
   return sections.filter((s) => s.body.trim().length > 0 || s.index === 0);
 }
 
+const BULLET_RE = /^([-•*]|\(?[a-z]\)|[ivx]+\.|\d+[.)]|ME-\d+[:.]|Q\.?\s?\d+[.):])\s+/i;
+const RUNNING_HEADER_RE = /page\s+\d+\s*$/i;
+
+/**
+ * Re-join wrapped lines into logical paragraphs. PDF extraction yields one
+ * line per visual row, so prose sentences wrap mid-clause ("PKR 220" /
+ * "million…"); bullets, headings and blank lines start fresh units.
+ */
+export function reflowParagraphs(body: string): string[] {
+  const units: string[] = [];
+  let current = "";
+  for (const rawLine of body.split("\n")) {
+    const line = rawLine.trim();
+    if (!line || RUNNING_HEADER_RE.test(line)) {
+      if (current) units.push(current);
+      current = "";
+      continue;
+    }
+    const allCaps =
+      line.length >= 8 && /[A-Z]/.test(line) && line === line.toUpperCase() && !/\d{4}/.test(line);
+    const labeledField = /^[A-Z][A-Za-z .]{2,30}:\s/.test(line);
+    if (BULLET_RE.test(line) || looksLikeHeading(line) || allCaps || labeledField) {
+      if (current) units.push(current);
+      current = line;
+      continue;
+    }
+    // A unit ending in ":" ("…Evidence:") prefixes the line below it; bullets
+    // and headings were already handled above, so this only glues wrapped
+    // label/continuation pairs.
+    if (current && /:$/.test(current.trimEnd())) {
+      current += " " + line;
+      continue;
+    }
+    // Continuation line — append unless the previous unit clearly ended.
+    if (current && !/[.;:!?]$/.test(current.trimEnd())) {
+      current += " " + line;
+    } else {
+      if (current) units.push(current);
+      current = line;
+    }
+  }
+  if (current) units.push(current);
+  return units;
+}
+
 /** Split a section body into clause-level units (sentences + bullets). */
 export function splitClauses(body: string): string[] {
   const clauses: string[] = [];
-  for (const rawLine of body.split("\n")) {
-    const line = rawLine.trim();
+  for (const unit of reflowParagraphs(body)) {
+    const line = unit.trim();
     if (!line) continue;
-    const isBullet = /^([-•*]|\(?[a-z]\)|[ivx]+\.|\d+[.)])\s+/i.test(line);
+    const isBullet = BULLET_RE.test(line);
     if (isBullet) {
-      clauses.push(line.replace(/^([-•*]|\(?[a-z]\)|[ivx]+\.|\d+[.)])\s+/i, ""));
+      clauses.push(line.replace(BULLET_RE, ""));
     } else {
       // Sentence split guarded against common abbreviations (approx., No., Rs.)
       // so figures like "(approx. USD 790,000)" stay inside their sentence.
@@ -153,6 +198,14 @@ export function extractRequirements(text: string): ExtractedRequirement[] {
 
     for (const clause of splitClauses(section.body)) {
       if (clause.length < 25 || clause.length > 600) continue;
+      // Skip non-capability noise: evidence sub-annotations, submission
+      // procedure ("proposals must be submitted by..."), and meta clauses
+      // ("failure to meet any criterion shall result in rejection").
+      if (/^evidence\s*[:–-]/i.test(clause)) continue;
+      if (/^(clarification|quotations?|proposals?|bids?|sealed bids?|queries)\b[^.]*\b(submitted|delivered|addressed|received)\b/i.test(clause)) continue;
+      if (/failure to (meet|comply|furnish)|must meet all of the following|shall remain valid for|validity of/i.test(clause)) continue;
+      if (/joint ventures? (are|is) not permitted/i.test(clause)) continue;
+      if (/following definitions shall apply|^this (request for proposals?|rfp|rfq|tender|document)\b/i.test(clause)) continue;
       const hasModal = MODAL_RE.test(clause);
       // In eligibility/mandatory sections every listed clause is a requirement
       // even without a modal verb ("Valid PSEB registration certificate").
@@ -211,6 +264,7 @@ const DATE_RE = new RegExp(
 // Order matters: more specific labels first, generic "submission" last so
 // "clarification questions must be submitted..." doesn't get mislabelled.
 const DEADLINE_LABELS: Array<[string, RegExp]> = [
+  ["Date of issue", /date of issue|issued on|advertisement date/i],
   ["Pre-bid meeting", /pre-?bid|pre-?proposal (meeting|conference)/i],
   ["Clarification questions", /clarification|queries|questions.*(submitted|sent)/i],
   ["Bid opening", /opening of (bids|proposals)|bid opening/i],
@@ -311,16 +365,23 @@ export function extractWeights(text: string): ExtractedWeight[] {
     const line = rawLine.trim();
     if (!line || line.length > 160) continue;
 
-    // "Technical Approach | 25", "Technical Approach – 25 points", "Financial Proposal: 20%"
+    // "Technical Approach | 25", "Technical Approach – 25 points",
+    // "Financial Proposal: 20%", and PDF-table rows where the cell separator
+    // survives only as whitespace: "Technical Approach and Methodology 25".
     const m =
       line.match(/^(.{3,70}?)\s*(?:\||[-–—:])\s*(\d{1,2})\s*(?:points?|%|percent|marks?)?\s*$/i) ||
-      line.match(/^(.{3,70}?)\s*\(\s*(\d{1,2})\s*(?:points?|%|percent|marks?)\s*\)\s*$/i);
+      line.match(/^(.{3,70}?)\s*\(\s*(\d{1,2})\s*(?:points?|%|percent|marks?)\s*\)\s*$/i) ||
+      line.match(/^([A-Za-z][A-Za-z&,/()' -]{4,69}?)\s+([1-9]\d?)\s*(?:points?|%|percent|marks?)?\s*$/);
     if (!m) continue;
 
     const criterion = m[1].replace(/^[\d.)\s]+/, "").trim();
     const weightPct = parseInt(m[2], 10);
-    if (!criterion || weightPct <= 0 || weightPct > 60) continue;
+    if (!criterion || weightPct < 5 || weightPct > 60) continue;
+    if (criterion.split(/\s+/).length < 2) continue; // "Month", "Total" etc.
     if (/\bpage\b|\bsection\b|\bannex(ure)?\b|\bforms?\b|\bdeadline\b|\bpkr\b|\busd\b/i.test(criterion))
+      continue;
+    // Date rows from key-dates tables ("Public Opening ... 28 July 2026 15").
+    if (/january|february|march|april|may|june|july|august|september|october|november|december|monday|tuesday|wednesday|thursday|friday|saturday|sunday|\b20\d{2}\b/i.test(line))
       continue;
 
     const key = criterion.toLowerCase();
@@ -369,7 +430,8 @@ export function extractQuestions(text: string): ExtractedQuestion[] {
 
   for (const section of splitSections(text)) {
     const isQSection = QUESTION_SECTION_RE.test(section.heading);
-    for (const rawLine of section.body.split("\n")) {
+    // Reflow so a question wrapped across visual lines is captured whole.
+    for (const rawLine of reflowParagraphs(section.body)) {
       const line = rawLine.trim();
       const qNum = line.match(/^Q\.?\s?(\d{1,2})[.):\s]\s*(.+)$/i);
       if (qNum) {
@@ -420,10 +482,37 @@ export function classifySector(text: string): Sector | "Unknown" {
   return bestScore >= 3 ? best : "Unknown";
 }
 
+const GENERIC_TITLE_RE =
+  /^(request for (proposals?|quotations?)|invitation to (bid|tender)|tender(\s+(notice|document))?|bidding document)\b[:\s]*/i;
+
 export function extractTitle(text: string, fileName: string): string {
-  const lines = text.split("\n").map((l) => l.trim()).filter(Boolean).slice(0, 15);
-  const titled = lines.find((l) => /request for (proposal|quotation)s?|tender|rfp|rfq/i.test(l) && l.length > 20 && l.length < 160);
-  if (titled) return titled.replace(/^[#\d.\s]+/, "");
+  // Reflow so a cover title wrapped over two visual lines comes back whole.
+  const lines = reflowParagraphs(text.split("\n").slice(0, 40).join("\n"))
+    .map((l) => l.trim())
+    // Running headers ("REF-014 | Authority — Page 3") and reference lines are
+    // never the document title.
+    .filter((l) => l && !RUNNING_HEADER_RE.test(l) && !/^reference no/i.test(l))
+    .slice(0, 20);
+  const idx = lines.findIndex(
+    (l) =>
+      /request for (proposal|quotation)s?|invitation to (bid|tender)|^tender\b|\brfp\b|\brfq\b/i.test(l) &&
+      l.length >= 6 &&
+      l.length < 160,
+  );
+  if (idx >= 0) {
+    let hit = lines[idx].replace(/^[#\d.\s]+/, "");
+    // Reflow can merge "REQUEST FOR PROPOSALS" with the real title below it —
+    // strip the generic prefix when more text follows.
+    if (GENERIC_TITLE_RE.test(hit) && hit.replace(GENERIC_TITLE_RE, "").trim().length >= 15) {
+      hit = hit.replace(GENERIC_TITLE_RE, "").trim();
+    } else if (new RegExp(GENERIC_TITLE_RE.source + "$", "i").test(hit.trim())) {
+      const next = lines
+        .slice(idx + 1)
+        .find((l) => l.length >= 20 && l.length < 170 && !/^(reference|ref\.|issued|date)/i.test(l));
+      if (next) return next.slice(0, 170);
+    }
+    return hit.slice(0, 170);
+  }
   if (lines[0] && lines[0].length < 160) return lines[0];
   return fileName.replace(/\.(pdf|docx|txt)$/i, "");
 }
@@ -442,8 +531,20 @@ export function heuristicAnalyze(rawText: string, fileName: string): RfpAnalysis
     contacts: extractContacts(text),
   };
 
-  const firstSection = splitSections(text).find((s) => s.body.trim().length > 120);
-  const summary = (firstSection?.body.trim() ?? text).replace(/\s+/g, " ").slice(0, 420);
+  // Prefer the introduction/background prose over cover-page boilerplate.
+  const sections = splitSections(text);
+  const intro =
+    sections.find(
+      (s) =>
+        /introduction|background|purpose|invitation|about this/i.test(s.heading) &&
+        s.body.trim().length > 120,
+    ) ??
+    sections.find((s, i) => i > 0 && s.body.trim().length > 120) ??
+    sections.find((s) => s.body.trim().length > 120);
+  const summary = reflowParagraphs(intro?.body ?? text)
+    .join(" ")
+    .replace(/\s+/g, " ")
+    .slice(0, 420);
 
   return {
     title: extractTitle(text, fileName),

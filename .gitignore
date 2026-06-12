@@ -4,6 +4,8 @@ node_modules/
 # Next.js build output
 .next/
 out/
+*.tsbuildinfo
+next-env.d.ts
 
 # Environment & secrets — never commit tokens or API keys
 .env

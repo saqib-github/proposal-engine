@@ -1,0 +1,39 @@
+{
+  "name": "Axiom Digital Systems (Pvt) Ltd",
+  "legalStatus": "Private Limited Company incorporated under the Companies Act with SECP",
+  "founded": 2012,
+  "headcount": 180,
+  "headquartersCity": "Islamabad",
+  "offices": [
+    "Islamabad (HQ)",
+    "Lahore",
+    "Karachi"
+  ],
+  "avgAnnualTurnoverUsd": 1600000,
+  "certifications": [
+    "ISO 9001:2015",
+    "ISO/IEC 27001:2022",
+    "CMMI-DEV Level 3",
+    "Microsoft Gold Partner",
+    "AWS Select Partner"
+  ],
+  "registrations": [
+    "SECP Certificate of Incorporation",
+    "PSEB Registered IT/ITeS Company",
+    "FBR National Tax Number (NTN)",
+    "FBR Sales Tax Registration (STRN)",
+    "Punjab Procurement Regulatory Authority (PPRA) supplier registration",
+    "Sindh Public Procurement Regulatory Authority (SPPRA) supplier registration",
+    "Khyber Pakhtunkhwa Public Procurement Regulatory Authority (KPPRA) supplier registration"
+  ],
+  "sectors": [
+    "IT Services",
+    "E-Government",
+    "Fintech",
+    "Health IT",
+    "Logistics",
+    "Education"
+  ],
+  "blacklisted": false,
+  "bankLineOfCreditUsd": 500000
+}

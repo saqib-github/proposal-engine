@@ -240,15 +240,33 @@ function checkFinancial(text: string, profile: CompanyProfile): RuleResult | nul
   return null;
 }
 
+const WORD_NUMBERS: Record<string, number> = {
+  one: 1, two: 2, three: 3, four: 4, five: 5,
+  six: 6, seven: 7, eight: 8, nine: 9, ten: 10,
+};
+
+/** Parse "at least 3", "at least three (3)", "minimum of two" project counts. */
+function parseRequiredCount(text: string): number | null {
+  const m = text.match(
+    /\b(?:at least|minimum of|no fewer than)\s+(?:(\d+)|([a-z]+)\s*(?:\((\d+)\))?)\s+(?:\(?\d+\)?\s+)?[a-z(]*\s*(?:projects?|assignments?|contracts?|engagements?|references?)/i,
+  );
+  if (!m) {
+    const simple = text.match(/\b(\d+)\s+similar projects?/i);
+    return simple ? parseInt(simple[1], 10) : null;
+  }
+  if (m[1]) return parseInt(m[1], 10);
+  if (m[3]) return parseInt(m[3], 10);
+  return WORD_NUMBERS[m[2]?.toLowerCase() ?? ""] ?? null;
+}
+
 function checkExperience(
   text: string,
   records: CapabilityRecord[],
   sector: Sector | "Unknown",
   index: CapabilityIndex,
 ): RuleResult | null {
-  const countMatch = text.match(/at least (\d+)|minimum of (\d+)|(\d+) similar/i);
-  if (!countMatch) return null;
-  const needed = parseInt(countMatch[1] ?? countMatch[2] ?? countMatch[3], 10);
+  if (!/projects?|assignments?|contracts?|engagements?|past performance/i.test(text)) return null;
+  const needed = parseRequiredCount(text);
   if (!needed || needed > 20) return null;
 
   const values = parseMoneyMentions(text)
@@ -316,21 +334,15 @@ export function checkCompliance(
   return requirements.map((req) => {
     const evidence = searchCapabilities(index, req.text, 3);
 
-    let rule: RuleResult | null = null;
-    switch (req.category) {
-      case "certification":
-        rule = checkCertification(req.text, profile);
-        break;
-      case "legal":
-        rule = checkLegal(req.text, profile);
-        break;
-      case "financial":
-        rule = checkFinancial(req.text, profile);
-        break;
-      case "experience":
-        rule = checkExperience(req.text, records, sector, index);
-        break;
-    }
+    // Try every deterministic rule check in order — a clause like
+    // "incorporated in Pakistan and registered with SECP, holding a valid
+    // certificate..." can be categorised as certification yet is really a
+    // registration check, so routing by category alone misses it.
+    const rule: RuleResult | null =
+      checkCertification(req.text, profile) ??
+      checkLegal(req.text, profile) ??
+      checkFinancial(req.text, profile) ??
+      checkExperience(req.text, records, sector, index);
 
     if (rule) {
       return {
